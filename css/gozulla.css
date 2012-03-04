@@ -89,6 +89,6 @@
 #go-surf-sm a:hover { background: url('../images/sport-icons-sm.png') 0 -1200px; }
 
 /* white bg for front page sidebar second */
-.front .block-region-sidebar-second .block-inner {
+.block-region-sidebar-second .block-inner {
   background-color: #fff;
 }
