@@ -78,7 +78,7 @@
   settings[bigscreen_max_width_unit] = 'px'
   settings[bigscreen_page_width]     = 100
   settings[bigscreen_sidebar_first]  = 20
-  settings[bigscreen_sidebar_second] = 25
+  settings[bigscreen_sidebar_second] = 23
   settings[bigscreen_set_max_width]  = 1
   settings[bigscreen_max_width]      = 1260
   settings[bigscreen_media_query]    = 'only screen and (min-width:1025px)'
