@@ -92,3 +92,9 @@
 .block-region-sidebar-second .block-inner {
   background-color: #fff;
 }
+
+#header,
+#header .header-inner {
+  background-image: none;
+  background-color: transparent;
+}
