@@ -2,8 +2,8 @@
 ;----------// Theme info
   ; Change the name, description and version to whatever you want.
 
-  name        = GoZulla
-  description = GoZulla is clone of Footheme and a starter sub-theme of <a href="http://drupal.org/project/corolla">Corolla</a> designed to get you up and sub-theming in a jiffy. You can easily modify this theme to sub-theme <a href="http://drupal.org/project/pixture_reloaded">Pixture Reloaded</a> or <a href="http://drupal.org/project/sky">Sky</a>, please see the included README or our <a href="http://bit.ly/q5hFT5">online documentation</a>. Remember to install Corolla, Sky or Pixture Reloaded first, and the base <a href="http://drupal.org/project/adaptivetheme">Adaptivetheme</a>.
+  name        = gozulla
+  description = gozulla is clone of Footheme and a starter sub-theme of <a href="http://drupal.org/project/corolla">Corolla</a> designed to get you up and sub-theming in a jiffy. You can easily modify this theme to sub-theme <a href="http://drupal.org/project/pixture_reloaded">Pixture Reloaded</a> or <a href="http://drupal.org/project/sky">Sky</a>, please see the included README or our <a href="http://bit.ly/q5hFT5">online documentation</a>. Remember to install Corolla, Sky or Pixture Reloaded first, and the base <a href="http://drupal.org/project/adaptivetheme">Adaptivetheme</a>.
   version     = 7.x-2.0
 
 
