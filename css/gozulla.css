@@ -98,3 +98,8 @@
   background-image: none;
   background-color: transparent;
 }
+
+div.view-display-id-geofield_map {
+  float: right;
+  width: 50%;
+}
