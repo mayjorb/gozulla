@@ -105,12 +105,11 @@ div.view-display-id-geofield_map {
 }
 
 #main-content .addressfield-container-inline:after {
-    clear: none;
+    clear: none;  
 }
 
-
-
-div.article-content section.clearfix:after {
+div.article-content section.clearfix:after,
+div.views-field-nothing span.clearfix:after {
   clear: left;
 }
 
