@@ -103,3 +103,36 @@ div.view-display-id-geofield_map {
   float: right;
   width: 50%;
 }
+
+#main-content .addressfield-container-inline:after {
+    clear: none;
+}
+
+
+
+div.article-content section.clearfix:after {
+  clear: left;
+}
+
+div.article-content div.field.field-name-field-location-logo {
+  margin-top: -75px;
+  border: none;
+}
+
+div.article-content div.field div.field-items figure.field.field-type-image figure {
+  border: none;
+}
+
+#menu-bar, #primary-menu-bar {
+  background-color: #333;
+  background-image: none;
+}
+
+
+
+/*.sf-menu.sf-style-space li, 
+.sf-menu.sf-style-space li li, 
+.sf-menu.sf-style-space li li li, 
+.sf-menu.sf-style-space.sf-navbar {
+  background: none;
+}*/
