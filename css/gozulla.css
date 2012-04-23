@@ -135,3 +135,7 @@ div.article-content div.field div.field-items figure.field.field-type-image figu
 .sf-menu.sf-style-space.sf-navbar {
   background: none;
 }*/
+
+body {
+  background: url("../images/bg-fullsize.jpg") no-repeat auto #F4F5F6 !important;
+}

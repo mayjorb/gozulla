@@ -24,6 +24,7 @@
 
   stylesheets[all][] = color/colors.css
   stylesheets[all][] = css/gozulla.css
+  stylesheets[all][] = css/gozulla.responsive.style.css
 
 
 ;----------// Regions

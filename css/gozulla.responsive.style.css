@@ -292,3 +292,48 @@
     padding: 10px 14px;
   }
 }
+
+body {
+  background: #F4F5F6 url("../images/bg-fullsize.jpg") center center fixed no-repeat;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+#page {
+  background-color: transparent;  
+} 
+
+#columns {
+  background-color: transparent;
+}
+
+.block-region-sidebar-second .block-inner {
+  background-color: rgba(255,255,255, .8);
+
+      
+}
+
+#main-content {
+  background-color: rgba(255,255,255, .8);
+}
+
+/*#page {
+  background: #F4F5F6 url("../images/bg-fullsize.jpg") center center fixed no-repeat;
+  -moz-background-size: cover;
+  background-size: cover;
+  opacity: 0.5;
+  -moz-opacity: 0.5;
+  filter:alpha(opacity=50);
+}*/
+
+/*#page {
+  background-color: transparent;
+  opacity: 0.5;
+   -moz-opacity: 0.5;
+   filter:alpha(opacity=50);
+} */
+
+/*#menu-bar, #primary-menu-bar {
+  background-color: rgba(51,51,51, .5);
+}*/
+
