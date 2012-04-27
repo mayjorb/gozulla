@@ -12,6 +12,43 @@
  #menu-bar {
    background: transparent;
  }
+ 
+ /* Toggle Draw */
+ .region-draw {
+   padding: 25px 20px 0;
+ }
+ .region-draw a:hover,
+ .region-draw a:focus {
+   text-decoration: underline;
+ }
+ .region-draw .block {
+   float: left;
+   display: inline-block;
+   min-width: 25%;
+   max-width: 50%;
+ }
+ #draw {
+   display: block;
+   width: 100%;
+ }
+ html.js #draw,
+ #toggle-wrapper {
+   display: none;
+ }
+ html.js #toggle-wrapper {
+   display: block;
+ }
+ #draw-wrapper a {
+   text-decoration: underline;
+ }
+ #toggle-wrapper a {
+   display: block;
+   padding: 0 10px 2px;
+   font-size: 0.923em;
+   outline: 0;
+   -moz-border-radius: 0 0 6px 6px;
+   border-radius: 0 0 6px 6px;
+ }
 
 
  /* *****  sport icons  ****** */
