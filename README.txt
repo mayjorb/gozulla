@@ -3,7 +3,7 @@
 
 FOOTHEMES ARE GO!
 
-GoZulla started as a clone of Footheme which is a stater sub-theme for Corolla 7.x-2.x and can be easily
+Footheme is a stater sub-theme for Corolla 7.x-2.x and can be easily
 modified to use Pixture Reloaded 7.x-2.x or Sky 7.x-2.x, which are all
 sub-themes of Adaptivetheme 7.x-2.x.
 
@@ -34,12 +34,12 @@ If you want to subtheme Pixture Reloaded or Sky, or you really want to change th
 name from Footheme, then read on.
 
 1. Copy this entire theme and change the name of the folder. Currently the name of the folder
-   is "gozulla", so you might choose "bartheme". In the next step we will use this name for
+   is "footheme", so you might choose "bartheme". In the next step we will use this name for
    the info file so this is very important because as far as Drupal is concerned the name of the
    info file is the "machine name" of your theme. Don't use spaces or any punctuation other than
    underscores. E.g "bar_theme" is OK, but "bar theme" is not OK.
 
-2. gozulla.info - first rename this file to match the folder name you chose in step one. Next you
+2. footheme.info - first rename this file to match the folder name you chose in step one. Next you
    can change the "name", "description" and "version" to whatever you want. Then you need to copy and
    paste in some stuff from your base themes info file - the "regions list" and "theme settings list"
    from your chosen base theme. The ones there now are from Corolla so just replace them. If you're
@@ -52,10 +52,10 @@ name from Footheme, then read on.
    Pixture Reloaded uses images as part of the color process - they are all in the /images folder
    in Pixture Reloaded - you should copy and paste that folder in as well.
 
-4. template.php - open up this file and make some changes - search and replace "gozulla" for your
+4. template.php - open up this file and make some changes - search and replace "footheme" for your
    themes name.
 
-   In gozulla_preprocess_html() you will find some stuff about responsive stylesheets and IE conditional
+   In footheme_preprocess_html() you will find some stuff about responsive stylesheets and IE conditional
    stylesheets - follow those instructions carefully - they are easy and involve renaming some CSS files
    to match your theme name.
 

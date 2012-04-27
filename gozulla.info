@@ -3,7 +3,7 @@
   ; Change the name, description and version to whatever you want.
 
   name        = gozulla
-  description = gozulla is clone of Footheme and a starter sub-theme of <a href="http://drupal.org/project/corolla">Corolla</a> designed to get you up and sub-theming in a jiffy. You can easily modify this theme to sub-theme <a href="http://drupal.org/project/pixture_reloaded">Pixture Reloaded</a> or <a href="http://drupal.org/project/sky">Sky</a>, please see the included README or our <a href="http://bit.ly/q5hFT5">online documentation</a>. Remember to install Corolla, Sky or Pixture Reloaded first, and the base <a href="http://drupal.org/project/adaptivetheme">Adaptivetheme</a>.
+  description = gozulla is a sub-theme of <a href="http://drupal.org/project/at_commerce">AT Commerce</a>, please see the included README or our <a href="http://bit.ly/q5hFT5">online documentation</a>.
   version     = 7.x-2.0
 
 
@@ -15,73 +15,65 @@
   ; Change the "base theme" if you are using a different base,
   ; e.g. "pixture_reloaded" or "sky" (without speechmarks).
 
-  base theme = pixture_reloaded
+  base theme = at_commerce
 
 
 ;----------// Styles
-  ; We only need to include two stylesheets - we must include colors.css
-  ; and at least one more for our custom CSS.
-
+  ; Enable the custom stylesheet and get hacking!
   stylesheets[all][] = color/colors.css
   stylesheets[all][] = css/gozulla.css
-  stylesheets[all][] = css/gozulla.responsive.style.css
-
-
+  ;stylesheets[all][] = css/gozulla.responsive.style.css
+  
 ;----------// Regions
-  ; Copy and paste the region list from your base theme - these are the
-  ; regions from Corolla.
-
+  regions[draw]              = Sliding Draw (top)
+  regions[header]            = Header
+  regions[menu_bar]          = Main Menu Bar
+  regions[help]              = Help
+  regions[secondary_content] = Featured panel
+  regions[three_33_first]    = Sub feature panel (first)
+  regions[three_33_second]   = Sub feature panel (second)
+  regions[three_33_third]    = Sub feature panel (third)
+  regions[highlighted]       = Highlight (content top)
+  regions[two_50_first]      = Content top (first)
+  regions[two_50_second]     = Content top (second)
+  regions[content]           = Main Content
+  regions[content_aside]     = Content bottom
   regions[sidebar_first]     = Sidebar first
   regions[sidebar_second]    = Sidebar second
-  regions[highlighted]       = Highlighted
-  regions[content]           = Main content
-  regions[content_aside]     = Content bottom panel
-  regions[menu_bar]          = Menu Bar
-  regions[header]            = Header panel
-  regions[three_33_first]    = Top panel first
-  regions[three_33_second]   = Top panel second
-  regions[three_33_third]    = Top panel third
-  regions[secondary_content] = Features panel
-  regions[tertiary_content]  = Bottom panel
-  regions[four_first]        = Footer panel first
-  regions[four_second]       = Footer panel second
-  regions[four_third]        = Footer panel third
-  regions[four_fourth]       = Footer panel fourth
+  regions[tertiary_content]  = Tertiary panel
+  regions[five_first]        = Bottom panel (first)
+  regions[five_second]       = Bottom panel (second)
+  regions[five_third]        = Bottom panel (third)
+  regions[five_fourth]       = Bottom panel (fourth)
+  regions[five_fifth]        = Bottom panel (fifth)
+  regions[four_first]        = Footer panel (first)
+  regions[four_second]       = Footer panel (second)
+  regions[four_third]        = Footer panel (third)
+  regions[four_fourth]       = Footer panel (fourth)
   regions[footer]            = Footer
-  regions[help]              = Help
   regions[page_top]          = Page top
   regions[page_bottom]       = Page bottom
 
 ;----------// Site Features
-  ; You don't need to change this unless you want to add support
-  ; for normal Main and secondary menus, which none of AT's subthemes
-  ; normally support - instead we use the block system and menu blocks.
-
   features[] = logo
   ;features[] = name
   ;features[] = slogan
   ;features[] = node_user_picture
   ;features[] = comment_user_picture
-  features[] = comment_user_verification
+  ;features[] = comment_user_verification
   features[] = favicon
 
-;----------// Theme Settings
-  ; Copy and paste in the entire theme settings from your base theme.
-  ; You can change the values if you want different default settings.
-  ; These are the settings from the Corolla theme.
-
-  ; Layout settings
-
+;----------// Theme Setting Defaults
   ; Standard bigscreen
   settings[bigscreen_layout]         = 'three-col-grail'
   settings[bigscreen_page_unit]      = '%'
   settings[bigscreen_sidebar_unit]   = '%'
   settings[bigscreen_max_width_unit] = 'px'
   settings[bigscreen_page_width]     = 100
-  settings[bigscreen_sidebar_first]  = 20
-  settings[bigscreen_sidebar_second] = 23
+  settings[bigscreen_sidebar_first]  = 25
+  settings[bigscreen_sidebar_second] = 25
   settings[bigscreen_set_max_width]  = 1
-  settings[bigscreen_max_width]      = 1260
+  settings[bigscreen_max_width]      = 1140
   settings[bigscreen_media_query]    = 'only screen and (min-width:1025px)'
 
   ; Tablet landscape
@@ -123,6 +115,63 @@
   ; smartphone portrait
   settings[smartphone_portrait_media_query] = 'only screen and (max-width:320px)'
 
+  ; Fonts - type
+  settings[base_font_type]          = 'wsf'
+  settings[site_name_font_type]     = 'gwf'
+  settings[site_slogan_font_type]   = 'gwf'
+  settings[main_menu_font_type]     = 'wsf'
+  settings[page_title_font_type]    = 'gwf'
+  settings[node_title_font_type]    = 'gwf'
+  settings[comment_title_font_type] = 'gwf'
+  settings[block_title_font_type]   = 'gwf'
+
+  ; Fonts - family
+  settings[base_font]               = 'bf-l'
+  settings[site_name_font_gwf]      = 'Open Sans'
+  settings[site_slogan_font_gwf]    = 'Open Sans'
+  settings[main_menu_font]          = 'bf-l'
+  settings[page_title_font_gwf]     = 'Open Sans'
+  settings[node_title_font_gwf]     = 'Open Sans'
+  settings[comment_title_font_gwf]  = 'Open Sans'
+  settings[block_title_font_gwf]    = 'Open Sans'
+
+  ; Font size
+  settings[font_size]               = 'fs-medium'
+
+  ; Heading styles
+  settings[site_name_case]      = 'snc-n'
+  settings[site_name_weight]    = 'snw-n'
+  settings[site_name_shadow]    = 'sns-n'
+
+  settings[site_slogan_case]      = 'ssc-n'
+  settings[site_slogan_weight]    = 'ssw-n'
+  settings[site_slogan_shadow]    = 'sss-n'
+
+  settings[page_title_case]      = 'ptc-n'
+  settings[page_title_weight]    = 'ptw-n'
+  settings[page_title_alignment] = 'pta-l'
+  settings[page_title_shadow]    = 'pts-n'
+
+  settings[node_title_case]      = 'ntc-n'
+  settings[node_title_weight]    = 'ntw-n'
+  settings[node_title_alignment] = 'nta-l'
+  settings[node_title_shadow]    = 'nts-n'
+
+  settings[comment_title_case]      = 'ctc-n'
+  settings[comment_title_weight]    = 'ctw-n'
+  settings[comment_title_alignment] = 'cta-l'
+  settings[comment_title_shadow]    = 'cts-n'
+
+  settings[block_title_case]      = 'btc-uc'
+  settings[block_title_weight]    = 'btw-n'
+  settings[block_title_alignment] = 'bta-l'
+  settings[block_title_shadow]    = 'bts-n'
+
+  ; Image field settings
+  settings[image_alignment]      = 'ia-c'
+  settings[image_caption_teaser] = 0
+  settings[image_caption_full]   = 0
+
   ; Breadcrumb
   settings[breadcrumb_display]   = 'yes'
   settings[breadcrumb_separator] = ' &#187; '
@@ -131,25 +180,36 @@
   ; Search
   settings[display_search_form_label] = 1
   settings[search_snippet]            = 1
-  settings[search_info_type]          = 0
-  settings[search_info_user]          = 0
-  settings[search_info_date]          = 0
-  settings[search_info_comment]       = 0
-  settings[search_info_upload]        = 0
+  settings[search_info_type]          = 1
+  settings[search_info_user]          = 1
+  settings[search_info_date]          = 1
+  settings[search_info_comment]       = 1
+  settings[search_info_upload]        = 1
   settings[search_info_separator]     = ' - '
 
-  ; Login block options
-  settings[horizontal_login_block]        = 1
+  ; Login block
+  settings[horizontal_login_block]        = 0
   settings[horizontal_login_block_enable] = 'on'
 
   ; Comments
   settings[comments_hide_title] = 0
 
-  ; Style settings
-  settings[style_enable_schemes] = 'off'
-  settings[style_schemes]        = 'style-default.css'
+  ; Rounded corners
+  settings[corner_radius_form_input_text]   = 'itrc-0'
+  settings[corner_radius_form_input_submit] = 'isrc-6'
+  settings[ie_corners] = 0
 
-  ; Extra CSS classes
+  ; Header layout
+  settings[header_layout] = hl-l
+
+  ; Background
+  settings[body_background] = 'bb-n'
+
+  ; Menu settings
+  settings[main_menu_alignment] = 'mma-l'
+  settings[menu_bullets]        = 'mb-dd'
+
+  ; Classes
   settings[extra_page_classes]      = 1
   settings[extra_article_classes]   = 1
   settings[extra_comment_classes]   = 1
@@ -157,46 +217,31 @@
   settings[extra_menu_classes]      = 1
   settings[extra_item_list_classes] = 1
 
-  ; Extra markup
+  ; Markup
   settings[menu_item_span_elements] = 0
 
-  ; Fonts
-  settings[base_font_type]          = 'wsf'
-  settings[site_name_font_type]     = 'wsf'
-  settings[site_slogan_font_type]   = 'wsf'
-  settings[page_title_font_type]    = 'wsf'
-  settings[node_title_font_type]    = 'wsf'
-  settings[comment_title_font_type] = 'wsf'
-  settings[block_title_font_type]   = 'wsf'
-  settings[base_font]               = 'bf-l'
-  settings[site_name_font]          = 'snf-cc'
-  settings[site_slogan_font]        = 'ssf-cc'
-  settings[page_title_font]         = 'ptf-a'
-  settings[node_title_font]         = 'ntf-a'
-  settings[comment_title_font]      = 'ctf-a'
-  settings[block_title_font]        = 'btf-a'
-  settings[font_size]               = 'fs-medium'
+  ; Noggin extra settings
+  settings[noggin_image_horizontal_alignment] = 'c'
+  settings[noggin_image_vertical_alignment] = 't'
+  settings[noggin_image_repeat] = 'ni-r-nr'
+  settings[noggin_image_width] = 'ni-w-a'
 
-  ; Heading styles
-  settings[headings_styles_caps]   = 0
-  settings[headings_styles_weight] = 0
-  settings[headings_styles_shadow] = 0
+  ; Content Displays
+  settings[content_display_grids_frontpage] = 0
+  settings[content_display_grids_taxonomy_pages] = 0
+  settings[content_display_grids_frontpage_colcount] = 'fpcc-4'
+  settings[content_display_grids_taxonomy_pages_colcount] = 'tpcc-4'
 
-  ; Border radius
-  settings[content_corner_radius] = 'rc-6'
-  settings[tabs_corner_radius]    = 'rct-6'
-
-  ; Box shadows and textures
-  settings[box_shadows]     = 'bs-n'
-  settings[body_background] = 'bb-n'
-
-  ; Image field settings
-  settings[image_alignment]      = 'ia-r'
-  settings[image_caption_teaser] = 0
-  settings[image_caption_full]   = 0
-
-  ; Menu bullets
-  settings[menu_bullets] = 'mb-dd'
+  ; Draw
+  settings[toggle_text] = 'Login / Add Shop'
+  
+  ; Slider
+  settings[show_slideshow]  = 1
+  settings[slideshow_width] = 940
+  settings[show_slideshow_caption] = 0
+  settings[show_slideshow_navigation_controls] = 0
+  settings[show_slideshow_direction_controls]  = 1
+  settings[hide_slideshow_node_title] = 0
 
 ;----------// Theme Settings END
 

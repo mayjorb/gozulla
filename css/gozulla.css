@@ -1,5 +1,5 @@
 /**
- * Footheme gozulla.css
+ * Footheme footheme.css
  *
  * Use this file to add your custom styles.
  *
@@ -8,134 +8,168 @@
  * as well.
  */
  
-/* *****  sport icons  ****** */
-#go-sports { position: relative; }
-#go-sports li { margin: 0; padding: 0; list-style: none; top:0; }
-#go-sports li, 
-#go-sports a { height: 65px; display: block; }
-
-#go-bike { left: 0px; width: 228px; }
-#go-bike { background:url('../images/sport-icons.png') 0 -115px; }
-#go-bike a:hover { background: url('../images/sport-icons.png') 0 0; }
-
-#go-boat { left: 0px; width: 228px; }
-#go-boat { background:url('../images/sport-icons.png') 0 -345px; }
-#go-boat a:hover { background: url('../images/sport-icons.png') 0 -230px; }
-
-#go-climb { left: 0px; width: 228px; }
-#go-climb { background:url('../images/sport-icons.png') 0 -575px; }
-#go-climb a:hover { background: url('../images/sport-icons.png') 0 -460px; }
-
-#go-disc { left: 0px; width: 228px; }
-#go-disc { background:url('../images/sport-icons.png') 0 -805px; }
-#go-disc a:hover { background: url('../images/sport-icons.png') 0 -690px; }
-
-#go-help { left: 0px; width: 228px; }
-#go-help { background:url('../images/sport-icons.png') 0 -1035px; }
-#go-help a:hover { background: url('../images/sport-icons.png') 0 -920px; }
-
-#go-skate { left: 0px; width: 228px; }
-#go-skate { background:url('../images/sport-icons.png') 0 -1265px; }
-#go-skate a:hover { background: url('../images/sport-icons.png') 0 -1150px; }
-
-#go-snow { left: 0px; width: 228px; }
-#go-snow { background:url('../images/sport-icons.png') 0 -1495px; }
-#go-snow a:hover { background: url('../images/sport-icons.png') 0 -1380px; }
-
-#go-surf { left: 0px; width: 228px; }
-#go-surf { background:url('../images/sport-icons.png') 0 -1610px; }
-#go-surf a:hover { background: url('../images/sport-icons.png') 0 -1725px; }
  
- 
-/* *****  sport icons sm ****** */
-#go-sports-sm { position: relative; width: 100%; }
-#go-sports-sm li { margin: 0 0 34px 2.5em; padding: 0; list-style: none; top: 0; }
-#go-sports-sm li, 
-#go-sports-sm a { height: 30px; display: block; }
-
-#go-sports-sm li.first { margin-top: -10px; }
-#go-sports-sm li.last { margin-bottom: 0; }
-
-#go-bike-sm { left: 0px; width: 105px; }
-#go-bike-sm { background:url('../images/sport-icons-sm.png') 0 -80px; }
-#go-bike-sm a:hover { background: url('../images/sport-icons-sm.png') 0 0; }
-
-#go-boat-sm { left: 0px; width: 105px; }
-#go-boat-sm { background:url('../images/sport-icons-sm.png') 0 -240px; }
-#go-boat-sm a:hover { background: url('../images/sport-icons-sm.png') 0 -160px; }
-
-#go-climb-sm { left: 0px; width: 105px; }
-#go-climb-sm { background:url('../images/sport-icons-sm.png') 0 -400px; }
-#go-climb-sm a:hover { background: url('../images/sport-icons-sm.png') 0 -320px; }
-
-#go-disc-sm { left: 0px; width: 105px; }
-#go-disc-sm { background:url('../images/sport-icons-sm.png') 0 -560px; }
-#go-disc-sm a:hover { background: url('../images/sport-icons-sm.png') 0 -480px; }
-
-#go-help-sm { left: 0px; width: 105px; }
-#go-help-sm { background:url('../images/sport-icons-sm.png') 0 -720px; }
-#go-help-sm a:hover { background: url('../images/sport-icons-sm.png') 0 -640px; }
-
-#go-skate-sm { left: 0px; width: 105px; }
-#go-skate-sm { background:url('../images/sport-icons-sm.png') 0 -880px; }
-#go-skate-sm a:hover { background: url('../images/sport-icons-sm.png') 0 -800px; }
-
-#go-snow-sm { left: 0px; width: 105px; }
-#go-snow-sm { background:url('../images/sport-icons-sm.png') 0 -1040px; }
-#go-snow-sm a:hover { background: url('../images/sport-icons-sm.png') 0 -960px; }
-
-#go-surf-sm { left: 0px; width: 105px; }
-#go-surf-sm { background:url('../images/sport-icons-sm.png') 0 -1120px; }
-#go-surf-sm a:hover { background: url('../images/sport-icons-sm.png') 0 -1200px; }
-
-/* white bg for front page sidebar second */
-.block-region-sidebar-second .block-inner {
-  background-color: #fff;
-}
-
-#header,
-#header .header-inner {
-  background-image: none;
-  background-color: transparent;
-}
-
-div.view-display-id-geofield_map {
-  float: right;
-  width: 50%;
-}
-
-#main-content .addressfield-container-inline:after {
-    clear: none;  
-}
-
-div.article-content section.clearfix:after,
-div.views-field-nothing span.clearfix:after {
-  clear: left;
-}
-
-div.article-content div.field.field-name-field-location-logo {
-  margin-top: -75px;
-  border: none;
-}
-
-div.article-content div.field div.field-items figure.field.field-type-image figure {
-  border: none;
-}
-
-#menu-bar, #primary-menu-bar {
-  background-color: #333;
-  background-image: none;
-}
+ #menu-bar {
+   background: transparent;
+ }
 
 
+ /* *****  sport icons  ****** */
+ #go-sports { position: relative; }
+ #go-sports li { margin: 0; padding: 0; list-style: none; top:0; }
+ #go-sports li, 
+ #go-sports a { height: 65px; display: block; }
 
-/*.sf-menu.sf-style-space li, 
-.sf-menu.sf-style-space li li, 
-.sf-menu.sf-style-space li li li, 
-.sf-menu.sf-style-space.sf-navbar {
-  background: none;
-}*/
+ #go-bike { left: 0px; width: 228px; }
+ #go-bike { background:url('../images/sport-icons.png') 0 -115px; }
+ #go-bike a:hover { background: url('../images/sport-icons.png') 0 0; }
 
-body {
-  background: url("../images/bg-fullsize.jpg") no-repeat auto #F4F5F6 !important;
-}
+ #go-boat { left: 0px; width: 228px; }
+ #go-boat { background:url('../images/sport-icons.png') 0 -345px; }
+ #go-boat a:hover { background: url('../images/sport-icons.png') 0 -230px; }
+
+ #go-climb { left: 0px; width: 228px; }
+ #go-climb { background:url('../images/sport-icons.png') 0 -575px; }
+ #go-climb a:hover { background: url('../images/sport-icons.png') 0 -460px; }
+
+ #go-disc { left: 0px; width: 228px; }
+ #go-disc { background:url('../images/sport-icons.png') 0 -805px; }
+ #go-disc a:hover { background: url('../images/sport-icons.png') 0 -690px; }
+
+ #go-help { left: 0px; width: 228px; }
+ #go-help { background:url('../images/sport-icons.png') 0 -1035px; }
+ #go-help a:hover { background: url('../images/sport-icons.png') 0 -920px; }
+
+ #go-skate { left: 0px; width: 228px; }
+ #go-skate { background:url('../images/sport-icons.png') 0 -1265px; }
+ #go-skate a:hover { background: url('../images/sport-icons.png') 0 -1150px; }
+
+ #go-snow { left: 0px; width: 228px; }
+ #go-snow { background:url('../images/sport-icons.png') 0 -1495px; }
+ #go-snow a:hover { background: url('../images/sport-icons.png') 0 -1380px; }
+
+ #go-surf { left: 0px; width: 228px; }
+ #go-surf { background:url('../images/sport-icons.png') 0 -1610px; }
+ #go-surf a:hover { background: url('../images/sport-icons.png') 0 -1725px; }
+
+
+ /* *****  sport icons sm ****** */
+ #go-sports-sm { position: relative; width: 100%; }
+ #go-sports-sm li { margin: 0 0 34px 2.5em; padding: 0; list-style: none; top: 0; }
+ #go-sports-sm li, 
+ #go-sports-sm a { height: 30px; display: block; }
+
+ #go-sports-sm li.first { margin-top: -10px; }
+ #go-sports-sm li.last { margin-bottom: 0; }
+
+ #go-bike-sm { left: 0px; width: 105px; }
+ #go-bike-sm { background:url('../images/sport-icons-sm.png') 0 -80px; }
+ #go-bike-sm a:hover { background: url('../images/sport-icons-sm.png') 0 0; }
+
+ #go-boat-sm { left: 0px; width: 105px; }
+ #go-boat-sm { background:url('../images/sport-icons-sm.png') 0 -240px; }
+ #go-boat-sm a:hover { background: url('../images/sport-icons-sm.png') 0 -160px; }
+
+ #go-climb-sm { left: 0px; width: 105px; }
+ #go-climb-sm { background:url('../images/sport-icons-sm.png') 0 -400px; }
+ #go-climb-sm a:hover { background: url('../images/sport-icons-sm.png') 0 -320px; }
+
+ #go-disc-sm { left: 0px; width: 105px; }
+ #go-disc-sm { background:url('../images/sport-icons-sm.png') 0 -560px; }
+ #go-disc-sm a:hover { background: url('../images/sport-icons-sm.png') 0 -480px; }
+
+ #go-help-sm { left: 0px; width: 105px; }
+ #go-help-sm { background:url('../images/sport-icons-sm.png') 0 -720px; }
+ #go-help-sm a:hover { background: url('../images/sport-icons-sm.png') 0 -640px; }
+
+ #go-skate-sm { left: 0px; width: 105px; }
+ #go-skate-sm { background:url('../images/sport-icons-sm.png') 0 -880px; }
+ #go-skate-sm a:hover { background: url('../images/sport-icons-sm.png') 0 -800px; }
+
+ #go-snow-sm { left: 0px; width: 105px; }
+ #go-snow-sm { background:url('../images/sport-icons-sm.png') 0 -1040px; }
+ #go-snow-sm a:hover { background: url('../images/sport-icons-sm.png') 0 -960px; }
+
+ #go-surf-sm { left: 0px; width: 105px; }
+ #go-surf-sm { background:url('../images/sport-icons-sm.png') 0 -1120px; }
+ #go-surf-sm a:hover { background: url('../images/sport-icons-sm.png') 0 -1200px; }
+
+ /* white bg for front page sidebar second */
+ .block-region-sidebar-second .block-inner {
+   background-color: #fff;
+ }
+
+ div#page {
+     background-color: transparent;
+ }
+
+ div.view-display-id-geofield_map {
+   float: right;
+   width: 50%;
+ }
+
+ #main-content .addressfield-container-inline:after {
+     clear: none;  
+ }
+
+ div.article-content section.clearfix:after,
+ div.views-field-nothing span.clearfix:after {
+   clear: left;
+ }
+
+ div.article-content div.field.field-name-field-location-logo {
+   margin-top: -75px;
+   border: none;
+ }
+
+ div.article-content div.field div.field-items figure.field.field-type-image figure {
+   border: none;
+ }
+
+ #header,
+ #header .header-inner {
+   background-image: none;
+   background-color: transparent;
+ }
+
+ #header-wrapper {
+   background-color: transparent;
+   background-image: none;
+ }
+
+ #content-wrapper {
+   border-bottom: none;
+   border-top: none;
+ }
+
+ #header-wrapper {
+   border-bottom: none;
+ }
+
+ #content-wrapper {
+   border-bottom: none;
+   border-top: none;
+   padding-top: 0 !important;
+ }
+
+ #nav-wrapper {
+   box-shadow: none;
+   min-height: 2.0em;
+ }
+
+ #branding {
+   margin: 0;
+ }
+
+ .hl-l .region-header {
+   float: left;
+   margin-top: 30px;
+ }
+
+ .region-sidebar-second sidebar {
+   margin-top: 10px;
+ }
+
+ #block-superfish-1.block div.block-inner {
+   /*background: transparent;*/
+ }

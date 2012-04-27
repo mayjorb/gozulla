@@ -2,15 +2,15 @@
 // Footheme by Adaptivethemes.com, a starter sub-sub-theme.
 
 /**
- * Rename each function and instance of "gozulla" to match
- * your subthemes name, e.g. if you name your theme "gozulla" then the function
- * name will be "gozulla_preprocess_hook". Tip - you can search/replace
- * on "gozulla".
+ * Rename each function and instance of "footheme" to match
+ * your subthemes name, e.g. if you name your theme "footheme" then the function
+ * name will be "footheme_preprocess_hook". Tip - you can search/replace
+ * on "footheme".
  */
 
 /**
  * Override or insert variables into the html templates.
- * Replace 'gozulla' with your themes name, i.e. mytheme_preprocess_html()
+ * Replace 'footheme' with your themes name, i.e. mytheme_preprocess_html()
  */
 function gozulla_preprocess_html(&$vars) {
 
@@ -22,7 +22,21 @@ function gozulla_preprocess_html(&$vars) {
     'gozulla.responsive.gpanels.css'
   );
   load_subtheme_media_queries($media_queries_css, 'gozulla'); // Replace 'gozulla' with your themes name
-
+  
+  
+  /**
+    *  set body class "sport-[sport]" so we can use different bg images for each sport
+  */
+  
+   $uri_array = explode('/', request_uri());
+   $sport = $uri_array[1];
+   
+   if (!$sport) {
+     $sport = 'default';
+   }
+   
+   $vars['classes_array'][] = drupal_html_class('sport-' . $sport);
+ 
  /**
   * Load IE specific stylesheets
   * AT automates adding IE stylesheets, simply add to the array using
@@ -40,7 +54,7 @@ function gozulla_preprocess_html(&$vars) {
   $ie_files = array(
     'lte IE 7' => 'ie-lte-7.css',
   );
-  load_subtheme_ie_styles($ie_files, 'gozulla'); // Replace 'gozulla' with your themes name
+  load_subtheme_ie_styles($ie_files, 'footheme'); // Replace 'footheme' with your themes name
   // */
 
 }
