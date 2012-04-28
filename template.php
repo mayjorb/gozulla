@@ -23,6 +23,7 @@ function gozulla_preprocess_html(&$vars) {
   );
   load_subtheme_media_queries($media_queries_css, 'gozulla'); // Replace 'gozulla' with your themes name
   
+  dpm($vars);
   
   /**
     *  set body class "sport-[sport]" so we can use different bg images for each sport

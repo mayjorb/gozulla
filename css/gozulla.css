@@ -13,6 +13,22 @@
    background: transparent;
  }
  
+ #top-nav-wrapper {
+   margin: 0;
+   padding: 0;
+   background: none repeat scroll 0 0 #333333;
+ }
+ 
+ nav#block-superfish-1.block {
+   margin: 0;
+   padding: 0;
+ }
+ 
+ .sf-menu.sf-style-space {
+   margin: 0;
+ }
+ 
+
  /* Toggle Draw */
  .region-draw {
    padding: 25px 20px 0;
@@ -96,7 +112,7 @@
  #go-sports-sm li, 
  #go-sports-sm a { height: 30px; display: block; }
 
- #go-sports-sm li.first { margin-top: -10px; }
+ /*#go-sports-sm li.first { margin-top: -10px; }*/
  #go-sports-sm li.last { margin-bottom: 0; }
 
  #go-bike-sm { left: 0px; width: 105px; }
@@ -130,6 +146,27 @@
  #go-surf-sm { left: 0px; width: 105px; }
  #go-surf-sm { background:url('../images/sport-icons-sm.png') 0 -1120px; }
  #go-surf-sm a:hover { background: url('../images/sport-icons-sm.png') 0 -1200px; }
+ 
+ .sprite-bike{ background-position: 0 0; width: 105px; height: 30px; }  
+ .sprite-bike_gs{ background-position: 0 -80px; width: 105px; height: 30px; } 
+ .sprite-boat{ background-position: 0 -160px; width: 105px; height: 30px; } 
+ .sprite-boat_gs{ background-position: 0 -240px; width: 105px; height: 30px; } 
+ .sprite-climb{ background-position: 0 -320px; width: 105px; height: 30px; } 
+ .sprite-climb_gs{ background-position: 0 -400px; width: 105px; height: 30px; } 
+ .sprite-disc{ background-position: 0 -480px; width: 105px; height: 30px; } 
+ .sprite-disc_gs{ background-position: 0 -560px; width: 105px; height: 30px; } 
+ .sprite-golf{ background-position: 0 -640px; width: 75px; height: 31px; } 
+ .sprite-golf_gs{ background-position: 0 -721px; width: 105px; height: 30px; } 
+ .sprite-help{ background-position: 0 -801px; width: 105px; height: 30px; } 
+ .sprite-help_gs{ background-position: 0 -881px; width: 105px; height: 30px; } 
+ .sprite-skate{ background-position: 0 -961px; width: 105px; height: 30px; } 
+ .sprite-skate_gs{ background-position: 0 -1041px; width: 105px; height: 30px; } 
+ .sprite-snow{ background-position: 0 -1121px; width: 105px; height: 30px; } 
+ .sprite-snow_gs{ background-position: 0 -1201px; width: 105px; height: 30px; } 
+ .sprite-surf{ background-position: 0 -1281px; width: 105px; height: 30px; } 
+ .sprite-surf_gs{ background-position: 0 -1361px; width: 105px; height: 30px; } 
+ 
+ 
 
  /* white bg for front page sidebar second */
  .block-region-sidebar-second .block-inner {

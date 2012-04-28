@@ -25,6 +25,7 @@
   ;stylesheets[all][] = css/gozulla.responsive.style.css
   
 ;----------// Regions
+  regions[top_navigation_bar]              = Top Navigation Bar
   regions[draw]              = Sliding Draw (top)
   regions[header]            = Header
   regions[menu_bar]          = Main Menu Bar
