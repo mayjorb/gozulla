@@ -382,8 +382,38 @@
 }
 /* Standard layout */
 @media only screen and (min-width:1025px) {
-  body {
-    background: #F4F5F6 url("../images/bg-fullsize.jpg") center center fixed no-repeat;
+  body.sport-default {
+    background: #F4F5F6 url("../images/bg_fullsize_default.jpg") center center fixed no-repeat;
+    -moz-background-size: cover;
+    background-size: cover;
+  }
+  body.sport-surf {
+    background: #F4F5F6 url("../images/bg_fullsize_surf.jpg") center center fixed no-repeat;
+    -moz-background-size: cover;
+    background-size: cover;
+  }
+  body.sport-bike {
+    background: #F4F5F6 url("../images/bg_fullsize_bike.jpg") center center fixed no-repeat;
+    -moz-background-size: cover;
+    background-size: cover;
+  }
+  body.sport-skate {
+    background: #F4F5F6 url("../images/bg_fullsize_skate.jpg") center center fixed no-repeat;
+    -moz-background-size: cover;
+    background-size: cover;
+  }
+  body.sport-snow {
+    background: #F4F5F6 url("../images/bg_fullsize_snow.jpg") center center fixed no-repeat;
+    -moz-background-size: cover;
+    background-size: cover;
+  }
+  body.sport-boat {
+    background: #F4F5F6 url("../images/bg_fullsize_boat.jpg") center center fixed no-repeat;
+    -moz-background-size: cover;
+    background-size: cover;
+  }
+  body.sport-golf {
+    background: #F4F5F6 url("../images/bg_fullsize_golf.jpg") center center fixed no-repeat;
     -moz-background-size: cover;
     background-size: cover;
   }
@@ -399,6 +429,7 @@
   .block-region-sidebar-second .block-inner {
     background-color: rgba(255,255,255, .8);
     padding-top: 20px;
+    padding-bottom: 20px;
   }
   #main-content {
     background-color: rgba(255,255,255, .8);

@@ -210,3 +210,9 @@
  #block-superfish-1.block div.block-inner {
    /*background: transparent;*/
  }
+
+ .nav ul li,
+ .nav ul li a {
+   line-height: 1em;
+ }
+ 
