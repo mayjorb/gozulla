@@ -28,10 +28,16 @@
 
     <div class="container clearfix">
       <header class="clearfix">
-
+      
         <div id="branding" class="clearfix<?php print $branding_classes ? ' ' . $branding_classes : ''; ?>">
           <?php if ($linked_site_logo): ?>
-            <div id="logo"><?php print $linked_site_logo; ?></div>
+           <?php 
+           // change logo based on current sport, $sport = the name of sport or default
+           //print 'the sport is: ' . $variables['current_sport'];
+            //$sport_logo = $variables['current_sport'] . 'logo.png'; 
+            //$linked_site_logo = str_replace('logo.png', $sport_logo, $linked_site_logo);
+           ?>
+          <div id="logo"><?php print $linked_site_logo; ?></div>
           <?php endif; ?>
 
           <?php if ($site_name || $site_slogan): ?>

@@ -12,6 +12,18 @@
  * Override or insert variables into the html templates.
  * Replace 'footheme' with your themes name, i.e. mytheme_preprocess_html()
  */
+ 
+ /**
+   *  set body class "sport-[sport]" so we can use different bg images for each sport
+ */
+ 
+  $uri_array = explode('/', request_uri());
+  $sport = $uri_array[1];
+  
+  if (!$sport) {
+    $sport = 'default';
+  }
+  
 function gozulla_preprocess_html(&$vars) {
 
   // Load the media queries styles
@@ -36,7 +48,11 @@ function gozulla_preprocess_html(&$vars) {
      $sport = 'default';
    }
    
+   
    $vars['classes_array'][] = drupal_html_class('sport-' . $sport);
+   
+    $vars['sports_array'][] = $sport;
+   
  
  /**
   * Load IE specific stylesheets
@@ -59,3 +75,14 @@ function gozulla_preprocess_html(&$vars) {
   // */
 
 }
+
+/*function gozulla_preprocess_page(&$vars) {
+  
+  $vars['current_sport'] = $sport;
+ 
+
+  // Populate the page template suggestions.
+  if ($suggestions = theme_get_suggestions(arg(), 'page')) {
+    $vars['theme_hook_suggestions'] = $suggestions;
+  }
+}*/
