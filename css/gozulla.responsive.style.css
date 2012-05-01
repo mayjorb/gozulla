@@ -417,6 +417,16 @@
     -moz-background-size: cover;
     background-size: cover;
   }
+  body.sport-disc {
+    background: #F4F5F6 url("../images/bg_fullsize_disc.jpg") center center fixed no-repeat;
+    -moz-background-size: cover;
+    background-size: cover;
+  }
+  body.sport-help {
+    background: #F4F5F6 url("../images/bg_fullsize_help.jpg") center center fixed no-repeat;
+    -moz-background-size: cover;
+    background-size: cover;
+  }
   #page {
     background-color: transparent;  
   } 
