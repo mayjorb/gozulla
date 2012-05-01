@@ -44,7 +44,7 @@ function gozulla_preprocess_html(&$vars) {
    $uri_array = explode('/', request_uri());
    $sport = $uri_array[1];
    
-   if (!$sport) {
+   if (!$sport || $sport == 'content') {
      $sport = 'default';
    }
    
