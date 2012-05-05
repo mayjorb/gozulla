@@ -251,4 +251,17 @@
    padding: 1em 2em;
  }
  
+ /* adds border to map */
+
+ div .geofieldMap {
+   border: 1px solid #2C2C2C;
+   margin-top: 25px;
+ }
+
+/* make tab red */
+ #toggle-wrapper a {
+   background: none repeat scroll 0 0 #EC1C24;
+   color: #E3E3E3;
+ }
+ 
  
