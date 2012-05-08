@@ -1,4 +1,14 @@
 <?php // AT Commerce ?>
+
+<?php 
+  $uri_array = explode('/', request_uri());
+  $sport = $uri_array[1];
+ 
+  if (!$sport || $sport == 'content') {
+    $sport = 'default';
+  }
+?>
+
 <div id="page-wrapper"><div id="page">
   
   <?php if ($page['top_navigation_bar']): ?>
@@ -33,7 +43,7 @@
           <?php if ($linked_site_logo): ?>
            <?php 
            // change logo based on current sport, $sport = the name of sport or default
-           //print 'the sport is: ' . $variables['current_sport'];
+           print 'the sport is: ' . $sport;
             //$sport_logo = $variables['current_sport'] . 'logo.png'; 
             //$linked_site_logo = str_replace('logo.png', $sport_logo, $linked_site_logo);
            ?>

@@ -260,7 +260,7 @@
 
 /* make tab red */
  #toggle-wrapper a {
-   background: none repeat scroll 0 0 #EC1C24;
+   background: url("../images/bkg-red.png") repeat-x scroll left bottom #991111;
    color: #E3E3E3;
  }
  
