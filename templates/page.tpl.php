@@ -43,7 +43,7 @@
           <?php if ($linked_site_logo): ?>
            <?php 
            // change logo based on current sport, $sport = the name of sport or default
-           print 'the sport is: ' . $sport;
+           //print 'the sport is: ' . $sport;
             //$sport_logo = $variables['current_sport'] . 'logo.png'; 
             //$linked_site_logo = str_replace('logo.png', $sport_logo, $linked_site_logo);
            ?>
