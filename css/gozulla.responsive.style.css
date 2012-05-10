@@ -436,6 +436,7 @@
   .region-sidebar-second {
    /*margin-top: 10px;*/
   }
+  
   .block-region-sidebar-second .block-inner {
     background-color: rgba(255,255,255, .8);
     /*background-color: transparent;*/
@@ -445,18 +446,27 @@
     padding-bottom: 20px;
   }
   
-  #block-views-active-deals-global-deal-block {
+  #block-views-active-deals-global-deal-block,
+  #block-views-gozulla-directory-featured-shop {
      background-color: rgba(255,255,255, .8);
      /*background-color: transparent;*/
      -moz-border-radius: 15px;
      border-radius: 15px;
      margin-top: 20px;
+     margin-right: 10px;
      padding: 20px;
+     min-height: 300px;
    }
-
+   
   #main-content {
     background-color: rgba(255,255,255, .8);
     -moz-border-radius: 15px;
     border-radius: 15px;
+  }
+  
+  section#block-views-active-deals-global-deal-block img {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 30px;
   }
 }

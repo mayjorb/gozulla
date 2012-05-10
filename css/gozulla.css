@@ -263,5 +263,9 @@
    background: url("../images/bkg-red.png") repeat-x scroll left bottom #991111;
    color: #E3E3E3;
  }
+
+ div.views-field-edit-node {
+   float: right;
+ }
  
  

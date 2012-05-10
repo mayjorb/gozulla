@@ -110,12 +110,7 @@
 
         <?php print render($page['highlighted']); ?>
 
-        <?php if ($page['two_50_first'] || $page['two_50_second']): ?>
-          <div class="two-50 gpanel clearfix">
-            <?php print render($page['two_50_first']); ?>
-            <?php print render($page['two_50_second']); ?>
-          </div>
-        <?php endif; ?>
+
 
         <?php $tag = $title ? 'section' : 'div'; ?>
         <<?php print $tag; ?> id="main-content">
@@ -145,6 +140,13 @@
           <div id="content"><?php print render($page['content']); ?></div>
 
         </<?php print $tag; ?>>
+        
+        <?php if ($page['two_50_first'] || $page['two_50_second']): ?>
+          <div class="two-50 gpanel clearfix">
+            <?php print render($page['two_50_first']); ?>
+            <?php print render($page['two_50_second']); ?>
+          </div>
+        <?php endif; ?>
 
         <?php print render($page['content_aside']); ?>
 

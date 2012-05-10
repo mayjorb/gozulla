@@ -35,10 +35,10 @@
   regions[three_33_second]   = Sub feature panel (second)
   regions[three_33_third]    = Sub feature panel (third)
   regions[highlighted]       = Highlight (content top)
-  regions[two_50_first]      = Content top (first)
-  regions[two_50_second]     = Content top (second)
   regions[content]           = Main Content
-  regions[content_aside]     = Content bottom
+  regions[two_50_first]      = Content bottom (first)
+  regions[two_50_second]     = Content bottom (second)
+  regions[content_aside]     = Content last
   regions[sidebar_first]     = Sidebar first
   regions[sidebar_second]    = Sidebar second
   regions[tertiary_content]  = Tertiary panel
