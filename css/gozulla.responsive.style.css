@@ -382,7 +382,7 @@
 }
 /* Standard layout */
 @media only screen and (min-width:1025px) {
-  body.sport-default {
+  body {
     background: #F4F5F6 url("../images/bg_fullsize_default.jpg") center center fixed no-repeat;
     -moz-background-size: cover;
     background-size: cover;
