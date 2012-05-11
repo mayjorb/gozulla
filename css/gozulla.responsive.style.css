@@ -380,88 +380,99 @@
     padding-right: 0;
   }
 }
+
 /* Standard layout */
 @media only screen and (min-width:1025px) {
+
   body {
-    background: #F4F5F6 url("../images/bg_fullsize_default.jpg") center center fixed no-repeat;
-    -moz-background-size: cover;
-    background-size: cover;
+    background: #E8E8E8 url('../images/goz_smbg_home.jpg') no-repeat fixed top center;
+    background-size: 100% 300px;
   }
   body.sport-surf {
-    background: #F4F5F6 url("../images/bg_fullsize_surf.jpg") center center fixed no-repeat;
-    -moz-background-size: cover;
-    background-size: cover;
+    background: #E8E8E8 url('../images/goz_smbg_surf.jpg') no-repeat fixed top center;
+    background-size: 100% 300px;
   }
   body.sport-bike {
-    background: #F4F5F6 url("../images/bg_fullsize_bike.jpg") center center fixed no-repeat;
-    -moz-background-size: cover;
-    background-size: cover;
+    background: #E8E8E8 url('../images/goz_smbg_bike.jpg') no-repeat fixed top center;
+    background-size: 100% 300px;
   }
   body.sport-skate {
-    background: #F4F5F6 url("../images/bg_fullsize_skate.jpg") center center fixed no-repeat;
-    -moz-background-size: cover;
-    background-size: cover;
+    background: #E8E8E8 url('../images/goz_smbg_skate.jpg') no-repeat fixed top center;
+    background-size: 100% 300px;
   }
   body.sport-snow {
-    background: #F4F5F6 url("../images/bg_fullsize_snow.jpg") center center fixed no-repeat;
-    -moz-background-size: cover;
-    background-size: cover;
+    background: #E8E8E8 url('../images/goz_smbg_snow.jpg') no-repeat fixed top center;
+    background-size: 100% 300px;
   }
   body.sport-boat {
-    background: #F4F5F6 url("../images/bg_fullsize_boat.jpg") center center fixed no-repeat;
-    -moz-background-size: cover;
-    background-size: cover;
+    background: #E8E8E8 url('../images/goz_smbg_boat.jpg') no-repeat fixed top center;
+    background-size: 100% 300px;
   }
   body.sport-golf {
-    background: #F4F5F6 url("../images/bg_fullsize_golf.jpg") center center fixed no-repeat;
-    -moz-background-size: cover;
-    background-size: cover;
+    background: #E8E8E8 url('../images/goz_smbg_golf.jpg') no-repeat fixed top center;
+    background-size: 100% 300px;
   }
   body.sport-disc {
-    background: #F4F5F6 url("../images/bg_fullsize_disc.jpg") center center fixed no-repeat;
-    -moz-background-size: cover;
-    background-size: cover;
+    background: #E8E8E8 url('../images/goz_smbg_disc.jpg') no-repeat fixed top center;
+    background-size: 100% 300px;
+  }
+  body.sport-climb {
+    background: #E8E8E8 url('../images/goz_smbg_climb.jpg') no-repeat fixed top center;
+    background-size: 100% 300px;
   }
   body.sport-help {
-    background: #F4F5F6 url("../images/bg_fullsize_help.jpg") center center fixed no-repeat;
-    -moz-background-size: cover;
-    background-size: cover;
+    background: #E8E8E8 url('../images/goz_smbg_help.jpg') no-repeat fixed top center;
+    background-size: 100% 300px;
   }
   #page {
     background-color: transparent;  
   } 
+  
+  #content-wrapper {
+    background: -moz-linear-gradient(top,  rgba(226,226,226,0) 0%, rgba(232,232,232,1) 15%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(226,226,226,0)), color-stop(15%,rgba(232,232,232,1)));
+    background: -webkit-linear-gradient(top,  rgba(226,226,226,0) 0%,rgba(232,232,232,1) 15%);
+    background: -o-linear-gradient(top,  rgba(226,226,226,0) 0%,rgba(232,232,232,1) 15%);
+    background: -ms-linear-gradient(top,  rgba(226,226,226,0) 0%,rgba(232,232,232,1) 15%);
+    background: linear-gradient(top,  rgba(226,226,226,0) 0%,rgba(232,232,232,1) 15%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00e2e2e2', endColorstr='#e8e8e8',GradientType=0 );
+   
+  }
+  
   #columns {
-    background-color: transparent;
+   /* border: 1px solid #333; */
+    background: -moz-linear-gradient(top,  rgba(226,226,226,0) 0%, rgba(255,255,255,1) 15%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(226,226,226,0)), color-stop(15%,rgba(255,255,255,1)));
+    background: -webkit-linear-gradient(top,  rgba(226,226,226,0) 0%,rgba(255,255,255,1) 15%);
+    background: -o-linear-gradient(top,  rgba(226,226,226,0) 0%,rgba(255,255,255,1) 15%);
+    background: -ms-linear-gradient(top,  rgba(226,226,226,0) 0%,rgba(255,255,255,1) 15%);
+    background: linear-gradient(top,  rgba(226,226,226,0) 0%,rgba(255,255,255,1) 15%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00e2e2e2', endColorstr='#ffffff',GradientType=0 );
+    
   }
   .region-sidebar-second {
    /*margin-top: 10px;*/
   }
   
   .block-region-sidebar-second .block-inner {
-    background-color: rgba(255,255,255, .8);
-    /*background-color: transparent;*/
-    -moz-border-radius: 15px;
-    border-radius: 15px;
+    /*background-color: rgba(255,255,255, .8);*/
+    background-color: transparent;
     padding-top: 20px;
     padding-bottom: 20px;
   }
   
   #block-views-active-deals-global-deal-block,
   #block-views-gozulla-directory-featured-shop {
-     background-color: rgba(255,255,255, .8);
-     /*background-color: transparent;*/
-     -moz-border-radius: 15px;
-     border-radius: 15px;
+    /* background-color: rgba(255,255,255, .8);*/
+     background-color: transparent;
      margin-top: 20px;
      margin-right: 10px;
      padding: 20px;
      min-height: 300px;
    }
    
-  #main-content {
-    background-color: rgba(255,255,255, .8);
-    -moz-border-radius: 15px;
-    border-radius: 15px;
+ #main-content {
+  min-height: 400px;
   }
   
   section#block-views-active-deals-global-deal-block img {
@@ -469,4 +480,10 @@
     margin-right: 10px;
     margin-bottom: 30px;
   }
+  
+  #draw-wrapper {
+    background-color: rgba(51,51,51, .6);
+    color: #E7E7E7;
+  }
+
 }
