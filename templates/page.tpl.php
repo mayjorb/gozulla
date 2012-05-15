@@ -1,53 +1,31 @@
-<?php // AT Commerce ?>
+<?php // gozulla ?>
 
 <?php 
   $uri_array = explode('/', request_uri());
   $sport = $uri_array[1];
- 
+  //$linked_site_logo = str_replace('logo.png', 'logo_rev.png', $linked_site_logo);
   if (!$sport || $sport == 'content') {
     $sport = 'default';
   }
 ?>
 
 <div id="page-wrapper"><div id="page">
-  
-  <?php if ($page['top_navigation_bar']): ?>
-    <div id="top-nav-wrapper">
-      <div class="container clearfix">
-        <?php print render($page['top_navigation_bar']); ?>
-      </div>
-    </div>
-  <?php endif; ?>
-
-  <?php if($page['draw']): ?>
-    <div id="draw-wrapper">
-      <div class="container clearfix">
-        <div id="draw"><?php print render($page['draw']); ?></div>
-      </div> 
-    </div>
-  <?php endif; ?>
 
   <div id="header-wrapper">
-    <?php if($page['draw']): ?>
-      <div id="toggle-wrapper">
-        <div class="container clearfix">
-           <div id="toggle"><?php print $draw_link; ?></div>
-        </div>
-      </div>
-    <?php endif; ?>
 
     <div class="container clearfix">
       <header class="clearfix">
-      
+
         <div id="branding" class="clearfix<?php print $branding_classes ? ' ' . $branding_classes : ''; ?>">
+          
+         <!-- ><div id="logo">
+            <a href="" >
+          </div> -->
+          
+          <?php dpm($linked_site_logo); ?>
+          
           <?php if ($linked_site_logo): ?>
-           <?php 
-           // change logo based on current sport, $sport = the name of sport or default
-           //print 'the sport is: ' . $sport;
-            //$sport_logo = $variables['current_sport'] . 'logo.png'; 
-            //$linked_site_logo = str_replace('logo.png', $sport_logo, $linked_site_logo);
-           ?>
-          <div id="logo"><?php print $linked_site_logo; ?></div>
+            <div id="logo"><?php print $linked_site_logo; ?></div>
           <?php endif; ?>
 
           <?php if ($site_name || $site_slogan): ?>
@@ -71,6 +49,30 @@
       </header>
     </div>
   </div>
+  
+  <?php if ($page['top_navigation_bar']): ?>
+      <div id="top-nav-wrapper">
+        <div class="container clearfix">
+          <?php print render($page['top_navigation_bar']); ?>
+        </div>
+      </div>
+    <?php endif; ?>
+  
+  <?php if($page['draw']): ?>
+    <div id="draw-wrapper">
+      <div class="container clearfix">
+        <div id="draw"><?php print render($page['draw']); ?></div>
+      </div> 
+    </div>
+  <?php endif; ?>
+  
+  <?php if($page['draw']): ?>
+    <div id="toggle-wrapper">
+      <div class="container clearfix">
+         <div id="toggle"><?php print $draw_link; ?></div>
+      </div>
+    </div>
+  <?php endif; ?>
 
   <?php if ($page['secondary_content']): ?>
     <div id="secondary-content-wrapper"><div class="texture-overlay">
@@ -110,7 +112,7 @@
 
         <?php print render($page['highlighted']); ?>
 
-
+       
 
         <?php $tag = $title ? 'section' : 'div'; ?>
         <<?php print $tag; ?> id="main-content">
@@ -141,12 +143,12 @@
 
         </<?php print $tag; ?>>
         
-        <?php if ($page['two_50_first'] || $page['two_50_second']): ?>
-          <div class="two-50 gpanel clearfix">
-            <?php print render($page['two_50_first']); ?>
-            <?php print render($page['two_50_second']); ?>
-          </div>
-        <?php endif; ?>
+         <?php if ($page['two_50_first'] || $page['two_50_second']): ?>
+            <div class="two-50 gpanel clearfix">
+              <?php print render($page['two_50_first']); ?>
+              <?php print render($page['two_50_second']); ?>
+            </div>
+          <?php endif; ?>
 
         <?php print render($page['content_aside']); ?>
 

@@ -12,12 +12,92 @@
  #menu-bar {
    background: transparent;
  }
+ body {
+  background: #E8E8E8 url('../images/topo_bg.png') no-repeat fixed top center;
+  border: none;
+  min-height: 130px;
+ }
+ 
+ #page-wrapper {
+   background: #E8E8E8 url('../images/goz_smbg_home.jpg') no-repeat scroll top center;
+   background-size: 100% 150px;
+   border: none;
+   min-height: 130px;
+  }
+  
+  body.sport-surf #page-wrapper {
+    background: #E8E8E8 url('../images/goz_smbg_surf.jpg') no-repeat scroll top center;
+    background-size: 100% 150px;
+    border: none;
+    min-height: 130px;
+  }
+
+  body.sport-bike #page-wrapper {
+    background: #E8E8E8 url('../images/goz_smbg_bike.jpg') no-repeat scroll top center;
+    background-size: 100% 150px;
+    border: none;
+    min-height: 130px;
+  }
+  
+  body.sport-skate #page-wrapper {
+    background: #E8E8E8 url('../images/goz_smbg_skate.jpg') no-repeat scroll top center;
+    background-size: 100% 150px;
+    border: none;
+    min-height: 130px;
+  }
+ 
+  body.sport-snow #page-wrapper {
+    background: #E8E8E8 url('../images/goz_smbg_snow.jpg') no-repeat scroll top center;
+    background-size: 100% 150px;
+    border: none;
+    min-height: 130px;
+  }
+  
+  body.sport-boat #page-wrapper {
+    background: #E8E8E8 url('../images/goz_smbg_boat.jpg') no-repeat scroll top center;
+    background-size: 100% 150px;
+    border: none;
+    min-height: 130px;
+  }
+  
+  body.sport-golf #page-wrapper {
+    background: #E8E8E8 url('../images/goz_smbg_golf.jpg') no-repeat scroll top center;
+    background-size: 100% 150px;
+    border: none;
+    min-height: 130px;
+  }
+  
+/*  body.sport-disc #page-wrapper {
+    background: #E8E8E8 url('../images/goz_smbg_disc.jpg') no-repeat scroll top center;
+    background-size: 100% 150px;
+    border: none;
+    min-height: 130px;
+  } 
+*/  
+  body.sport-climb #page-wrapper {
+    background: #E8E8E8 url('../images/goz_smbg_climb.jpg') no-repeat scroll top center;
+    background-size: 100% 150px;
+    border: none;
+    min-height: 130px;
+  } 
+  
+  body.sport-help #page-wrapper {
+    background: #E8E8E8 url('../images/goz_smbg_help.jpg') no-repeat scroll top center;
+    background-size: 100% 150px;
+    border: none;
+    min-height: 130px;
+  }
+
+  #page {
+    background-color: transparent;  
+  }
  
  #top-nav-wrapper {
    margin: 0;
    padding: 0;
    background: none repeat scroll 0 0 #333333;
    border-bottom: 2px outset #000000;
+   border-top: 1px solid #000000;
  }
  
  nav#block-superfish-1.block {
@@ -199,33 +279,15 @@
    background-color: transparent;
  }
 
- #header-wrapper {
-   background-color: transparent;
-   background-image: none;
- }
-
  #content-wrapper {
    border-bottom: none;
    border-top: none;
- }
-
- #header-wrapper {
-   border-bottom: none;
- }
-
- #content-wrapper {
-   border-bottom: none;
-   border-top: none;
-   padding-top: 0 !important;
+   padding-top:20px !important;
  }
 
  #nav-wrapper {
    box-shadow: none;
    min-height: 2.0em;
- }
-
- #branding {
-   margin: 0;
  }
 
  .hl-l .region-header {
