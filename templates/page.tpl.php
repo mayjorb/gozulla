@@ -22,8 +22,6 @@
             <a href="" >
           </div> -->
           
-          <?php dpm($linked_site_logo); ?>
-          
           <?php if ($linked_site_logo): ?>
             <div id="logo"><?php print $linked_site_logo; ?></div>
           <?php endif; ?>
