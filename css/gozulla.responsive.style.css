@@ -2,6 +2,10 @@
 
 /* Smartphone portrait */
 @media only screen and (max-width:320px) {
+  
+  html {
+   background-image: none;
+  }
   header#header div#branding {
     float: none;
     margin: auto;
