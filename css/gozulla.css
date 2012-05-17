@@ -91,7 +91,10 @@
   #page {
     background-color: transparent;  
   }
- 
+  
+  #columns {
+    background-color: #fff;
+ }
  #top-nav-wrapper {
    margin: 0;
    padding: 0;
