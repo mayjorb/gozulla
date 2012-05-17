@@ -18,71 +18,71 @@
 
  }
  
-  body.sport-surf #page-wrapper {
-    background: transparent url('../images/goz_smbg_surf.jpg') no-repeat scroll top center;
+  body.sport-surf #header-wrapper {
+    background: #333333 url('../images/goz_smbg_surf.jpg') no-repeat scroll top center;
     /*background-size: 100% 150px;*/
     border: none;
     min-height: 130px;
   }
 
-  body.sport-bike #page-wrapper {
-    background: transparent url('../images/goz_smbg_bike.jpg') no-repeat scroll top center;
+  body.sport-bike #header-wrapper {
+    background: #333333 url('../images/goz_smbg_bike.jpg') no-repeat scroll top center;
     /*background-size: 100% 150px;*/
     border: none;
     min-height: 130px;
   }
   
-  body.sport-skate #page-wrapper {
-    background: transparent url('../images/goz_smbg_skate.jpg') no-repeat scroll top center;
+  body.sport-skate #header-wrapper {
+    background: #333333 url('../images/goz_smbg_skate.jpg') no-repeat scroll top center;
     /*background-size: 100% 150px;*/
     border: none;
     min-height: 130px;
   }
  
-  body.sport-snow #page-wrapper {
-    background: transparent url('../images/goz_smbg_snow.jpg') no-repeat scroll top center;
+  body.sport-snow #header-wrapper {
+    background: #333333 url('../images/goz_smbg_snow.jpg') no-repeat scroll top center;
     /*/*background-size: 100% 150px;*/*/
     border: none;
     min-height: 130px;
   }
   
-  body.sport-boat #page-wrapper {
-    background: transparent url('../images/goz_smbg_boat.jpg') no-repeat scroll top center;
+  body.sport-boat #header-wrapper {
+    background: #333333 url('../images/goz_smbg_boat.jpg') no-repeat scroll top center;
     /*background-size: 100% 150px;*/
     border: none;
     min-height: 130px;
   }
   
-  body.sport-golf #page-wrapper {
-    background: transparent url('../images/goz_smbg_golf.jpg') no-repeat scroll top center;
+  body.sport-golf #header-wrapper {
+    background: #333333 url('../images/goz_smbg_golf.jpg') no-repeat scroll top center;
     /*background-size: 100% 150px;*/
     border: none;
     min-height: 130px;
   }
   
-/*  body.sport-disc #page-wrapper {
-    background: transparent url('../images/goz_smbg_disc.jpg') no-repeat scroll top center;
+/*  body.sport-disc #header-wrapper {
+    background: #333333 url('../images/goz_smbg_disc.jpg') no-repeat scroll top center;
     background-size: 100% 150px;
     border: none;
     min-height: 130px;
   } 
 */  
-  body.sport-climb #page-wrapper {
-    background: transparent url('../images/goz_smbg_climb.jpg') no-repeat scroll top center;
+  body.sport-climb #header-wrapper {
+    background: #333333 url('../images/goz_smbg_climb.jpg') no-repeat scroll top center;
     /*background-size: 100% 150px;*/
     border: none;
     min-height: 130px;
   } 
   
-  body.sport-help #page-wrapper {
-    background: transparent url('../images/goz_smbg_help.jpg') no-repeat scroll top center;
+  body.sport-help #header-wrapper {
+    background: #333333 url('../images/goz_smbg_help.jpg') no-repeat scroll top center;
     /*background-size: 100% 150px;*/
     border: none;
     min-height: 130px;
   }
   
-  #page-wrapper {
-    background: transparent url('../images/goz_smbg_home.jpg') no-repeat scroll top center;
+  #header-wrapper {
+    background: #333333 url('../images/goz_smbg_home.jpg') no-repeat scroll top center;
     /*background-size: 100% 150px;*/
     border: none;
     min-height: 130px;
@@ -318,7 +318,7 @@
  /* adds border to map */
 
  div .geofieldMap {
-   border: 1px solid #2C2C2C;
+   border: 1px solid #ababab;
    margin-top: 25px;
  }
 
@@ -333,15 +333,15 @@
  }
  
  #columns div.columns-inner {
-   border: 1px solid #414141;
+   border: 1px solid #ababab;
  }
  
  #content-column .content-inner .two-50 {
-   border-top: 1px solid #414141;
+   border-top: 1px solid #ababab;
  }
  
  .sidebar-second .content-inner {
-   border-right: 1px solid #414141;
+   border-right: 1px solid #ababab;
  }
  
  /*#columns .block-region-sidebar-second {
@@ -350,5 +350,5 @@
 */
  .two-50 .region-two-50-first {
      width: 49%;
-     border-right: 1px solid #414141;
+     border-right: 1px solid #ababab;
  }
