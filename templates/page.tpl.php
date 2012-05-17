@@ -3,9 +3,22 @@
 <?php 
   $uri_array = explode('/', request_uri());
   $sport = $uri_array[1];
-  $linked_site_logo = str_replace('logo.png', 'logo_rev.png', $linked_site_logo);
+  //$linked_site_logo = str_replace('logo.png', 'logo_rev.png', $linked_site_logo);
   if (!$sport || $sport == 'content') {
     $sport = 'default';
+  }
+  switch ($sport) {
+    case 'surf':
+      $linked_site_logo = str_replace('logo.png', 'logo.png', $linked_site_logo);
+    break;
+    case 'boat':
+      $linked_site_logo = str_replace('logo.png', 'logo.png', $linked_site_logo);
+    break;
+    case 'help':
+      $linked_site_logo = str_replace('logo.png', 'logo.png', $linked_site_logo);
+    break;
+    default:
+      $linked_site_logo = str_replace('logo.png', 'logo_rev.png', $linked_site_logo);
   }
 ?>
 
