@@ -333,17 +333,22 @@
  }
  
  #columns div.columns-inner {
-   border: 1px solid #000000;
+   border: 1px solid #414141;
  }
  
  #content-column .content-inner .two-50 {
-   border-top: 1px solid #000000;
+   border-top: 1px solid #414141;
  }
  
- #columns .block-region-sidebar-second {
-   border-left: 1px solid #000000;
+ .sidebar-second .content-inner {
+   border-right: 1px solid #414141;
  }
  
- .block-region-two-50-first {
-   border-right: 1px solid #000000;
+ /*#columns .block-region-sidebar-second {
+   border-left: 1px solid #414141;
+ }
+*/
+ .two-50 .region-two-50-first {
+     width: 49%;
+     border-right: 1px solid #414141;
  }
