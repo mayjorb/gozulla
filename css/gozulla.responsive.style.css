@@ -6,6 +6,21 @@
   html {
    background-image: none;
   }
+  body.sport-surf #header-wrapper,
+  body.sport-bike #header-wrapper,
+  body.sport-skate #header-wrapper,
+  body.sport-snow #header-wrapper,
+  body.sport-boat #header-wrapper,
+  body.sport-golf #header-wrapper,
+  body.sport-disc #header-wrapper,
+  body.sport-climb #header-wrapper,
+  body.sport-help #header-wrapper,
+  #header-wrapper  {
+     background-image: none;
+     background-color: #333333;
+     border: none;
+     min-height: 100px;
+   }
   header#header div#branding {
     float: none;
     margin: auto;
@@ -144,6 +159,24 @@
     margin: auto;
     text-align: center; 
   }
+  html {
+   background-image: none;
+  }
+  body.sport-surf #header-wrapper,
+  body.sport-bike #header-wrapper,
+  body.sport-skate #header-wrapper,
+  body.sport-snow #header-wrapper,
+  body.sport-boat #header-wrapper,
+  body.sport-golf #header-wrapper,
+  body.sport-disc #header-wrapper,
+  body.sport-climb #header-wrapper,
+  body.sport-help #header-wrapper,
+  #header-wrapper  {
+     background-image: none;
+     background-color: #333333;
+     border: none;
+     min-height: 100px;
+   } 
   header#header div.region-header {
     display: table;
     float: none;
