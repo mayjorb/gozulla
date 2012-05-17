@@ -14,9 +14,8 @@
  }
  
  html {
-  background: #E8E8E8 url('../images/topo_bg.png') no-repeat fixed top center;
-  -moz-background-size:100% 100%; /* Firefox 3.6 */
-  background-size:100% 100%;
+  background: #E8E8E8 url('../images/topo_bg.png') fixed top center;
+
  }
  
   body.sport-surf #page-wrapper {
