@@ -16,10 +16,9 @@
   body.sport-climb #header-wrapper,
   body.sport-help #header-wrapper,
   #header-wrapper  {
-     background-image: none;
-     background-color: #333333;
-     border: none;
-     min-height: 100px;
+    background: url("../images/bkg-red.png") repeat-x scroll left bottom #991111;
+    border: none;
+    min-height: 60px;
    }
   header#header div#branding {
     float: none;
@@ -173,9 +172,8 @@
   body.sport-help #header-wrapper,
   #header-wrapper  {
     background: url("../images/bkg-red.png") repeat-x scroll left bottom #991111;
-    
-     border: none;
-     min-height: 60px;
+    border: none;
+    min-height: 60px;
    } 
    
    #branding {
