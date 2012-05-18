@@ -172,11 +172,15 @@
   body.sport-climb #header-wrapper,
   body.sport-help #header-wrapper,
   #header-wrapper  {
-     background-image: none;
-     background-color: #333333;
+    background: url("../images/bkg-red.png") repeat-x scroll left bottom #991111;
+    
      border: none;
-     min-height: 100px;
+     min-height: 60px;
    } 
+   
+   #branding {
+   margin: 0 0 0 18px;
+   }
   header#header div.region-header {
     display: table;
     float: none;
