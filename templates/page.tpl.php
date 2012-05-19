@@ -7,7 +7,7 @@
   if (!$sport || $sport == 'content') {
     $sport = 'default';
   }
-  switch ($sport) {
+  /*switch ($sport) {
     case 'surf':
       $linked_site_logo = str_replace('logo.png', 'logo.png', $linked_site_logo);
     break;
@@ -19,7 +19,7 @@
     break;
     default:
       $linked_site_logo = str_replace('logo.png', 'logo_rev.png', $linked_site_logo);
-  }
+  }*/
 ?>
 
 <div id="page-wrapper"><div id="page">
