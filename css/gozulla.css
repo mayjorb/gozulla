@@ -354,10 +354,10 @@
    border-right: 1px solid #ababab;
  }
  
- /*#columns .block-region-sidebar-second {
-   border-left: 1px solid #414141;
+ #columns .block-region-sidebar-second {
+   background: url('../images/bg_header_333.png') repeat-x top left;
  }
-*/
+
  .two-50 .region-two-50-first {
     width: 49%;
     border-right: 1px solid #ababab;
@@ -405,6 +405,24 @@ div.places-detail {
 div.view-gozulla-directory .addressfield-container-inline:after {
     clear: none;
 }
+
+#block-views-active-deals-global-deal-block,
+#block-views-gozulla-directory-featured-shop {
+  /* background-color: rgba(255,255,255, .8);*/
+   background: url('../images/bg_header_333.png') repeat-x top left;
+   margin-top: 0;
+   /*margin-right: 10px;*/
+   padding: 0 20px;
+   min-height: 300px;
+   
+ }
+ 
+ div.two-50 h2.block-title {
+   color: #F1F1F1;
+   margin-bottom: 20px;
+   text-transform: lowercase;
+ }
+
 
 
 

@@ -482,23 +482,7 @@
     padding-bottom: 20px;
   }
   
-  #block-views-active-deals-global-deal-block,
-  #block-views-gozulla-directory-featured-shop {
-    /* background-color: rgba(255,255,255, .8);*/
-     background-color: transparent;
-     margin-top: 0;
-     /*margin-right: 10px;*/
-     padding: 0 20px;
-     min-height: 300px;
-     
-   }
-   
-   div.two-50 h2.block-title {
-     color: #F1F1F1;
-     margin-bottom: 20px;
-     text-transform: lowercase;
-   }
-   
+  
  #main-content {
   /*min-height: 400px;*/
   }
