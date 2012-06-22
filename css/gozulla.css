@@ -370,6 +370,9 @@
    border: none;
  }
  
+ #edit-circle-wrapper {
+   width: 80%;
+ }
  
  .views-exposed-form .views-exposed-widget {
    float: left;
@@ -377,7 +380,6 @@
  }
  
  .views-exposed-form .views-exposed-widget .form-submit {
-   margin-top: 0.35em;
    padding: 0;
  }
  
@@ -402,6 +404,10 @@ div.places-detail {
 div.view-gozulla-directory .addressfield-container-inline:after {
     clear: none;
 }
+
+
+
+
 
 
 
