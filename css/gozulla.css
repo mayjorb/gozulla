@@ -403,7 +403,7 @@ div.view-gozulla-directory .addressfield-container-inline:after {
 #block-views-gozulla-directory-featured-shop,
 section#block-block-6.block {
   /* background-color: rgba(255,255,255, .8);*/
-   background: url('../images/bg_header_333.png') repeat-x top left;
+   background: #fff url('../images/bg_header_333.png') repeat-x top left;
    margin-top: 0;
    /*margin-right: 10px;*/
    padding: 0 20px;
