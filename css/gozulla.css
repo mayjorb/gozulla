@@ -380,10 +380,6 @@
    padding: 0;
    margin-top: 0.5em;
  }
- 
-input#edit-circle-value.form-text {
-  text-align: center;
-}
 
 .itrc-4 input.form-text, .isrc-4 input.form-submit {
   border: none;
@@ -404,7 +400,8 @@ div.view-gozulla-directory .addressfield-container-inline:after {
 }
 
 #block-views-active-deals-global-deal-block,
-#block-views-gozulla-directory-featured-shop {
+#block-views-gozulla-directory-featured-shop,
+section#block-block-6.block {
   /* background-color: rgba(255,255,255, .8);*/
    background: url('../images/bg_header_333.png') repeat-x top left;
    margin-top: 0;
@@ -414,18 +411,16 @@ div.view-gozulla-directory .addressfield-container-inline:after {
    
  }
  
- div.two-50 h2.block-title {
-   color: #F1F1F1;
-   margin-bottom: 20px;
-   text-transform: lowercase;
- }
+div.two-50 h2.block-title,
+section#block-block-6.block div.block-inner h2.block-title  {
+  color: #F1F1F1;
+  margin-bottom: 20px;
+  text-transform: lowercase;
+}
 
-
-
-
-
-
-
+section#block-block-6.block div.block-inner {
+  padding: 0;
+}
 
 
 
