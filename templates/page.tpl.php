@@ -53,13 +53,23 @@
 
         <?php print render($page['header']); ?>
 
-        <?php if ($page['menu_bar']): ?>
-          <div id="nav-wrapper"><?php print render($page['menu_bar']); ?></div>
-        <?php endif; ?>
+        
 
       </header>
     </div>
   </div>
+  
+  <?php if ($page['menu_bar']): ?>
+      <div id="nav-wrapper">
+        <div class="container clearfix">
+          <?php print render($page['menu_bar']); ?>
+        </div>
+      </div>
+    <?php endif; ?>
+  
+  <?php if ($page['menu_bar']): ?>
+    <div id="nav-wrapper"><?php print render($page['menu_bar']); ?></div>
+  <?php endif; ?>
   
   <?php if ($page['top_navigation_bar']): ?>
       <div id="top-nav-wrapper">

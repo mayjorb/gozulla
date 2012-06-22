@@ -156,6 +156,10 @@
     padding-left: 0;
     padding-right: 0;
   }
+  
+  #main-content {
+     padding: 0;
+   }
 }
 /* Smartphone landscape */
 @media only screen and (min-width:321px) and (max-width:480px) {
@@ -316,6 +320,10 @@
     padding-left: 0;
     padding-right: 0;
   }
+  
+  #main-content {
+    padding: 0;
+  }
 }
 /* Tablet portrait */
 @media only screen and (min-width:481px) and (max-width:768px) {
@@ -435,8 +443,6 @@
 /* Standard layout */
 @media only screen and (min-width:1025px) {
 
-
-  
   #content-wrapper {
     /*background: -moz-linear-gradient(top,  rgba(226,226,226,0) 0%, rgba(232,232,232,1) 15%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(226,226,226,0)), color-stop(15%,rgba(232,232,232,1)));
@@ -447,6 +453,7 @@
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00e2e2e2', endColorstr='#e8e8e8',GradientType=0 );*/
    
   }
+
   
   #columns {
     background-color: #fff;
@@ -475,22 +482,37 @@
   #block-views-gozulla-directory-featured-shop {
     /* background-color: rgba(255,255,255, .8);*/
      background-color: transparent;
-     margin-top: 20px;
-     margin-right: 10px;
-     padding: 20px;
+     margin-top: 0;
+     /*margin-right: 10px;*/
+     padding: 0 20px;
      min-height: 300px;
+     
+   }
+   
+   div.two-50 h2.block-title {
+     color: #F1F1F1;
+     margin-bottom: 20px;
+     text-transform: lowercase;
    }
    
  #main-content {
   /*min-height: 400px;*/
   }
   
-  section#block-views-active-deals-global-deal-block img {
+  section#block-views-active-deals-global-deal-block img,
+  section#block-views-gozulla-directory-featured-shop img {
     float: left;
     margin-right: 10px;
     margin-bottom: 30px;
   }
-  
+    
+section#block-views-gozulla-directory-featured-shop .views-field-title,
+section#block-views-gozulla-directory-featured-shop .views-field-field-address,
+section#block-views-gozulla-directory-featured-shop .views-field-field-website {
+  margin-left: 220px;
+}
+
+    
   #draw-wrapper {
     background-color: rgba(51,51,51, 1.0);
     color: #E7E7E7;
