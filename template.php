@@ -25,15 +25,15 @@ function gozulla_preprocess_html(&$vars) {
   );
   load_subtheme_media_queries($media_queries_css, 'gozulla'); // Replace 'gozulla' with your themes name
   
-  //dpm($vars);
-  
   /**
     *  set body class "sport-[sport]" so we can use different bg images for each sport
   */
   
-   $uri_array = explode('/', request_uri());
-   $sport = $uri_array[1];
-   
+  $uri_array = explode('/', request_uri());
+  $sport = $uri_array[1];
+  $sport = (explode("?", $sport));
+  $sport = $sport[0];
+
    if (!$sport || $sport == 'content') {
      $sport = 'default';
    }
