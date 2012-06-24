@@ -82,7 +82,7 @@
   }
   
   #header-wrapper {
-    background: #000 url('../images/goz_smbg_joshtree.jpg') no-repeat scroll top center;
+    background: #000 url('../images/goz_smbg_home6.jpg') no-repeat scroll top center;
     /*background-size: 100% 150px;*/
     border: none;
     min-height: 130px;
@@ -248,7 +248,7 @@
 
  /* white bg for front page sidebar second */
  .block-region-sidebar-second .block-inner {
-   background-color: #fff;
+   /*background-color: #fff;*/
  }
 
  div#page {
