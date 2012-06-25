@@ -401,7 +401,8 @@ div.view-gozulla-directory .addressfield-container-inline:after {
 
 #block-views-active-deals-global-deal-block,
 #block-views-gozulla-directory-featured-shop,
-section#block-block-6.block {
+section#block-block-6.block,
+section#block-views-feed-display-block-1 {
   /* background-color: rgba(255,255,255, .8);*/
    background: #fff url('../images/bg_header_333.png') repeat-x top left;
    margin-top: 0;
@@ -411,14 +412,41 @@ section#block-block-6.block {
    
  }
  
+section#block-views-feed-display-block-1 .view view-feed-display {
+  font-size: 0.833em;
+}
+
+ 
+section#block-views-feed-display-block-1 a {
+  font-size: 0.833em;
+  font-weight: bold;
+}
+
+section#block-views-feed-display-block-1 .views-field-field-feed-item-description {
+  font-size: 0.833em;
+}
+
+
+section#block-views-feed-display-block-1.block div.views-row  {
+  clear: both;
+  margin-bottom: 0.5em;
+}
+
+section#block-views-feed-display-block-1.block  a img {
+  float: left;
+  margin: 5px 10px 20px 0;
+}
+ 
 div.two-50 h2.block-title,
-section#block-block-6.block div.block-inner h2.block-title  {
+section#block-block-6.block div.block-inner h2.block-title,
+section#block-views-feed-display-block-1  h2.block-title {
   color: #F1F1F1;
   margin-bottom: 20px;
   text-transform: lowercase;
 }
 
-section#block-block-6.block div.block-inner {
+section#block-block-6.block div.block-inner,
+section#block-views-feed-display-block-1 div.block-inner {
   padding: 0;
 }
 
