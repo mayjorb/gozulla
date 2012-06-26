@@ -406,7 +406,7 @@ section#block-views-feed-display-block-1 {
   /* background-color: rgba(255,255,255, .8);*/
    background: #fff url('../images/bg_header_333.png') repeat-x top left;
    margin-top: 0;
-   /*margin-right: 10px;*/
+   margin-bottom: 20px;
    padding: 0 20px;
    min-height: 300px;
    
@@ -422,10 +422,9 @@ section#block-views-feed-display-block-1 a {
   font-weight: bold;
 }
 
-section#block-views-feed-display-block-1 .views-field-field-feed-item-description {
+section#block-views-feed-display-block-1 .views-field-field-sport-feed-description {
   font-size: 0.833em;
 }
-
 
 section#block-views-feed-display-block-1.block div.views-row  {
   clear: both;
@@ -448,6 +447,11 @@ section#block-views-feed-display-block-1  h2.block-title {
 section#block-block-6.block div.block-inner,
 section#block-views-feed-display-block-1 div.block-inner {
   padding: 0;
+}
+
+section#block-views-active-deals-global-deal-block .view-display-id-global_deal_block,
+section#block-views-gozulla-directory-featured-shop .view-display-id-featured_shop {
+  margin-bottom: 4em;
 }
 
 
