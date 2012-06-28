@@ -451,8 +451,23 @@ section#block-views-feed-display-block-1 div.block-inner {
 
 section#block-views-active-deals-global-deal-block .view-display-id-global_deal_block,
 section#block-views-gozulla-directory-featured-shop .view-display-id-featured_shop {
-  margin-bottom: 4em;
+  margin-bottom: 2.5em;
 }
 
+#page-footer {
+  padding: 0;
+  margin: 0;
+  background: #7F7F7F;
+}
 
+#footer-panels-wrapper {
+    padding: 0;
+    margin: 0;
+}
 
+nav#block-menu-menu-footer-menu.block {
+  margin-bottom: 0;
+  padding: 3px 0 6px 0;
+}
+
+div.block-content content no-title 
