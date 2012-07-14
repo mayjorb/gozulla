@@ -361,14 +361,15 @@
 
  }
  
-
- fieldset#edit-circle.openlayers-proximity-filter-exposed {
-   padding: 0.25em 0.25em 0.25em 0.5em;
-   border: none;
- }
+fieldset#edit-circle.openlayers-proximity-filter-exposed div.fieldset-wrapper div.form-item {
+   width: auto;
+}
  
- #edit-circle-wrapper {
-   width: 75%;
+ 
+ fieldset#edit-circle.openlayers-proximity-filter-exposed {
+  padding: 0.25em 0.25em 0.25em 0.5em;
+  border: none;
+  width: auto;
  }
  
  .views-exposed-form .views-exposed-widget {
@@ -380,6 +381,10 @@
    padding: 0;
    margin-top: 0.5em;
  }
+ 
+.form-item-circle-value input#edit-circle-value.form-text {
+  text-align: center;
+}
 
 .itrc-4 input.form-text, .isrc-4 input.form-submit {
   border: none;
@@ -461,8 +466,8 @@ section#block-views-gozulla-directory-featured-shop .view-display-id-featured_sh
 }
 
 #footer-panels-wrapper {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 nav#block-menu-menu-footer-menu.block {
@@ -470,4 +475,18 @@ nav#block-menu-menu-footer-menu.block {
   padding: 3px 0 6px 0;
 }
 
-div.block-content content no-title 
+#block-menu-menu-sport-links ul.menu li {
+  float: left;
+  margin-right: 1em;
+  list-style-image: none;
+  list-style-type: none;
+}
+
+.view-gozulla-directory .field-prefix,
+.view-gozulla-directory .field-suffix {
+  font-size: 0.917em;
+}
+
+#views-exposed-form-gozulla-directory-deals input#edit-circle-location.form-text {
+  width: 18.0em;
+}
