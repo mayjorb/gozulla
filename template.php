@@ -1,29 +1,31 @@
 <?php
-// Footheme by Adaptivethemes.com, a starter sub-sub-theme.
 
 /**
- * Rename each function and instance of "footheme" to match
- * your subthemes name, e.g. if you name your theme "footheme" then the function
- * name will be "footheme_preprocess_hook". Tip - you can search/replace
- * on "footheme".
+ * @file
+ * Template.php - process theme data for your sub-theme.
+ * 
+ * Rename each function and instance of "gozulla" to match
+ * your subthemes name, e.g. if you name your theme "gozulla" then the function
+ * name will be "gozulla_preprocess_hook". Tip - you can search/replace
+ * on "gozulla".
  */
 
+
 /**
- * Override or insert variables into the html templates.
- * Replace 'footheme' with your themes name, i.e. mytheme_preprocess_html()
+ * Override or insert variables for the html template.
  */
- 
- 
+
 function gozulla_preprocess_html(&$vars) {
-
+  
   // Load the media queries styles
-  // If you change the names of these files they must match here - these files are
-  // in the /css/ directory of your subtheme - the names must be identical!
-  $media_queries_css = array(
-    'gozulla.responsive.style.css',
-    'gozulla.responsive.gpanels.css'
-  );
-  load_subtheme_media_queries($media_queries_css, 'gozulla'); // Replace 'gozulla' with your themes name
+   // If you change the names of these files they must match here - these files are
+   // in the /css/ directory of your subtheme - the names must be identical!
+   $media_queries_css = array(
+     'gozulla.responsive.style.css',
+     'gozulla.responsive.gpanels.css'
+   );
+   //load_subtheme_media_queries($media_queries_css, 'gozulla'); // Replace 'gozulla' with your themes name
+  
   
   /**
     *  set body class "sport-[sport]" so we can use different bg images for each sport
@@ -40,41 +42,66 @@ function gozulla_preprocess_html(&$vars) {
 
    $vars['classes_array'][] = drupal_html_class('sport-' . $sport);
   
- 
- /**
-  * Load IE specific stylesheets
-  * AT automates adding IE stylesheets, simply add to the array using
-  * the conditional comment as the key and the stylesheet name as the value.
-  *
-  * See our online help: http://adaptivethemes.com/documentation/working-with-internet-explorer
-  *
-  * For example to add a stylesheet for IE8 only use:
-  *
-  *  'IE 8' => 'ie-8.css',
-  *
-  * Your IE CSS file must be in the /css/ directory in your subtheme.
-  */
-  /* -- Delete this line to add a conditional stylesheet for IE 7 or less.
-  $ie_files = array(
-    'lte IE 7' => 'ie-lte-7.css',
-  );
-  load_subtheme_ie_styles($ie_files, 'footheme'); // Replace 'footheme' with your themes name
-  // */
-
+  
 }
+/* function gozulla_process_html(&$vars) {
+}
+// */
+
+
+/**
+ * Override or insert variables for the page templates.
+ */
 
 function gozulla_preprocess_page(&$vars) {
   
   $sport = '';
-  if (!$sport || $sport == 'content') {
-    $sport = 'default';
-  }
-   
-  $vars['current_sport'] = $sport;
- 
+   if (!$sport || $sport == 'content') {
+     $sport = 'default';
+   }
 
-  // Populate the page template suggestions.
-  if ($suggestions = theme_get_suggestions(arg(), 'page')) {
-    $vars['theme_hook_suggestions'] = $suggestions;
-  }
+   $vars['current_sport'] = $sport;
+
+
+   // Populate the page template suggestions.
+   if ($suggestions = theme_get_suggestions(arg(), 'page')) {
+     $vars['theme_hook_suggestions'] = $suggestions;
+   }
+   
 }
+/* function gozulla_process_page(&$vars) {
+}
+// */
+
+
+/**
+ * Override or insert variables into the node templates.
+ */
+/* -- Delete this line if you want to use these functions
+function gozulla_preprocess_node(&$vars) {
+}
+function gozulla_process_node(&$vars) {
+}
+// */
+
+
+/**
+ * Override or insert variables into the comment templates.
+ */
+/* -- Delete this line if you want to use these functions
+function gozulla_preprocess_comment(&$vars) {
+}
+function gozulla_process_comment(&$vars) {
+}
+// */
+
+
+/**
+ * Override or insert variables into the block templates.
+ */
+/* -- Delete this line if you want to use these functions
+function gozulla_preprocess_block(&$vars) {
+}
+function gozulla_process_block(&$vars) {
+}
+// */

@@ -95,6 +95,7 @@
   #columns {
     background-color: #fff;
  }
+ 
  #top-nav-wrapper {
    margin: 0;
    padding: 0;
@@ -132,6 +133,7 @@
    min-width: 25%;
    max-width: 50%;
  }
+ 
  #draw {
    display: block;
    width: 100%;
@@ -345,6 +347,10 @@
    border: 1px solid #ababab;
  }
  
+ div.at-panel {
+   background: url('../images/bg_header_333.png') repeat-x top left;
+ }
+ 
  #content-column .content-inner .two-50 {
    border-top: 1px solid #ababab;
       background: url('../images/bg_header_333.png') repeat-x top left;
@@ -354,13 +360,14 @@
    border-right: 1px solid #ababab;
  }
  
+div.at-panel div.region.region-two-50-first, 
+div.at-panel div.region.region-two-50-second {
+  width: 49%;
+}
 
- .two-50 .region-two-50-first {
-    width: 49%;
-    border-right: 1px solid #ababab;
-
- }
- 
+div.at-panel div.region.region-two-50-first {
+  border-right: 1px solid #ababab;
+}
 fieldset#edit-circle.openlayers-proximity-filter-exposed div.fieldset-wrapper div.form-item {
    width: auto;
 }
@@ -490,3 +497,12 @@ nav#block-menu-menu-footer-menu.block {
 #views-exposed-form-gozulla-directory-deals input#edit-circle-location.form-text {
   width: 18.0em;
 }
+
+section#block-views-active-deals-global-deal-block img, 
+section#block-views-gozulla-directory-featured-shop img,
+section#block-views-active-deals-block-1 img {
+  float: left;
+  margin-bottom: 120px;
+  margin-right: 15px;
+}
+

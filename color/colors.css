@@ -118,35 +118,69 @@ h1, h2, h3, .title {
 #menu-bar {
   background: #212121;
 }
-.nav ul li a,
-.nav ul li a:hover,
-.nav ul li a:focus,
-.nav  ul li a:active {
+.nav .block-menu ul li a {
   color: #fcfcfc;
 }
-.nav ul li a:hover,
-.nav ul li a:focus,
-.nav  ul li a:active {
+.nav .block-menu ul li:hover,
+.nav .block-menu ul li.focus,
+.nav .block-menu ul a:focus,
+.nav .block-menu ul a:hover,
+.nav .block-menu ul a:active,
+.nav .block-menu ul a:visited {
   color: #fafafa;
   background: #0c2d4d;
 }
-.nav ul ul {
+.nav .block-menu ul ul {
   background: #212121;
-  opacity: 0.9;
-  filter: alpha(opacity = 90);
+  opacity: 0.95;
+  filter: alpha(opacity = 95);
+  margin-left: 0;
 }
 
-
-/* Superfish Skin */
-.sf-menu a {
+/* Superfish Skin - we keep the Superfish skin seperate so we can special case
+   if we really need to */
+.sf-menu.sf-style-default a {
   border: 0;
 }
+.sf-menu.sf-style-default a,
+.sf-menu.sf-style-default a:visited  {
+  color: #fcfcfc;
+}
+.sf-menu.sf-style-default span.sf-description {
+  color: #ffffef;
+}
+.sf-menu.sf-style-default li li,
+.sf-menu.sf-style-default.sf-navbar li ul {
+  background-color: #0c2d4d;
+}
+.sf-menu.sf-style-default li li li {
+  background-color: #0c2d4d;
+}
+.sf-menu.sf-style-default li:hover,
+.sf-menu.sf-style-default li.sfHover,
+.sf-menu.sf-style-default a:focus,
+.sf-menu.sf-style-default a:hover,
+.sf-menu.sf-style-default a:active {
+  background-color: #0c2d4d;
+}
+.sf-menu.sf-style-default li,
+.sf-menu.sf-style-default.sf-navbar,
+.sf-menu.sf-style-default ul li:hover,
+.sf-menu.sf-style-default ul li.sfHover,
+.sf-menu.sf-style-default ul a:focus,
+.sf-menu.sf-style-default ul a:hover,
+.sf-menu.sf-style-default ul a:active {
+  background-color: #212121;
+}
+.sf-menu.sf-style-default.sf-navbar li ul li ul {
+  background-color: transparent;
+}
 
-/* articles */
-.article-teaser.article-sticky {
+/* nodes */
+.node-teaser.node-sticky {
  background: #f9f9f9;
 }
-article header {
+node header {
  border-bottom: 1px solid #dd5d5;
 }
 
@@ -242,10 +276,10 @@ input.list-add-to-cart {
 }
 
 /* Content Display Grid */
-.content-display-grid article .article-inner {
+.content-display-grid node .node-inner {
   border: 5px solid #f5f5f5;
 }
-.content-display-grid article .article-inner:hover {
+.content-display-grid node .node-inner:hover {
   border-width: 5px;
   border-style: solid;
   border-color: #d5d5d5;
