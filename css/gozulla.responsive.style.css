@@ -1,8 +1,6 @@
-/* Specific overrides for screen sizes */
-
 /* Smartphone portrait */
 @media only screen and (max-width:320px) {
-  
+
   html {
    background-image: none;
   }
@@ -26,493 +24,67 @@
     border: none;
     min-height: 60px;
    }
-  header#header div#branding {
-    float: none;
-    margin: auto;
-    text-align: center; 
-  }
-  header#header div.region-header {
-    display: table;
-    float: none;
-    margin: 15px auto 0;
-    text-align: center;
-    width: auto;
-  }
-  header#header div.region-header .block {
-    clear: both;
-    display: block;
-    margin: auto;
-    padding: 0 0 10px !important;
-    text-align: left;
-    width: auto;
-  }
-  header#header div.region-header .block-inner {
-    /*margin: 0 20px;*/
-  }
-  header#header div#logo,
-  header#header h1#site-name,
-  header#header h2#site-slogan {
-    float: none;
-    margin: 0;
-    padding: 0 0 6px;
-    text-align: center;
-  }
-  
-  header h1#page-title {
-    font-size: 1.25em;
-  }
-  #menu-bar-wrapper,
-  #menu-bar {
-    min-height: 3em;
-    height: auto;
-  }
-  #menu-bar {
-    padding: 0 2px;
-  }
-  #menu-bar .block {
-    clear: both;
-    float: none;
-  }
-  #menu-bar .menu-wrapper > ul,
-  #menu-bar .menu-wrapper > ul > li {
-    display: block;
-    float: none;
-    margin: 0;
-    overflow: hidden;
-    border-bottom: 1px solid rgba(255,255,255,0.5);
-  }
-  #menu-bar .menu-wrapper ul > li > a {
-    padding: 6px 10px 8px;
-    -moz-border-radius: 0 !important;
-    -webkit-border-radius: 0 !important;
-    border-radius: 0 !important;
-  }
-  #menu-bar .menu-wrapper ul,
-  #menu-bar .menu-wrapper ul li.last {
-    border: 0;
-  }
-  #menu-bar .sf-menu {
-    height: auto;
-    padding: 2px 0;
-  }
-  #menu-bar .menu-wrapper ul ul {
-    display: none !important;
-  }
-  .region-header .block {
-    overflow: hidden;
-  }
-  .region-draw .block {
-    float: none;
-    display: block;
-    min-width: 0;
-    max-width: 100%;
-    margin: 0 auto 10px;
-  }
-  .article-title {
-    font-size: 1.5em;
-  }
-  #secondary-content-wrapper .block-content-inner {
-    padding: 0;
-  }
-  #secondary-content-wrapper .block-content-inner  img {
-    max-width: 280px;
-    display: block;
-    margin: 10px auto;
-  }
-  #secondary-content-wrapper .block-content-inner .views-row {
-    max-width: 90%;
-    margin: auto;
-  }
-  #secondary-content-wrapper .block-content-inner .image-right,
-  #secondary-content-wrapper .block-content-inner .image-left,
-  .field-type-image {
-    float: none !important;
-    display: block !important;
-    margin: auto !important;
-    text-align: center !important;
-  }
-  .flexslider ul.flex-direction-nav {
-    top: 10px !important;
-  }
-  .content-display-grid .block-inner {
-    margin: 0;
-  }
-  /* Force tableviews-view-grid to not be like a table anymore */
-  table.views-view-grid,
-  table.views-view-grid thead,
-  table.views-view-grid tbody,
-  table.views-view-grid th,
-  table.views-view-grid td,
-  table.views-view-grid tr {
-    display: block;
-    padding: 0;
-  }
-  /* Hide table headers */
-  table.views-view-grid thead tr {
-    position: absolute;
-    top: -9999px;
-    left: -9999px;
-  }
-  .views-view-grid td {
-    position: relative;
-  }
-  .views-view-grid .field-type-image img {
-    padding-left: 0;
-    padding-right: 0;
-  }
-  
-  #main-content {
+
+
+
+   #main-content {
      padding: 0;
    }
-   
-  fieldset#edit-circle.openlayers-proximity-filter-exposed {
-   width: 300px;
-   }
-   
+
+   fieldset#edit-circle.openlayers-proximity-filter-exposed {
+    width: 260px;
+    }
+
 }
+
 /* Smartphone landscape */
 @media only screen and (min-width:321px) and (max-width:480px) {
-  header#header div#branding {
-    float: none;
-    margin: auto;
-    text-align: center; 
-  }
-  html {
-   background-image: none;
-  }
-  body.sport-surf #header-wrapper,
-  body.sport-bike #header-wrapper,
-  body.sport-skate #header-wrapper,
-  body.sport-snow #header-wrapper,
-  body.sport-boat #header-wrapper,
-  body.sport-golf #header-wrapper,
-  body.sport-disc #header-wrapper,
-  body.sport-climb #header-wrapper,
-  body.sport-help #header-wrapper,
-  #header-wrapper  {
-    background: -moz-linear-gradient(top,  rgba(124,11,13,1) 0%, rgba(196,16,22,1) 75%, rgba(236,28,36,0.9) 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(124,11,13,1)), color-stop(75%,rgba(196,16,22,1)), color-stop(100%,rgba(236,28,36,0.9)));
-    background: -webkit-linear-gradient(top,  rgba(124,11,13,1) 0%,rgba(196,16,22,1) 75%,rgba(236,28,36,0.9) 100%);
-    background: -o-linear-gradient(top,  rgba(124,11,13,1) 0%,rgba(196,16,22,1) 75%,rgba(236,28,36,0.9) 100%);
-    background: -ms-linear-gradient(top,  rgba(124,11,13,1) 0%,rgba(196,16,22,1) 75%,rgba(236,28,36,0.9) 100%);
-    background: linear-gradient(top,  rgba(124,11,13,1) 0%,rgba(196,16,22,1) 75%,rgba(236,28,36,0.9) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7c0b0d', endColorstr='#e6ec1c24',GradientType=0 );
-    border: none;
-    min-height: 60px;
-   } 
-   
-   #branding {
-   margin: 0 0 0 18px;
-   }
-  header#header div.region-header {
-    display: table;
-    float: none;
-    margin: 15px auto 0;
-    text-align: center;
-    width: auto;
-  }
-  header#header div.region-header .block {
-    clear: both;
-    display: block;
-    margin: auto;
-    padding: 0 0 10px !important;
-    text-align: left;
-    width: auto;
-  }
-  header#header div.region-header .block-inner {
-    margin: 0 20px;
-  }
-  header#header div#logo,
-  header#header h1#site-name,
-  header#header h2#site-slogan {
-    float: none;
-    margin: 0;
-    padding: 0 0 6px;
-    text-align: center;
-  }
-  #menu-bar-wrapper,
-  #menu-bar {
-    min-height: 3em;
-    height: auto;
-  }
-  #menu-bar {
-    padding: 0 2px;
-  }
-  #menu-bar .block {
-    clear: both;
-    float: none;
-  }
-  #menu-bar .menu-wrapper ul ul {
-    display: none !important;
-  }
-  #menu-bar .menu-wrapper > ul,
-  #menu-bar .menu-wrapper > ul > li {
-    display: block;
-    float: none;
-    margin: 0;
-    overflow: hidden;
-    border-bottom: 1px solid rgba(255,255,255,0.5);
-  }
-  #menu-bar .menu-wrapper ul > li > a {
-    padding: 6px 10px 8px;
-    -moz-border-radius: 0 !important;
-    -webkit-border-radius: 0 !important;
-    border-radius: 0 !important;
-  }
-  #menu-bar .menu-wrapper ul,
-  #menu-bar .menu-wrapper ul li.last {
-    border: 0;
-  }
-  #menu-bar .sf-menu {
-    height: auto;
-    padding: 2px 0;
-  }
-  .region-header .block {
-    overflow: hidden;
-  }
-  .region-draw .block {
-    float: none;
-    display: block;
-    min-width: 0;
-    max-width: 100%;
-    margin: 0 auto 10px;
-  }
-  .article-title {
-    font-size: 1.25em;
-  }
-  #secondary-content-wrapper .block-content-inner {
-    padding: 0;
-  }
-  #secondary-content-wrapper .block-content-inner  img {
-    max-width: 280px;
-    display: block;
-    margin: 10px auto;
-  }
-  #secondary-content-wrapper .block-content-inner .views-row {
-    max-width: 90%;
-    margin: auto;
-  }
-  #secondary-content-wrapper .block-content-inner .image-right,
-  #secondary-content-wrapper .block-content-inner .image-left,
-  .field-type-image {
-    float: none !important;
-    display: block !important;
-    margin: auto !important;
-    text-align: center !important;
-  }
-  .flexslider ul.flex-direction-nav {
-    top: 10px !important;
-  }
-  .content-display-grid .block-inner {
-    margin: 0;
-  }
-  /* Force tableviews-view-grid to not be like a table anymore */
-  table.views-view-grid,
-  table.views-view-grid thead,
-  table.views-view-grid tbody,
-  table.views-view-grid th,
-  table.views-view-grid td,
-  table.views-view-grid tr {
-    display: block;
-    padding: 0;
-  }
-  /* Hide table headers */
-  table.views-view-grid thead tr {
-    position: absolute;
-    top: -9999px;
-    left: -9999px;
-  }
-  .views-view-grid td {
-    float: left;
-  }
-  .views-view-grid .field-type-image img {
-    padding-left: 0;
-    padding-right: 0;
-  }
-  
-  #main-content {
-    padding: 0;
-  }
-  
-  fieldset#edit-circle.openlayers-proximity-filter-exposed {
-   width: 300px;
-   }
-   
+
+
+html {
+ background-image: none;
 }
+body.sport-surf #header-wrapper,
+body.sport-bike #header-wrapper,
+body.sport-skate #header-wrapper,
+body.sport-snow #header-wrapper,
+body.sport-boat #header-wrapper,
+body.sport-golf #header-wrapper,
+body.sport-disc #header-wrapper,
+body.sport-climb #header-wrapper,
+body.sport-help #header-wrapper,
+#header-wrapper  {
+  background: -moz-linear-gradient(top,  rgba(124,11,13,1) 0%, rgba(196,16,22,1) 75%, rgba(236,28,36,0.9) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(124,11,13,1)), color-stop(75%,rgba(196,16,22,1)), color-stop(100%,rgba(236,28,36,0.9)));
+  background: -webkit-linear-gradient(top,  rgba(124,11,13,1) 0%,rgba(196,16,22,1) 75%,rgba(236,28,36,0.9) 100%);
+  background: -o-linear-gradient(top,  rgba(124,11,13,1) 0%,rgba(196,16,22,1) 75%,rgba(236,28,36,0.9) 100%);
+  background: -ms-linear-gradient(top,  rgba(124,11,13,1) 0%,rgba(196,16,22,1) 75%,rgba(236,28,36,0.9) 100%);
+  background: linear-gradient(top,  rgba(124,11,13,1) 0%,rgba(196,16,22,1) 75%,rgba(236,28,36,0.9) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7c0b0d', endColorstr='#e6ec1c24',GradientType=0 );
+  border: none;
+  min-height: 60px;
+ }
+ 
+
+ 
+ #main-content {
+   padding: 0;
+ }
+ 
+ fieldset#edit-circle.openlayers-proximity-filter-exposed {
+  width: 300px;
+  }
+ 
+}
+
 /* Tablet portrait */
 @media only screen and (min-width:481px) and (max-width:768px) {
-  header#header div#branding {
-    float: none;
-    margin: auto;
-    text-align: center; 
-  }
-  header#header div.region-header {
-    display: table;
-    float: none;
-    margin: 15px auto 0;
-    text-align: center;
-    width: auto;
-  }
-  header#header div.region-header .block {
-    clear: none;
-    display: inline;
-    margin: auto;
-    padding: 0 0 15px !important;
-    text-align: left;
-    width: auto;
-  }
-  header#header div.region-header .block-inner {
-    margin: 0 20px;
-  }
-  header#header div#logo,
-  header#header h1#site-name,
-  header#header h2#site-slogan {
-    float: none;
-    margin: 0;
-    padding: 0 0 6px;
-    text-align: center;
-  }
-  .hl-r #logo {
-    padding: 0 3px 7px 10px;
-  }
-  .hl-l #logo {
-    padding: 0 10px 7px 3px;
-  }
-  #site-name {
-    font-size: 1.8em;
-  }
-  #secondary-content-wrapper .block-content-inner  .image-right,
-  #secondary-content-wrapper .block-content-inner  .image-left,
-  #secondary-content-wrapper .block-content-inner  .field-type-image,
-  #secondary-content-wrapper .block-content-inner  figure  {
-    max-width: 50%;
-  }
-  #secondary-content-wrapper .block-content-inner img {
-    max-width: 100%;
-  }
-  .flexslider ul.flex-direction-nav {
-    top: 25% !important;
-  }
-  /* Force tableviews-view-grid to not be like a table anymore */
-  table.views-view-grid,
-  table.views-view-grid thead,
-  table.views-view-grid tbody,
-  table.views-view-grid th,
-  table.views-view-grid td,
-  table.views-view-grid tr {
-    display: block;
-    padding: 0;
-  }
-  /* Hide table headers */
-  table.views-view-grid thead tr {
-    position: absolute;
-    top: -9999px;
-    left: -9999px;
-  }
-  .views-view-grid td {
-    float: left;
-  }
-  .views-view-grid .field-type-image img {
-    padding-left: 0;
-    padding-right: 0;
-  }
 }
+
 /* Tablet landscape */
 @media only screen and (min-width:769px) and (max-width:1024px) {
-  .hl-r #logo {
-    padding: 0 3px 7px 0;
-  }
-  .hl-l #logo {
-    padding: 0 0 7px 3px;
-  }
-  #site-name {
-    font-size: 2em;
-    white-space: pre;
-  }
-  /* Force tableviews-view-grid to not be like a table anymore */
-  table.views-view-grid,
-  table.views-view-grid thead,
-  table.views-view-grid tbody,
-  table.views-view-grid th,
-  table.views-view-grid td,
-  table.views-view-grid tr {
-    display: block;
-    padding: 0;
-  }
-  /* Hide table headers */
-  table.views-view-grid thead tr {
-    position: absolute;
-    top: -9999px;
-    left: -9999px;
-  }
-  .views-view-grid td {
-    float: left;
-  }
-  .views-view-grid .field-type-image img {
-    padding-left: 0;
-    padding-right: 0;
-  }
 }
 
 /* Standard layout */
 @media only screen and (min-width:1025px) {
-
-  #content-wrapper {
-    /*background: -moz-linear-gradient(top,  rgba(226,226,226,0) 0%, rgba(232,232,232,1) 15%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(226,226,226,0)), color-stop(15%,rgba(232,232,232,1)));
-    background: -webkit-linear-gradient(top,  rgba(226,226,226,0) 0%,rgba(232,232,232,1) 15%);
-    background: -o-linear-gradient(top,  rgba(226,226,226,0) 0%,rgba(232,232,232,1) 15%);
-    background: -ms-linear-gradient(top,  rgba(226,226,226,0) 0%,rgba(232,232,232,1) 15%);
-    background: linear-gradient(top,  rgba(226,226,226,0) 0%,rgba(232,232,232,1) 15%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00e2e2e2', endColorstr='#e8e8e8',GradientType=0 );*/
-   
-  }
-
-  
-  #columns {
-    background-color: #fff;
-   /* border: 1px solid #333; */
-    /*background: -moz-linear-gradient(top,  rgba(226,226,226,0) 0%, rgba(255,255,255,1) 15%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(226,226,226,0)), color-stop(15%,rgba(255,255,255,1)));
-    background: -webkit-linear-gradient(top,  rgba(226,226,226,0) 0%,rgba(255,255,255,1) 15%);
-    background: -o-linear-gradient(top,  rgba(226,226,226,0) 0%,rgba(255,255,255,1) 15%);
-    background: -ms-linear-gradient(top,  rgba(226,226,226,0) 0%,rgba(255,255,255,1) 15%);
-    background: linear-gradient(top,  rgba(226,226,226,0) 0%,rgba(255,255,255,1) 15%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00e2e2e2', endColorstr='#ffffff',GradientType=0 );*/
-    
-  }
-  .region-sidebar-second {
-   /*margin-top: 10px;*/
-  }
-  
-  .block-region-sidebar-second .block-inner {
-    /*background-color: rgba(255,255,255, .8);*/
-    background-color: transparent;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-  
-  
- #main-content {
-  /*min-height: 400px;*/
-  }
-  
-
-/*section#block-views-gozulla-directory-featured-shop .views-field-title,
-section#block-views-gozulla-directory-featured-shop .views-field-field-address,
-section#block-views-gozulla-directory-featured-shop .views-field-field-website {
-  margin-left: 220px;
-}*/
-
-    
-  #draw-wrapper {
-    background-color: rgba(51,51,51, 1.0);
-    color: #E7E7E7;
-  }
-  
-  #header-wrapper {
-    border-bottom: none;
-    }
-  }
-
 }
