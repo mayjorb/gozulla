@@ -14,7 +14,7 @@
   ; Enable the custom stylesheet and get hacking!
   stylesheets[all][] = color/colors.css
   stylesheets[all][] = css/gozulla.css
-  ;stylesheets[all][] = css/gozulla.responsive.style.css
+  stylesheets[all][] = css/gozulla.responsive.style.css
 
 
   ; Internet Explorer Stylesheets
