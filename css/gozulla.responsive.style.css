@@ -34,6 +34,14 @@
    fieldset#edit-circle.openlayers-proximity-filter-exposed {
     width: 260px;
     }
+    
+    section#block-views-active-deals-global-deal-block img, 
+    section#block-views-gozulla-directory-featured-shop img,
+    section#block-views-active-deals-block-1 img {
+      float: right;
+      margin-bottom: 1em;
+      margin-left: 1em;
+    }
 
 }
 
@@ -74,6 +82,15 @@ body.sport-help #header-wrapper,
  fieldset#edit-circle.openlayers-proximity-filter-exposed {
   width: 300px;
   }
+  
+  section#block-views-active-deals-global-deal-block img, 
+  section#block-views-gozulla-directory-featured-shop img,
+  section#block-views-active-deals-block-1 img {
+    float: right;
+    margin-bottom: 1em;
+    margin-left: 1em;
+  }
+  
  
 }
 
