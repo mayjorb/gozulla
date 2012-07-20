@@ -540,3 +540,10 @@ section#block-views-active-deals-block-1 img {
   margin-right: 15px;
 }
 
+#block-menu-menu-footer-menu ul li {
+  margin: 0 2em;
+  float: left;
+  display: inline-block;
+  
+}
+
