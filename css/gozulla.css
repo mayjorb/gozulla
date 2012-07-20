@@ -347,36 +347,42 @@
    border: 1px solid #ababab;
  }
  
- div.at-panel {
+ .section-home div.at-panel,
+ div.region-two-50-second {
    background: url('../images/bg_header_333.png') repeat-x top left;
  }
- 
- #content-column .content-inner .two-50 {
-   border-top: 1px solid #ababab;
-      background: url('../images/bg_header_333.png') repeat-x top left;
- }
+
+
+
+ body.section-home div.at-panel {
+    border-top: 1px solid #ababab;
+       background: url('../images/bg_header_333.png') repeat-x top left;
+  }
  
  .sidebar-second .content-inner {
    border-right: 1px solid #ababab;
  }
  
-div.at-panel div.region.region-two-50-first, 
-div.at-panel div.region.region-two-50-second {
-  width: 49%;
-}
+ div.at-panel div.region.region-two-50-first, 
+ div.at-panel div.region.region-two-50-second {
+   width: 49%;
+ }
 
 div.at-panel div.region.region-two-50-first {
   border-right: 1px solid #ababab;
+  /*background: url('../images/column-border.png') repeat-y top right;*/
 }
+
 fieldset#edit-circle.openlayers-proximity-filter-exposed div.fieldset-wrapper div.form-item {
    width: auto;
 }
- 
+
  
  fieldset#edit-circle.openlayers-proximity-filter-exposed {
-  padding: 0.25em 0.25em 0.25em 0.5em;
+  padding: 0 0 0 1em;
+  margin: 0;
   border: none;
-  width: auto;
+  font-size: 0.75em;
  }
  
  .views-exposed-form .views-exposed-widget {
@@ -386,11 +392,12 @@ fieldset#edit-circle.openlayers-proximity-filter-exposed div.fieldset-wrapper di
  
  .views-exposed-form .views-exposed-widget .form-submit {
    padding: 0;
-   margin-top: 0.5em;
+   margin-top: 0.25em;
  }
  
 .form-item-circle-value input#edit-circle-value.form-text {
   text-align: center;
+  width: 1.5em;
 }
 
 .itrc-4 input.form-text, .isrc-4 input.form-submit {
@@ -422,6 +429,10 @@ section#block-views-feed-display-block-1 {
    padding: 0 20px;
    min-height: 300px;
    
+ }
+ 
+ #content-column .at-panel {
+   padding: 0 20px;
  }
  
 section#block-views-feed-display-block-1 .view view-feed-display {
@@ -482,27 +493,50 @@ nav#block-menu-menu-footer-menu.block {
   padding: 3px 0 6px 0;
 }
 
-#block-menu-menu-sport-links ul.menu li {
-  float: left;
-  margin-right: 1em;
-  list-style-image: none;
-  list-style-type: none;
+
+
+
+.view-id-gozulla_directory div.views-exposed-widgets {
+   border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 2px 2px rgba(0, 0, 0, 0.07) inset;
+    padding: 0;
+    margin: 0;
 }
 
-.view-gozulla-directory .field-prefix,
-.view-gozulla-directory .field-suffix {
-  font-size: 0.917em;
+
+fieldset#edit-circle {
+  box-shadow: none;
 }
 
-#views-exposed-form-gozulla-directory-deals input#edit-circle-location.form-text {
-  width: 18.0em;
-}
+
+ /* add tabs to the mobile sports menu */
+  #block-menu-menu-sport-links ul.menu li a {
+    float: left;
+    font-size: 1.25em;
+    background-color: #E0E0E0;
+    background-image: -moz-linear-gradient(-90deg, #E0E0E0, #EBEBEB);
+    border-top: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+    /*border-bottom: 1px solid #CCC;*/
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    list-style-image: none;
+    list-style-type: none;
+  }
+  
+  #block-menu-menu-sport-links ul.menu li a.active,
+  #block-menu-menu-sport-links ul.menu li a:hover {
+    background: #fff;
+    border-bottom: none;
+  }
+  
+ 
 
 section#block-views-active-deals-global-deal-block img, 
 section#block-views-gozulla-directory-featured-shop img,
 section#block-views-active-deals-block-1 img {
-  float: left;
-  margin-bottom: 120px;
+  float: right;
+  margin-bottom: 15px;
   margin-right: 15px;
 }
 

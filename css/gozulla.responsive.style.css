@@ -25,15 +25,26 @@
     min-height: 60px;
    }
 
+   #branding {
+     margin: 0;
+   }
 
 
    #main-content {
      padding: 0;
    }
+   
+   #content-wrapper {
+     border-bottom: none;
+     border-top: none;
+     padding-top: 0 !important;
+   }
+   
+   header h1#page-title {
+     display: none;
+   }
+   
 
-   fieldset#edit-circle.openlayers-proximity-filter-exposed {
-    width: 260px;
-    }
     
     section#block-views-active-deals-global-deal-block img, 
     section#block-views-gozulla-directory-featured-shop img,
@@ -42,7 +53,37 @@
       margin-bottom: 1em;
       margin-left: 1em;
     }
+    
+    
+    #block-menu-menu-sport-links {
+      font-size: 0.75em;
+    }
+    
+    #main-content {
+      margin: 0;
+      padding: 0;
+    }
 
+    #content {
+      margin: 0;
+    } 
+    
+   #block-menu-menu-sport-links.block div.block-inner {
+     margin: 0;
+   }
+    
+    
+    #block-menu-menu-sport-links.block-menu-sport-links {
+      margin: 0;
+      padding: 0;
+    }
+    
+    #block-menu-menu-sport-links {
+      width: 100%;
+      background-color: #E0E0E0;
+      background-image: -moz-linear-gradient(-90deg, #E0E0E0, #EBEBEB);
+    }
+    
 }
 
 /* Smartphone landscape */
@@ -73,16 +114,26 @@ body.sport-help #header-wrapper,
   min-height: 60px;
  }
  
-
+ #branding {
+   margin: 0;
+ }
  
  #main-content {
    padding: 0;
  }
  
- fieldset#edit-circle.openlayers-proximity-filter-exposed {
-  width: 300px;
-  }
-  
+ #content-wrapper {
+   border-bottom: none;
+   border-top: none;
+   padding-top: 0 !important;
+ }
+
+ header h1#page-title {
+   display: none;
+ }
+ 
+
+
   section#block-views-active-deals-global-deal-block img, 
   section#block-views-gozulla-directory-featured-shop img,
   section#block-views-active-deals-block-1 img {
@@ -91,7 +142,35 @@ body.sport-help #header-wrapper,
     margin-left: 1em;
   }
   
+  #main-content {
+    padding: 0;
+    margin: 0;
+  }
+  
+  #content {
+    margin: 0;
+  }
+  
+  #block-menu-menu-sport-links.block div.block-inner {
+    margin: 0;
+    font-size: 0.75em;
+  }
+  
  
+  
+  #block-menu-menu-sport-links {
+    
+    margin: 0;
+    padding: 0;
+  }
+  
+  #block-menu-menu-sport-links {
+    width: 100%;
+    background-color: #E0E0E0;
+    background-image: -moz-linear-gradient(-90deg, #E0E0E0, #EBEBEB);
+  }
+  
+
 }
 
 /* Tablet portrait */
