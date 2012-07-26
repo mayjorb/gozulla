@@ -392,7 +392,7 @@ fieldset#edit-circle.openlayers-proximity-filter-exposed div.fieldset-wrapper di
  
  .views-exposed-form .views-exposed-widget .form-submit {
    padding: 0;
-   margin-top: 0.25em;
+   margin-top: 0.3em;
  }
  
 .form-item-circle-value input#edit-circle-value.form-text {
@@ -512,7 +512,7 @@ fieldset#edit-circle {
  /* add tabs to the mobile sports menu */
   #block-menu-menu-sport-links ul.menu li a {
     float: left;
-    font-size: 1.25em;
+    /*font-size: 1.25em;*/
     background-color: #E0E0E0;
     background-image: -moz-linear-gradient(-90deg, #E0E0E0, #EBEBEB);
     border-top: 1px solid #CCC;
