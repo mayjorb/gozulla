@@ -405,14 +405,6 @@ fieldset#edit-circle.openlayers-proximity-filter-exposed div.fieldset-wrapper di
   background-color: #F2F2F2;
 }
 
-h3.places-shop {
-  margin-top: 0.5em;
-  font-family: 'Maven Pro';
-  color: #262626;
-}
-div.places-detail {
-  color: #8C8C8C;
-}
 
 div.view-gozulla-directory .addressfield-container-inline:after {
     clear: none;
@@ -512,7 +504,7 @@ fieldset#edit-circle {
  /* add tabs to the mobile sports menu */
   #block-menu-menu-sport-links ul.menu li a {
     float: left;
-    /*font-size: 1.25em;*/
+    font-size: 0.75em;
     background-color: #E0E0E0;
     background-image: -moz-linear-gradient(-90deg, #E0E0E0, #EBEBEB);
     border-top: 1px solid #CCC;
@@ -550,9 +542,13 @@ section#block-views-active-deals-block-1 img {
 }
 
 h3.places-shop {
+  margin-top: 0.5em;
+  font-family: 'Maven Pro';
+  color: #262626;
   font-size: 1.2em;
 }
-
 div.places-detail {
+  color: #8C8C8C;
   font-size: .75em;
 }
+
