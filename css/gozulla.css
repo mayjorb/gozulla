@@ -518,8 +518,9 @@ fieldset#edit-circle {
     border-top: 1px solid #CCC;
     border-right: 1px solid #CCC;
     /*border-bottom: 1px solid #CCC;*/
-    padding-left: 0.75em;
-    padding-right: 0.75em;
+    padding: 0.75em 1em;
+    /*padding-left: 0.75em;
+    padding-right: 0.75em;*/
     list-style-image: none;
     list-style-type: none;
   }
@@ -528,6 +529,7 @@ fieldset#edit-circle {
   #block-menu-menu-sport-links ul.menu li a:hover {
     background: #fff;
     border-bottom: none;
+    border-top: none;
   }
   
  
@@ -547,3 +549,10 @@ section#block-views-active-deals-block-1 img {
   
 }
 
+h3.places-shop {
+  font-size: 1.2em;
+}
+
+div.places-detail {
+  font-size: .75em;
+}
