@@ -373,9 +373,9 @@ div.at-panel div.region.region-two-50-first {
   /*background: url('../images/column-border.png') repeat-y top right;*/
 }
 
-fieldset#edit-circle.openlayers-proximity-filter-exposed div.fieldset-wrapper div.form-item {
+/*fieldset#edit-circle.openlayers-proximity-filter-exposed div.fieldset-wrapper div.form-item {
    width: auto;
-}
+}*/
 
  
  fieldset#edit-circle.openlayers-proximity-filter-exposed {
@@ -485,21 +485,21 @@ nav#block-menu-menu-footer-menu.block {
   padding: 3px 0 6px 0;
 }
 
+div.field-content span.country {
+  display: none;
+}
 
-
-
-.view-id-gozulla_directory div.views-exposed-widgets {
+/*.view-id-gozulla_directory div.views-exposed-widgets {
    border-radius: 3px 3px 3px 3px;
     box-shadow: 0 1px 2px 2px rgba(0, 0, 0, 0.07) inset;
     padding: 0;
     margin: 0;
-}
+}*/
 
 
 fieldset#edit-circle {
   box-shadow: none;
 }
-
 
  /* add tabs to the mobile sports menu */
   #block-menu-menu-sport-links ul.menu li a {
@@ -511,8 +511,6 @@ fieldset#edit-circle {
     border-right: 1px solid #CCC;
     /*border-bottom: 1px solid #CCC;*/
     padding: 0.75em;
-    /*padding-left: 0.75em;
-    padding-right: 0.75em;*/
     list-style-image: none;
     list-style-type: none;
   }
@@ -524,8 +522,10 @@ fieldset#edit-circle {
     border-top: none;
   }
   
- 
-
+  #block-menu-menu-sport-links.block {
+    margin-bottom: 0;
+  }
+  
 section#block-views-active-deals-global-deal-block img, 
 section#block-views-gozulla-directory-featured-shop img,
 section#block-views-active-deals-block-1 img {
@@ -538,8 +538,24 @@ section#block-views-active-deals-block-1 img {
   margin: 0 1em;
   float: left;
   display: inline-block;
-  
 }
+
+div.views-field h3.field-content {
+  font-size: 1.2em;
+  font-family: 'Maven Pro';
+}
+
+div.views-field-field-address {
+    font-size: 0.8em;
+}
+
+div.views-field-distance {
+  font-size: 0.8em;
+  text-align: right;
+  margin-top: -1.5em;
+}
+
+
 
 h3.places-shop {
   margin-top: 0.5em;
@@ -549,6 +565,37 @@ h3.places-shop {
 }
 div.places-detail {
   color: #8C8C8C;
-  font-size: .75em;
+  font-size: 0.75em;
 }
+
+div.places-distance {
+  font-size: 0.75em;
+  text-align: right;
+  margin-top: -1.5em;
+  color: #8C8C8C;
+}
+
+.view-gozulla-directory  div.views-row-first {
+  border-top: 1px solid #262626;
+}
+
+.view-gozulla-directory  div.views-row {
+  background: #fcfdd3;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin: 0 -10px;
+  border-bottom: 1px solid #262626;
+}
+
+div.places-row {
+  margin: 0 -10px;
+  border-bottom: 1px solid #262626;
+}
+
+section#main-content {
+  padding-bottom: 0;
+}
+
+
+
 

@@ -29,23 +29,22 @@
      margin: 0;
    }
 
-
    #main-content {
      padding: 0;
    }
-   
+
    #content-wrapper {
      border-bottom: none;
      border-top: none;
      padding-top: 0 !important;
    }
-   
+
    header h1#page-title {
      display: none;
    }
-   
 
-    
+
+
     section#block-views-active-deals-global-deal-block img, 
     section#block-views-gozulla-directory-featured-shop img,
     section#block-views-active-deals-block-1 img {
@@ -53,36 +52,45 @@
       margin-bottom: 1em;
       margin-left: 1em;
     }
-    
-    
-    #block-menu-menu-sport-links {
-      font-size: 1em;
-    }
-    
-    #main-content {
-      margin: 0;
+
+    /*#main-content {
       padding: 0;
+      margin: 0;
     }
 
     #content {
       margin: 0;
-    } 
-    
-   #block-menu-menu-sport-links.block div.block-inner {
-     margin: 0;
-   }
-    
-    
-    #block-menu-menu-sport-links.block-menu-sport-links {
-      margin: 0;
-      padding: 0;
-    }
-    
-    #block-menu-menu-sport-links {
-      width: 100%;
+    }*/
+
+    /*#block-menu-menu-sport-links ul.menu {
       background-color: #E0E0E0;
       background-image: -moz-linear-gradient(-90deg, #E0E0E0, #EBEBEB);
+    }*/
+
+    #block-menu-menu-sport-links.block div.block-inner {
+      margin: 0 -10px;
+      font-size: 1em;
     }
+
+    #block-menu-menu-sport-links ul.menu li {
+      /*width: 14.28%;*/
+    }
+
+    #content div.view div.view-filters form {
+      margin: 0 -10px;
+    }
+    
+    #content-column .at-panel {
+      margin: 0 -20px;
+      padding-left: 2em;
+      padding-right: 2em;
+    }
+    
+    /*#block-menu-menu-sport-links {
+
+      margin: 0 -10px;
+      padding: 0;
+    }*/
     
 }
 
@@ -142,33 +150,52 @@ body.sport-help #header-wrapper,
     margin-left: 1em;
   }
   
-  #main-content {
+  /*#main-content {
     padding: 0;
     margin: 0;
   }
   
   #content {
     margin: 0;
-  }
+  }*/
+  
+  /*#block-menu-menu-sport-links ul.menu {
+    background-color: #E0E0E0;
+    background-image: -moz-linear-gradient(-90deg, #E0E0E0, #EBEBEB);
+  }*/
   
   #block-menu-menu-sport-links.block div.block-inner {
-    margin: 0;
+    margin: 0 -10px;
     font-size: 1em;
   }
   
- 
+  #block-menu-menu-sport-links ul.menu li {
+    /*width: 14.28%;*/
+  }
   
-  #block-menu-menu-sport-links {
+  
+  #main-content .view-gozulla-directory {
+     margin: 0;
+     padding: 0;
+   }
+   
+  #content div.view div.view-filters form {
+    margin: 0 -10px;
+  }
+  
+  #content-column .at-panel {
+    margin: 0 -20px;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+  
+  /*#block-menu-menu-sport-links {
     
-    margin: 0;
+    margin: 0 -10px;
     padding: 0;
-  }
+  }*/
   
-  #block-menu-menu-sport-links {
-    width: 100%;
-    background-color: #E0E0E0;
-    background-image: -moz-linear-gradient(-90deg, #E0E0E0, #EBEBEB);
-  }
+
   
 
 }
