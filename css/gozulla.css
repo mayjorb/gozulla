@@ -373,31 +373,37 @@ div.at-panel div.region.region-two-50-first {
   /*background: url('../images/column-border.png') repeat-y top right;*/
 }
 
-/*fieldset#edit-circle.openlayers-proximity-filter-exposed div.fieldset-wrapper div.form-item {
+fieldset#edit-circle.openlayers-proximity-filter-exposed div.fieldset-wrapper div.form-item {
    width: auto;
-}*/
+}
+
+
+fieldset#edit-circle input#edit-circle-value.form-text {
+  width: 2em;
+}
 
  
  fieldset#edit-circle.openlayers-proximity-filter-exposed {
-  padding: 0 0 0 1em;
+  padding: 0 0 0 10px;
   margin: 0;
   border: none;
   font-size: 0.75em;
  }
  
  .views-exposed-form .views-exposed-widget {
-   float: left;
-   padding: 0.5em 0.5em 0 0;
+   display: inline-block;
+   margin: 0;
+   padding: 0;
  }
  
  .views-exposed-form .views-exposed-widget .form-submit {
-   padding: 0;
-   margin-top: 0.3em;
+   padding: 3px 0;
+   margin: 0;
  }
  
 .form-item-circle-value input#edit-circle-value.form-text {
   text-align: center;
-  width: 1.5em;
+  /*width: 1.5em;*/
 }
 
 .itrc-4 input.form-text, .isrc-4 input.form-submit {
@@ -543,6 +549,8 @@ section#block-views-active-deals-block-1 img {
 div.views-field h3.field-content {
   font-size: 1.2em;
   font-family: 'Maven Pro';
+  /*font-weight: 500;*/
+  max-width: 75%;
 }
 
 div.views-field-field-address {
@@ -581,8 +589,7 @@ div.places-distance {
 
 .view-gozulla-directory  div.views-row {
   background: #fcfdd3;
-  padding-left: 1em;
-  padding-right: 1em;
+  padding: 10px;
   margin: 0 -10px;
   border-bottom: 1px solid #262626;
 }
@@ -595,6 +602,27 @@ div.places-row {
 section#main-content {
   padding-bottom: 0;
 }
+
+div.deal-link {
+  background-color: transparent;
+  border: 1px solid #262626;
+  border-radius: 4px 4px 4px 4px;
+  margin-top: -1.5em;
+  padding: 2px 6px;
+  width: 3em;
+  font-size: 0.75em;
+  float: right;
+}
+
+div.view-gozulla-directory div.views-exposed-widgets {
+    white-space: nowrap;
+}
+
+div.view-gozulla-directory .views-submit-button {
+  float: none;
+}
+
+
 
 
 
