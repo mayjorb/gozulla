@@ -288,6 +288,9 @@ body.sport-help #header-wrapper,
      display: none;
    }
    
+  #block-menu-menu-sport-links {
+    display: none;
+  }
 }
 
 /* Tablet landscape */
