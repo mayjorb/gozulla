@@ -397,7 +397,7 @@ fieldset#edit-circle input#edit-circle-value.form-text {
  }
  
  .views-exposed-form .views-exposed-widget .form-submit {
-   padding: 3px 0;
+   padding: 7px 0 0 0;
    margin: 0;
  }
  
@@ -507,13 +507,32 @@ fieldset#edit-circle {
   box-shadow: none;
 }
 
+  #block-menu-menu-sport-links.block {
+    margin: 0 -10px 10px -10px;
+    font-size: 1em;
+  }
+  
+  #block-menu-menu-sport-links.block div.block-inner {
+    margin: 0;
+  }
+  
+ 
+#block-menu-menu-sport-links {
+  background-color: #E0E0E0;
+  background-image: -moz-linear-gradient(-90deg, #E0E0E0, #EBEBEB);
+  border-left: 1px solid #CCC;
+  border-top: 1px solid #CCC;
+}
+
+
+
+
  /* add tabs to the mobile sports menu */
   #block-menu-menu-sport-links ul.menu li a {
     float: left;
     font-size: 0.75em;
     background-color: #E0E0E0;
     background-image: -moz-linear-gradient(-90deg, #E0E0E0, #EBEBEB);
-    border-top: 1px solid #CCC;
     border-right: 1px solid #CCC;
     /*border-bottom: 1px solid #CCC;*/
     padding: 0.75em;
@@ -523,14 +542,13 @@ fieldset#edit-circle {
   
   #block-menu-menu-sport-links ul.menu li a.active,
   #block-menu-menu-sport-links ul.menu li a:hover {
+    border-top: 1px solid #CCC;
     background: #fff;
-    border-bottom: none;
     border-top: none;
+    border-bottom: none;
+    /*border-top: none; */
   }
-  
-  #block-menu-menu-sport-links.block {
-    margin-bottom: 0;
-  }
+
   
 section#block-views-active-deals-global-deal-block img, 
 section#block-views-gozulla-directory-featured-shop img,
@@ -583,11 +601,11 @@ div.places-distance {
   color: #8C8C8C;
 }
 
-.view-gozulla-directory  div.views-row-first {
+.shops  div.views-row-first {
   border-top: 1px solid #262626;
 }
 
-.view-gozulla-directory  div.views-row {
+.shops  div.views-row {
   background: #fcfdd3;
   padding: 10px;
   margin: 0 -10px;
@@ -614,6 +632,13 @@ div.deal-link {
   float: right;
 }
 
+div.block--exp-gozulla-directory-bike div.views-exposed-widgets,
+div.block--exp-gozulla-directory-boat div.views-exposed-widgets,
+div.block--exp-gozulla-directory-climb div.views-exposed-widgets,
+div.block--exp-gozulla-directory-golf div.views-exposed-widgets,
+div.block--exp-gozulla-directory-skate div.views-exposed-widgets,
+div.block--exp-gozulla-directory-snow div.views-exposed-widgets,
+div.block--exp-gozulla-directory-surf div.views-exposed-widgets,
 div.view-gozulla-directory div.views-exposed-widgets {
     white-space: nowrap;
 }

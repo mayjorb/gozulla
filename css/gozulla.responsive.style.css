@@ -67,15 +67,39 @@
       background-image: -moz-linear-gradient(-90deg, #E0E0E0, #EBEBEB);
     }*/
 
-    #block-menu-menu-sport-links.block div.block-inner {
-      margin: 0 -10px;
-      font-size: 1em;
+    #block-menu-menu-sport-links {
+      border-left: none;
+      border-right: none;
     }
 
     #block-menu-menu-sport-links ul.menu li {
       /*width: 14.28%;*/
     }
 
+    #block-views-exp-gozulla-directory-bike .block-inner,
+    #block-views-exp-gozulla-directory-boat .block-inner,
+    #block-views-exp-gozulla-directory-climb .block-inner,
+    #block-views-exp-gozulla-directory-golf .block-inner,
+    #block-views-exp-gozulla-directory-skate .block-inner,
+    #block-views-exp-gozulla-directory-snow .block-inner,
+    #block-views-exp-gozulla-directory-surf .block-inner,
+     #main-content .view-gozulla-directory {
+        margin: 0;
+        padding: 0;
+      }
+      
+   #block-views-exp-gozulla-directory-bike.block,
+   #block-views-exp-gozulla-directory-boat.block,
+   #block-views-exp-gozulla-directory-climb.block,
+   #block-views-exp-gozulla-directory-golf.block,
+   #block-views-exp-gozulla-directory-skate.block,
+   #block-views-exp-gozulla-directory-snow.block,
+   #block-views-exp-gozulla-directory-surf.block {
+     margin-top: 10px;
+     margin-bottom: 10px;  
+   }
+      
+    #content div.block div.block-content form,
     #content div.view div.view-filters form {
       margin: 0 -10px;
     }
@@ -164,9 +188,9 @@ body.sport-help #header-wrapper,
     background-image: -moz-linear-gradient(-90deg, #E0E0E0, #EBEBEB);
   }*/
   
-  #block-menu-menu-sport-links.block div.block-inner {
-    margin: 0 -10px;
-    font-size: 1em;
+  #block-menu-menu-sport-links {
+    border-left: none;
+    border-right: none;
   }
   
   #block-menu-menu-sport-links ul.menu li {
@@ -174,11 +198,30 @@ body.sport-help #header-wrapper,
   }
   
   
+ #block-views-exp-gozulla-directory-bike .block-inner,
+ #block-views-exp-gozulla-directory-boat .block-inner,
+ #block-views-exp-gozulla-directory-climb .block-inner,
+ #block-views-exp-gozulla-directory-golf .block-inner,
+ #block-views-exp-gozulla-directory-skate .block-inner,
+ #block-views-exp-gozulla-directory-snow .block-inner,
+ #block-views-exp-gozulla-directory-surf .block-inner,
   #main-content .view-gozulla-directory {
      margin: 0;
      padding: 0;
    }
+  
+   #block-views-exp-gozulla-directory-bike.block,
+   #block-views-exp-gozulla-directory-boat.block,
+   #block-views-exp-gozulla-directory-climb.block,
+   #block-views-exp-gozulla-directory-golf.block,
+   #block-views-exp-gozulla-directory-skate.block,
+   #block-views-exp-gozulla-directory-snow.block,
+   #block-views-exp-gozulla-directory-surf.block {
+     margin-top: 10px;
+     margin-bottom: 0;  
+   }
    
+  #content div.block div.block-content form,
   #content div.view div.view-filters form {
     margin: 0 -10px;
   }
