@@ -245,10 +245,59 @@ body.sport-help #header-wrapper,
 
 /* Tablet portrait */
 @media only screen and (min-width:481px) and (max-width:768px) {
+  
+  html {
+   background-image: none;
+  }
+  body.sport-surf #header-wrapper,
+  body.sport-bike #header-wrapper,
+  body.sport-skate #header-wrapper,
+  body.sport-snow #header-wrapper,
+  body.sport-boat #header-wrapper,
+  body.sport-golf #header-wrapper,
+  body.sport-disc #header-wrapper,
+  body.sport-climb #header-wrapper,
+  body.sport-help #header-wrapper,
+  #header-wrapper  {
+    background: -moz-linear-gradient(top,  rgba(124,11,13,1) 0%, rgba(196,16,22,1) 75%, rgba(236,28,36,0.9) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(124,11,13,1)), color-stop(75%,rgba(196,16,22,1)), color-stop(100%,rgba(236,28,36,0.9)));
+    background: -webkit-linear-gradient(top,  rgba(124,11,13,1) 0%,rgba(196,16,22,1) 75%,rgba(236,28,36,0.9) 100%);
+    background: -o-linear-gradient(top,  rgba(124,11,13,1) 0%,rgba(196,16,22,1) 75%,rgba(236,28,36,0.9) 100%);
+    background: -ms-linear-gradient(top,  rgba(124,11,13,1) 0%,rgba(196,16,22,1) 75%,rgba(236,28,36,0.9) 100%);
+    background: linear-gradient(top,  rgba(124,11,13,1) 0%,rgba(196,16,22,1) 75%,rgba(236,28,36,0.9) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7c0b0d', endColorstr='#e6ec1c24',GradientType=0 );
+    border: none;
+    min-height: 60px;
+   }
+
+   #branding {
+     margin: 0;
+   }
+
+   #main-content {
+     padding: 0;
+   }
+
+   #content-wrapper {
+     border-bottom: none;
+     border-top: none;
+     padding-top: 0 !important;
+   }
+
+   header h1#page-title {
+     display: none;
+   }
+   
+  #block-menu-menu-sport-links {
+    display: none;
+  }
 }
 
 /* Tablet landscape */
 @media only screen and (min-width:769px) and (max-width:1024px) {
+  #block-menu-menu-sport-links {
+    display: none;
+  }
 }
 
 /* Standard layout */
