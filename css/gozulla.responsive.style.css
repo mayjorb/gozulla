@@ -253,4 +253,8 @@ body.sport-help #header-wrapper,
 
 /* Standard layout */
 @media only screen and (min-width:1025px) {
+  #block-menu-menu-sport-links {
+    display: none;
+  }
+  
 }
