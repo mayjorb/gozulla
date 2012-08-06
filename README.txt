@@ -1,6 +1,6 @@
 -- SUMMARY --
 
-gozulla theme - subtheme of at-commerce
+gozulla - subtheme of at-commerce
 
 Footheme is a stater sub-theme for Corolla 7.x-2.x and can be easily
 modified to use Pixture Reloaded 7.x-2.x or Sky 7.x-2.x, which are all
