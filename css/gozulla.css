@@ -14,7 +14,7 @@
  }
  
  html {
-  background: #E8E8E8 url('../images/topo_bg.png') fixed top center;
+  background: #fff url('../images/topo_bg.png') fixed top center;
 
  }
  
@@ -360,7 +360,7 @@
   }
  
  .sidebar-second .content-inner {
-   border-right: 1px solid #ababab;
+  /* border-right: 1px solid #ababab; */
  }
  
  div.at-panel div.region.region-two-50-first, 
@@ -421,7 +421,7 @@ div.view-gozulla-directory .addressfield-container-inline:after {
 section#block-block-6.block,
 section#block-views-feed-display-block-1 {
   /* background-color: rgba(255,255,255, .8);*/
-   background: #fff url('../images/bg_header_333.png') repeat-x top left;
+   background: transparent url('../images/bg_header_333.png') repeat-x top left;
    margin-top: 0;
    margin-bottom: 20px;
    padding: 0 20px;
@@ -568,7 +568,7 @@ section#block-views-active-deals-block-1 img {
 
 div.views-field h3.field-content {
   font-size: 1.2em;
-  font-family: 'Maven Pro';
+  /*font-family: 'Maven Pro';*/
   /*font-weight: 500;*/
   max-width: 75%;
 }
@@ -587,7 +587,7 @@ div.views-field-distance {
 
 h3.places-shop {
   margin-top: 0.5em;
-  font-family: 'Maven Pro';
+  /*font-family: 'Maven Pro';*/
   color: #262626;
   font-size: 1.2em;
 }
@@ -649,6 +649,23 @@ div.view-gozulla-directory .views-submit-button {
   float: none;
 }
 
+
+div.region-sidebar-second .region-inner {
+  border-left: 1px solid #ABABAB;
+}
+
+div.copyright {
+  display: inline;
+  margin-left: 20px;
+}
+
+div.views-field-field-deal-image {
+  text-align: center;
+}
+
+div.gozulla-ad  div.views-row.views-row-first {
+  padding-top: 20px;
+}
 
 
 

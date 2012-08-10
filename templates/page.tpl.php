@@ -258,6 +258,7 @@
         <div id="footer-wrapper">
           <div class="container clearfix">
             <footer class="clearfix">
+              <div class="copyright">Copyright &copy; <?php print date('Y'); ?> Gozulla, LLC. All rights reserved.</div>
               <?php print render($page['footer']); ?>
             </footer>
          </div>
