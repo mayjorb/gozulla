@@ -479,6 +479,7 @@ section#block-views-gozulla-directory-featured-shop .view-display-id-featured_sh
   padding: 0;
   margin: 0;
   background: #7F7F7F;
+  font-size: 0.75em;
 }
 
 #footer-panels-wrapper {
@@ -521,6 +522,7 @@ fieldset#edit-circle {
   background-color: #E0E0E0;
   background-image: -moz-linear-gradient(-90deg, #E0E0E0, #EBEBEB);
   border-left: 1px solid #CCC;
+  border-right: 1px solid #CCC;
   border-top: 1px solid #CCC;
 }
 
@@ -535,7 +537,7 @@ fieldset#edit-circle {
     background-image: -moz-linear-gradient(-90deg, #E0E0E0, #EBEBEB);
     border-right: 1px solid #CCC;
     /*border-bottom: 1px solid #CCC;*/
-    padding: 0.75em;
+    padding: 8px;
     list-style-image: none;
     list-style-type: none;
   }
@@ -605,7 +607,7 @@ div.places-distance {
   border-top: 1px solid #262626;
 }
 
-.shops  div.views-row {
+.gozulla-directory  div.views-row {
   background: #fcfdd3;
   padding: 10px;
   margin: 0 -10px;

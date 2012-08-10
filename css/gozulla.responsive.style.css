@@ -66,6 +66,10 @@
       background-color: #E0E0E0;
       background-image: -moz-linear-gradient(-90deg, #E0E0E0, #EBEBEB);
     }*/
+    
+    fieldset#edit-circle.openlayers-proximity-filter-exposed {
+     padding: 0;
+    }
 
     #block-menu-menu-sport-links {
       border-left: none;
@@ -115,6 +119,11 @@
       margin: 0 -10px;
       padding: 0;
     }*/
+    
+    div.places-row {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
     
 }
 
@@ -188,6 +197,10 @@ body.sport-help #header-wrapper,
     background-image: -moz-linear-gradient(-90deg, #E0E0E0, #EBEBEB);
   }*/
   
+  fieldset#edit-circle.openlayers-proximity-filter-exposed {
+   padding: 0;
+  }
+  
   #block-menu-menu-sport-links {
     border-left: none;
     border-right: none;
@@ -238,6 +251,10 @@ body.sport-help #header-wrapper,
     padding: 0;
   }*/
   
+  div.places-row {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 
   
 
@@ -288,9 +305,19 @@ body.sport-help #header-wrapper,
      display: none;
    }
    
-  #block-menu-menu-sport-links {
-    display: none;
-  }
+   #block-superfish-1 {
+     display: none;
+   }
+   
+   #toggle {
+      display: none;
+    }
+    
+    div.places-row {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+ 
 }
 
 /* Tablet landscape */
