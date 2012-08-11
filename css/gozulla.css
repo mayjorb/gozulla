@@ -667,6 +667,16 @@ div.gozulla-ad  div.views-row.views-row-first {
   padding-top: 20px;
 }
 
+/* Social networking block */
+.view-social-network ul {
+  padding: 0;
+  margin: 0;
+}
+.view-social-network ul li {
+  list-style: none;
+  display: inline;
+}
+
 
 
 
