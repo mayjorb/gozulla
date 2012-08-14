@@ -354,7 +354,7 @@
 
 
 
- body.section-home div.at-panel {
+ .section-home div.at-panel {
     border-top: 1px solid #ababab;
        background: url('../images/bg_header_333.png') repeat-x top left;
   }
@@ -667,14 +667,30 @@ div.gozulla-ad  div.views-row.views-row-first {
   padding-top: 20px;
 }
 
-/* Social networking block */
-.view-social-network ul {
-  padding: 0;
-  margin: 0;
+
+
+#quint-panels-wrapper  {
+  margin-bottom: -10px !important;
+  padding-top: 10px !important;
+  padding-bottom: 0 !important;
 }
-.view-social-network ul li {
-  list-style: none;
-  display: inline;
+
+div.at-panel.five-5x20 {
+  background: none;
+  border: none;
+}
+
+#block-menu-menu-footer-menu a {
+  font-size: 0.75em;
+}
+
+#block-menu-menu-footer-menu.block {
+  margin: 0;
+  padding: 0;
+}
+
+#block-easy-social-easy-social-block-1.block {
+  float: right;
 }
 
 

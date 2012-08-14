@@ -62,13 +62,19 @@ function gozulla_preprocess_page(&$vars) {
 
    $vars['current_sport'] = $sport;
 
-
+  /* if (isset($vars['node'])) {
+     // If the node type is "blog" the template suggestion will be "page--blog.tpl.php".
+      $vars['theme_hook_suggestions'][] = 'page__'. str_replace('_', '--', $vars['node']->type);
+    }
+     
    // Populate the page template suggestions.
-   if ($suggestions = theme_get_suggestions(arg(), 'page')) {
-     $vars['theme_hook_suggestions'] = $suggestions;
-   }
+  // if ($suggestions = theme_get_suggestions(arg(), 'page')) {
+    // $vars['theme_hook_suggestions'] = $suggestions;
+  // }*/
    
 }
+
+//dpm($links);
 /* function gozulla_process_page(&$vars) {
 }
 // */

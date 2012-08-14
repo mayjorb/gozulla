@@ -12,9 +12,9 @@
 
 ;----------// CSS
   ; Enable the custom stylesheet and get hacking!
-  stylesheets[all][] = color/colors.css
+  ; stylesheets[all][] = color/colors.css
   stylesheets[all][] = css/gozulla.css
-  stylesheets[all][] = css/gozulla.responsive.style.css
+  ; stylesheets[all][] = css/gozulla.responsive.style.css
 
 
   ; Internet Explorer Stylesheets
@@ -37,6 +37,9 @@
 
 
 ;----------// Scripts
+; load custom js for theme
+scripts[] = js/gozulla.js
+
 
   ; NOTE: AT Commerce loads scripts dependant on your theme settings - these are
   ; loaded using drupal_add_js() in at_commerce_preprocess_html().
