@@ -353,36 +353,16 @@
  }
 
 
-
  .section-home div.at-panel {
-    border-top: 1px solid #ababab;
-       background: url('../images/bg_header_333.png') repeat-x top left;
+   border-top: 1px solid #ababab;
+   background: url('../images/bg_header_333.png') repeat-x top left;
   }
  
- .sidebar-second .content-inner {
-  /* border-right: 1px solid #ababab; */
- }
- 
- div.at-panel div.region.region-two-50-first, 
- div.at-panel div.region.region-two-50-second {
-   width: 49%;
- }
 
-div.at-panel div.region.region-two-50-first {
+div.at-panel div.region-two-50-first div.region-inner {
   border-right: 1px solid #ababab;
-  /*background: url('../images/column-border.png') repeat-y top right;*/
 }
 
-fieldset#edit-circle.openlayers-proximity-filter-exposed div.fieldset-wrapper div.form-item {
-   width: auto;
-}
-
-
-fieldset#edit-circle input#edit-circle-value.form-text {
-  width: 2em;
-}
-
- 
  fieldset#edit-circle.openlayers-proximity-filter-exposed {
   padding: 0 0 0 10px;
   margin: 0;
@@ -403,7 +383,12 @@ fieldset#edit-circle input#edit-circle-value.form-text {
  
 .form-item-circle-value input#edit-circle-value.form-text {
   text-align: center;
-  /*width: 1.5em;*/
+  width: 20px;
+  padding: 4px 2px;
+}
+
+.form-item input#edit-circle-location.form-text {
+  padding: 4px 2px;
 }
 
 .itrc-4 input.form-text, .isrc-4 input.form-submit {
@@ -693,6 +678,7 @@ div.at-panel.five-5x20 {
 #block-easy-social-easy-social-block-1.block {
   float: right;
 }
+
 
 
 
