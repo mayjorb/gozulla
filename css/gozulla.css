@@ -657,6 +657,7 @@ div.region-sidebar-second .region-inner {
 div.copyright {
   display: inline;
   margin-left: 20px;
+  font-size: .75em;
 }
 
 div.views-field-field-deal-image {
@@ -692,7 +693,6 @@ div.at-panel.five-5x20 {
 #block-easy-social-easy-social-block-1.block {
   float: right;
 }
-
 
 
 
