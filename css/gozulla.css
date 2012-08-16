@@ -364,9 +364,11 @@ div.at-panel div.region-two-50-first div.region-inner {
 }
 
  fieldset#edit-circle.openlayers-proximity-filter-exposed {
-  padding: 0 0 0 10px;
+  padding: 10px 0 0 0;
   margin: 0;
   border: none;
+  border-radius: 0;
+  box-shadow: none;
   font-size: 0.75em;
  }
  
@@ -534,6 +536,19 @@ fieldset#edit-circle {
     border-top: none;
     border-bottom: none;
     /*border-top: none; */
+  }
+
+  body.page-deals-surf #block-menu-menu-sport-links.block ul.menu li.menu-item-1249 a,
+  body.page-deals-skate #block-menu-menu-sport-links.block ul.menu li.menu-item-1250 a,
+  body.page-deals-snow #block-menu-menu-sport-links.block ul.menu li.menu-item-1251 a,
+  body.page-deals-bike #block-menu-menu-sport-links.block ul.menu li.menu-item-1252 a,
+  body.page-deals-climb #block-menu-menu-sport-links.block ul.menu li.menu-item-1253 a,
+  body.page-deals-boat #block-menu-menu-sport-links.block ul.menu li.menu-item-1254 a,
+  body.page-deals-golf #block-menu-menu-sport-links.block ul.menu li.menu-item-1255 a {
+    border-top: 1px solid #CCC;
+    background: #fff;
+    border-top: none;
+    border-bottom: none;
   }
 
   
