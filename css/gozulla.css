@@ -504,10 +504,18 @@ fieldset#edit-circle {
     margin: 0;
   }
   
+
+
  
 #block-menu-menu-sport-links {
-  background-color: #E0E0E0;
-  background-image: -moz-linear-gradient(-90deg, #E0E0E0, #EBEBEB);
+  background: rgb(237,234,234); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(237,234,234,1) 0%, rgba(201,194,193,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(237,234,234,1)), color-stop(100%,rgba(201,194,193,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(237,234,234,1) 0%,rgba(201,194,193,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgba(237,234,234,1) 0%,rgba(201,194,193,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgba(237,234,234,1) 0%,rgba(201,194,193,1) 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  rgba(237,234,234,1) 0%,rgba(201,194,193,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#edeaea', endColorstr='#c9c2c1',GradientType=0 ); /* IE6-9 */
   border-left: 1px solid #CCC;
   border-right: 1px solid #CCC;
   border-top: 1px solid #CCC;
@@ -520,8 +528,14 @@ fieldset#edit-circle {
   #block-menu-menu-sport-links ul.menu li a {
     float: left;
     font-size: 0.75em;
-    background-color: #E0E0E0;
-    background-image: -moz-linear-gradient(-90deg, #E0E0E0, #EBEBEB);
+    background: rgb(237,234,234); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(237,234,234,1) 0%, rgba(201,194,193,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(237,234,234,1)), color-stop(100%,rgba(201,194,193,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(237,234,234,1) 0%,rgba(201,194,193,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(237,234,234,1) 0%,rgba(201,194,193,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(237,234,234,1) 0%,rgba(201,194,193,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(237,234,234,1) 0%,rgba(201,194,193,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#edeaea', endColorstr='#c9c2c1',GradientType=0 ); /* IE6-9 */
     border-right: 1px solid #CCC;
     /*border-bottom: 1px solid #CCC;*/
     padding: 8px;
