@@ -463,7 +463,7 @@ section#block-views-feed-display-block-1 {
  }
  
  #content-column .at-panel {
-   padding: 0 20px;
+   /*padding: 0 20px;*/
  }
  
 section#block-views-feed-display-block-1 .view view-feed-display {
@@ -493,7 +493,7 @@ section#block-views-feed-display-block-1.block  a img {
 div.two-50 h2.block-title,
 section#block-block-6.block div.block-inner h2.block-title,
 section#block-views-feed-display-block-1  h2.block-title {
-  color: #F1F1F1;
+  color: #2C2C2C;
   margin-bottom: 20px;
   text-transform: lowercase;
 }
