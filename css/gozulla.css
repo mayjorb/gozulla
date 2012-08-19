@@ -126,15 +126,16 @@
  }
  
  .sf-menu.sf-style-space {
-   margin: 0;
-  font-size: 1.125em;
-  font-weight: 400;
-      border-bottom: none;
+    margin: 0;
+    font-size: 1.125em;
+    font-weight: 400;
+    border-bottom: none;
  }
  
   .sf-menu.sf-style-space a {
     border: none;
-    color: #2079D2;
+    /*color: #2079D2;*/
+    color: #3b3b3b;
     /*color: #F1F1F1;*/
     padding: 0.75em 1em;
 
@@ -142,7 +143,8 @@
 
 .sf-menu.sf-style-space a.active,
 .sf-menu.sf-style-space a:hover {
-  color: #2079D2;
+  /*color: #2079D2;*/
+  color: #3b3b3b;
   border-top: 1px solid #CCC;
   background: #fff;
   border-top: none;
@@ -278,6 +280,18 @@
  #go-surf-sm { background:url('../images/sport-icons-sm.png') 0 -1280px; }
  #go-surf-sm a:hover { background: url('../images/sport-icons-sm.png') 0 -1360px; }
  
+
+.section-home .block {
+  margin-bottom: 0;
+}
+
+
+#article-2525.node,
+#article-2525.node div.node-content {
+  margin-bottom: 0;
+  padding: 0;
+}
+
 
 
  /* white bg for front page sidebar second */
@@ -560,6 +574,7 @@ fieldset#edit-circle {
   #block-menu-menu-sport-links ul.menu li a {
     float: left;
     font-size: 0.75em;
+    color: #3b3b3b;
     background: rgb(237,234,234); /* Old browsers */
     background: -moz-linear-gradient(top,  rgba(237,234,234,1) 0%, rgba(201,194,193,1) 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(237,234,234,1)), color-stop(100%,rgba(201,194,193,1))); /* Chrome,Safari4+ */
@@ -577,6 +592,7 @@ fieldset#edit-circle {
   
   #block-menu-menu-sport-links ul.menu li a.active,
   #block-menu-menu-sport-links ul.menu li a:hover {
+    color: #3b3b3b;
     border-top: 1px solid #CCC;
     background: #fff;
     border-top: none;
@@ -706,7 +722,9 @@ div.copyright {
   font-size: .75em;
 }
 
-div.views-field-field-deal-image {
+
+
+div.views-field-field-ad-image {
   text-align: center;
 }
 
@@ -740,7 +758,12 @@ div.at-panel.five-5x20 {
   float: right;
 }
 
-
+article.node-deal {
+  background: #e6e6e6 url('../images/bg_deal_525x270.png') no-repeat top left;
+  border: 2px dashed #ccc;
+  width: 525px;
+  min-height: 300px;
+}
 
 
 
