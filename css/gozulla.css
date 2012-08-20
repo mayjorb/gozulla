@@ -765,5 +765,21 @@ article.node-deal {
   min-height: 300px;
 }
 
+#draw-wrapper .add-shop-block  {
+  margin-bottom: 1em;
+}
 
+#draw-wrapper .add-shop-block a,
+#draw-wrapper .add-shop-block a:link {
+  text-decoration: none;
+  background-color: #ccc;
+  color: #3B3B3B;
+  padding: 2px 10px 4px 10px;
+}
 
+#draw-wrapper .add-shop-block a:hover {
+ text-decoration: none;
+  background-color: #fff;
+  color: #3B3B3B;
+  padding: 2px 10px 4px 10px;
+}
