@@ -606,14 +606,22 @@ fieldset#edit-circle {
   body.page-deals-bike #block-menu-menu-sport-links.block ul.menu li.menu-item-1252 a,
   body.page-deals-climb #block-menu-menu-sport-links.block ul.menu li.menu-item-1253 a,
   body.page-deals-boat #block-menu-menu-sport-links.block ul.menu li.menu-item-1254 a,
-  body.page-deals-golf #block-menu-menu-sport-links.block ul.menu li.menu-item-1255 a {
+  body.page-deals-golf #block-menu-menu-sport-links.block ul.menu li.menu-item-1255 a,
+  body.page-deals-bike  ul#superfish-1.sf-menu li#menu-896-1 a,
+  body.page-deals-boat  ul#superfish-1.sf-menu li#menu-897-1 a,
+  body.page-deals-climb  ul#superfish-1.sf-menu li#menu-895-1 a,
+  body.page-deals-golf  ul#superfish-1.sf-menu li#menu-898-1 a,
+  body.page-deals-skate  ul#superfish-1.sf-menu li#menu-892-1 a,
+  body.page-deals-snow  ul#superfish-1.sf-menu li#menu-893-1 a,
+  body.page-deals-surf  ul#superfish-1.sf-menu li#menu-891-1 a,
+  body.page-node-2516  ul#superfish-1.sf-menu li#menu-845-1 a   {
     border-top: 1px solid #CCC;
     background: #fff;
     border-top: none;
     border-bottom: none;
   }
 
-  
+
 section#block-views-active-deals-global-deal-block img, 
 section#block-views-gozulla-directory-featured-shop img,
 section#block-views-active-deals-block-1 img {
@@ -786,4 +794,15 @@ article.node-deal {
   background-color: #fff;
   color: #3B3B3B;
   padding: 2px 10px 4px 10px;
+}
+
+div.gozulla-directory div.view-header,
+#common-links-container {
+  display: inline;
+}
+div.gozulla-directory div.view-header { 
+  margin-bottom: 20px;
+}
+#common-links-container .common-links {
+  font-weight: 600;
 }
