@@ -728,6 +728,10 @@ div.views-field-field-ad-image {
   text-align: center;
 }
 
+div.gozulla-ad  div.views-row {
+  margin-bottom: 10px;
+}
+
 div.gozulla-ad  div.views-row.views-row-first {
   padding-top: 20px;
 }
