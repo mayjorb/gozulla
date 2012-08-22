@@ -141,8 +141,12 @@
 
  }
 
-.sf-menu.sf-style-space a.active,
-.sf-menu.sf-style-space a:hover {
+.sf-menu.sf-style-space li:hover,
+.sf-menu.sf-style-space li.sfHover,
+.sf-menu.sf-style-space li.active a,
+.sf-menu.sf-style-space a:focus,
+.sf-menu.sf-style-space a:hover,
+.sf-menu.sf-style-space a:active  {
   /*color: #2079D2;*/
   color: #3b3b3b;
   border-top: 1px solid #CCC;
