@@ -20,10 +20,10 @@ function gozulla_preprocess_html(&$vars) {
   // Load the media queries styles
    // If you change the names of these files they must match here - these files are
    // in the /css/ directory of your subtheme - the names must be identical!
-   $media_queries_css = array(
-     'gozulla.responsive.style.css',
-     'gozulla.responsive.gpanels.css'
-   );
+   // $media_queries_css = array(
+   //   'gozulla.responsive.style.css',
+   //   'gozulla.responsive.gpanels.css'
+   // );
    //load_subtheme_media_queries($media_queries_css, 'gozulla'); // Replace 'gozulla' with your themes name
   
   
