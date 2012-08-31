@@ -594,6 +594,8 @@ fieldset#edit-circle {
     list-style-type: none;
   }
   
+  ul#superfish-1.sf-menu li a.active,
+  ul#superfish-1.sf-menu li a:hover,
   #block-menu-menu-sport-links ul.menu li a.active,
   #block-menu-menu-sport-links ul.menu li a:hover {
     color: #3b3b3b;
