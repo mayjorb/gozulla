@@ -1,64 +1,81 @@
--- SUMMARY --
 
-gozulla - sub-theme of at-commerce
+## Setting up the Slideshow
 
-Footheme is a stater sub-theme for Corolla 7.x-2.x and can be easily
-modified to use Pixture Reloaded 7.x-2.x or Sky 7.x-2.x, which are all
-sub-themes of Adaptivetheme 7.x-2.x.
+1. Download and install the http://drupal.org/project/nodesinblock module.
+
+2. Add an image style to suit the size of images you want in the slideshow:
+   admin/config/media/image-styles.
+
+   You image style must work so that all images will be the same size, and
+   you know what that size is. For example set it to crop all images to 940x300px.
+   The default settings for the theme are setup to use an image 940px wide, but
+   you can choose whatever you want, just make a note of it because we need that
+   width later on in step 8.
+
+3. Add a content type called "Slideshow" (the machine name must be "slideshow").
+   You can leave the body field or remove it if you want. If you leave it you
+   should set it to "hidden" in the field display settings.
+
+   Set up the content type with these setting:
+   - Publishing option: Published
+   - Display settings: dont display author and date info.
+   - Comment settings: closed
+
+4. Add an image field called "slide" to the new Slideshow content type.
+
+   Configure it to allow unlimited values and enable the alt and title
+   fields. The title field we will use for captions and the alt field is
+   good for accessibility.
+
+   Under field display settings configure the field to use the image style
+   you set up in step 2.
+
+5. Now we should configure the Nodes in Block module: admin/structure/nodesinblock
+
+   1. General settings
+      - Total number of blocks: 1 (you can try with more, I have only ever tested with 1)
+      - Content types: Slideshow
+
+   2. Settings per block
+      - User friendly name for block 1: My Slideshow (or whatever you want to use)
+      - Visibility settings for block 1: Show on only the listed pages
+
+   3. Settings per content type
+      - check the setting for "My Slideshow" (or whatever user friendly name you used in step 2)
+      - uncheck "Collapsed fieldset" and "Collapsible fieldset"
+      - set the Render Mode to: Full Content without links
+
+6. Now create a Slideshow node.
+   - add some images, use the title field if you want a caption on each field
+   - find the Nodes in block vertical tab and set "Select region" to "My Slideshow (Pos)", and
+     add the visibility setting you require for this node block. This is the key difference to
+     normal blocks - you set the visiblity here on the node form, not in the normal block settings.
+
+7. Go to the block settings, find the "My Slideshows" block and place it in a region, such as the
+   "Featured" region.
+
+8. Finally go to the theme settings page for AT Commerce. Find the vertical tab for "Slideshow".
+   Make sure:
+    - Enable slideshow javascript setting is checked
+    - Enter the width of the image, what you setup in step 2 for the image style, e.g 940
+    - Check or uncheck captions and controls as desired
+
+    Save the theme settings. Celebrate a little, you did it!
+
+    Now go and view your slideshow, it should be working. If not then review each step, a likely
+    thing is to forget the setting on the node form. If you are really jammed and suspect there
+    is a bug please post an issue: http://drupal.org/project/issues/at-commerce
 
 
--- REQUIREMENTS --
+## Theming the Slideshow
 
-Corolla 7.x-2.x is a sub-theme of Adaptivetheme, you must download and install
-Adaptivetheme 7.x-2.x first. If you are planning on sub-theming Sky or Pixture Reloaded
-you need to install those first, including the base theme:
+  AT Commerce comes with a CSS file called styles.slideshow.css - in here are most of the styles for
+  the default styling. There is a small amount in at_commerce.responsive.style.css to re-position
+  the directional navigation arrows when in small screens.
 
-http://drupal.org/project/adaptivetheme
-http://drupal.org/project/corolla
-http://drupal.org/project/sky
-http://drupal.org/project/pixture_reloaded
+  You can modify these CSS files directly, or subtheme AT Commerce using Footheme:
+  http://drupal.org/project/footheme
 
 
--- INSTALLATION --
-
-Install as usual, see http://drupal.org/node/70151 for further information.
-
-
--- BUILDING THE SUB-THEME --
-
-Mostly this is all done for you and if you have Corolla 7.x-2.x installed and running you
-can just enable this theme and it will work! Hooray!
-
-If you want to subtheme Pixture Reloaded or Sky, or you really want to change the
-name from Footheme, then read on.
-
-1. Copy this entire theme and change the name of the folder. Currently the name of the folder
-   is "footheme", so you might choose "bartheme". In the next step we will use this name for
-   the info file so this is very important because as far as Drupal is concerned the name of the
-   info file is the "machine name" of your theme. Don't use spaces or any punctuation other than
-   underscores. E.g "bar_theme" is OK, but "bar theme" is not OK.
-
-2. footheme.info - first rename this file to match the folder name you chose in step one. Next you
-   can change the "name", "description" and "version" to whatever you want. Then you need to copy and
-   paste in some stuff from your base themes info file - the "regions list" and "theme settings list"
-   from your chosen base theme. The ones there now are from Corolla so just replace them. If you're
-   using Corolla then you can do nothing, or just change the name and description.
-
-3. Color module stuff - using Corolla? No issue, do nothing. If you're using Pixture Reloaded or Sky
-   then you need to delete the color folder from this theme and copy/paste in the color folder from
-   your chosen base theme.
-
-   Pixture Reloaded uses images as part of the color process - they are all in the /images folder
-   in Pixture Reloaded - you should copy and paste that folder in as well.
-
-4. template.php - open up this file and make some changes - search and replace "footheme" for your
-   themes name.
-
-   In footheme_preprocess_html() you will find some stuff about responsive stylesheets and IE conditional
-   stylesheets - follow those instructions carefully - they are easy and involve renaming some CSS files
-   to match your theme name.
-
-   Done? OK, enable your new theme, go to the theme settings form and make sure it all looks normal,
-   then save the theme settings at least once. Done - have some fun.
 
 

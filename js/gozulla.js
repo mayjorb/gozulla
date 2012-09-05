@@ -43,7 +43,7 @@ Drupal.behaviors.clear_distance = {
 (function ($){
 $(document).ready(function() {
   if (location.search) {
-    // view links
+    // views links
     $('a#shops-link').attr('href',
     $('a#shops-link').attr('href')+location.search);
     $('a#lodging-link').attr('href',
@@ -81,5 +81,12 @@ $(document).ready(function() {
     $('#block-menu-menu-sport-links ul li.menu-item-1249 a').attr('href',
     $('#block-menu-menu-sport-links ul li.menu-item-1249 a').attr('href')+location.search);
   }
+
+  $('#findme-refresh').click(function() {
+    location.reload();
+  });
+
+
 });
+ 
 })(jQuery);

@@ -1,24 +1,13 @@
 <?php // AT Commerce ?>
+
+
 <div id="page-wrapper">
   <div id="page" class="<?php print $classes; ?>">
 
-    <?php if($page['draw']): ?>
-      <div id="draw-wrapper">
-        <div class="container clearfix">
-          <div id="draw"><?php print render($page['draw']); ?></div>
-        </div>
-      </div>
-    <?php endif; ?>
+   
 
     <div id="header-wrapper">
-      <?php if($page['draw']): ?>
-        <div id="toggle-wrapper">
-          <div class="container clearfix">
-             <div id="toggle"><?php print $draw_link; ?></div>
-          </div>
-        </div>
-      <?php endif; ?>
-
+     
       <div class="container clearfix">
         <header class="clearfix">
 
@@ -61,6 +50,30 @@
       </div>
     </div>
 
+     <?php if ($page['top_navigation_bar']): ?>
+          <div id="top-nav-wrapper">
+            <div class="container clearfix">
+              <?php print render($page['top_navigation_bar']); ?>
+            </div>
+          </div>
+        <?php endif; ?>
+
+      <?php if($page['draw']): ?>
+        <div id="draw-wrapper">
+          <div class="container clearfix">
+            <div id="draw"><?php print render($page['draw']); ?></div>
+          </div> 
+        </div>
+      <?php endif; ?>
+
+      <?php if($page['draw']): ?>
+        <div id="toggle-wrapper">
+          <div class="container clearfix">
+             <div id="toggle"><?php print $draw_link; ?></div>
+          </div>
+        </div>
+      <?php endif; ?>
+      
     <?php if ($page['secondary_content']): ?>
       <div id="secondary-content-wrapper">
         <div class="texture-overlay">
@@ -99,11 +112,7 @@
         </div>
       <?php endif; ?>
 
-      <?php if ($breadcrumb): ?>
-        <section id="breadcrumb" class="clearfix">
-          <?php print $breadcrumb; ?>
-        </section>
-      <?php endif; ?>
+
 
       <div id="columns">
         <div class="columns-inner clearfix">
@@ -113,20 +122,7 @@
 
               <?php print render($page['highlighted']); ?>
 
-              <?php if (
-                $page['two_50_top'] ||
-                $page['two_50_first'] ||
-                $page['two_50_second'] ||
-                $page['two_50_bottom']
-                ): ?>
-                <!-- Two column 2x50 -->
-                <div class="at-panel gpanel panel-display two-50 clearfix">
-                  <?php print render($page['two_50_top']); ?>
-                  <?php print render($page['two_50_first']); ?>
-                  <?php print render($page['two_50_second']); ?>
-                  <?php print render($page['two_50_bottom']); ?>
-                </div>
-              <?php endif; ?>
+              
 
               <<?php print $tag; ?> id="main-content">
 
@@ -155,15 +151,40 @@
 
                   </div>
                 <?php endif; ?>
+                
+                <?php if ($breadcrumb): ?>
+                  <section id="breadcrumb" class="clearfix">
+                    <?php print $breadcrumb; ?>
+                  </section>
+                <?php endif; ?>
 
                 <?php if ($content = render($page['content'])): ?>
                   <div id="content">
                     <?php print $content; ?>
                   </div>
                 <?php endif; ?>
+                
+               
 
               </<?php print $tag; ?>>
 
+
+
+               <?php if (
+                  $page['two_50_top'] ||
+                  $page['two_50_first'] ||
+                  $page['two_50_second'] ||
+                  $page['two_50_bottom']
+                  ): ?>
+                  <!-- Two column 2x50 -->
+                  <div class="at-panel gpanel panel-display two-50 clearfix">
+                    <?php print render($page['two_50_top']); ?>
+                    <?php print render($page['two_50_first']); ?>
+                    <?php print render($page['two_50_second']); ?>
+                    <?php print render($page['two_50_bottom']); ?>
+                  </div>
+                <?php endif; ?>
+                
               <?php print render($page['content_aside']); ?>
 
             </div>

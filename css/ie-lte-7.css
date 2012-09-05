@@ -1,7 +1,7 @@
-/**
- * Footheme ie-lte-7.css
- *
- * SEE footheme_preprocess_html() in
- * template.php for detials on how to
- * load this or additional IE stylesheets.
- */
+/* AT Commerce lte IE7 */
+.mma-c #menu-bar .block,
+.mma-c #menu-bar .block ul {
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+}

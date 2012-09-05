@@ -1,28 +1,5 @@
-/**
- * responsive.custom.css is for custom media queries that are not set via the
- * theme settings, such as cascading media queries.
- *
- * By default all the other responsive stylesheets used in Adaptivetheme use a
- * "stacking method", however cascading media queries use a waterfall method so
- * you can leverage the cascade and inheritance for all browsers that support
- * media queries, regardless of screen size.
- *
- * @SEE http://zomigi.com/blog/essential-considerations-for-crafting-quality-media-queries/#mq-overlap-stack
- *
- * NOTE: this file loads by default, to disable got to your theme settings and
- * look under the "CSS" settings tab.
- */
-
-/* Some basic examples of cascading media queries. */
-
-/* Really small screens and up 
-@media only screen and (min-width: 220px) {
-}
-*/
-
-/* Smartphone sizes and up 
-@media only screen and (min-width: 320px) {
-  @media only screen and (max-width:320px) {
+/* Smartphone portrait */
+@media only screen and (max-width:320px) {
 
   html {
    background-image: none;
@@ -147,29 +124,144 @@
       padding-left: 10px;
       padding-right: 10px;
     }
-}
-*/
-
-/* Smartphone sizes and down */
-@media only screen and (max-width: 480px) {
-  
-  /*
-    Float Region blocks example:
-    In smaller screen sizes we can remove the float and widths so all blocks
-    stack instead of displaying horizonally. The selector used here is an
-    "attribute selector" which will match on any float block class. Use your
-    inspector or Firebug to get the classes from the page output if you need
-    more granular control over block alignment and stacking.
     
-    "Float Region blocks" is an extension for floating blocks in regions, see
-    your themes appearance settings, under the Extensions tab.
-  */
-  .region[class*="float-blocks"] .block {
-    float: none;
-    width: 100%;
+}
+
+/* Smartphone landscape */
+@media only screen and (min-width:321px) and (max-width:480px) {
+
+
+html {
+ background-image: none;
+}
+body.sport-surf #header-wrapper,
+body.sport-bike #header-wrapper,
+body.sport-skate #header-wrapper,
+body.sport-snow #header-wrapper,
+body.sport-boat #header-wrapper,
+body.sport-golf #header-wrapper,
+body.sport-disc #header-wrapper,
+body.sport-climb #header-wrapper,
+body.sport-help #header-wrapper,
+#header-wrapper  {
+  background: -moz-linear-gradient(top,  rgba(124,11,13,1) 0%, rgba(196,16,22,1) 75%, rgba(236,28,36,0.9) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(124,11,13,1)), color-stop(75%,rgba(196,16,22,1)), color-stop(100%,rgba(236,28,36,0.9)));
+  background: -webkit-linear-gradient(top,  rgba(124,11,13,1) 0%,rgba(196,16,22,1) 75%,rgba(236,28,36,0.9) 100%);
+  background: -o-linear-gradient(top,  rgba(124,11,13,1) 0%,rgba(196,16,22,1) 75%,rgba(236,28,36,0.9) 100%);
+  background: -ms-linear-gradient(top,  rgba(124,11,13,1) 0%,rgba(196,16,22,1) 75%,rgba(236,28,36,0.9) 100%);
+  background: linear-gradient(top,  rgba(124,11,13,1) 0%,rgba(196,16,22,1) 75%,rgba(236,28,36,0.9) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7c0b0d', endColorstr='#e6ec1c24',GradientType=0 );
+  border: none;
+  min-height: 60px;
+ }
+ 
+ #branding {
+   margin: 0;
+ }
+ 
+ #main-content {
+   padding: 0;
+ }
+ 
+ #content-wrapper {
+   border-bottom: none;
+   border-top: none;
+   padding-top: 0 !important;
+ }
+
+ header h1#page-title {
+   display: none;
+ }
+ 
+
+
+  section#block-views-active-deals-global-deal-block img, 
+  section#block-views-gozulla-directory-featured-shop img,
+  section#block-views-active-deals-block-1 img {
+    float: right;
+    margin-bottom: 1em;
+    margin-left: 1em;
+  }
+  
+  /*#main-content {
+    padding: 0;
+    margin: 0;
+  }
+  
+  #content {
+    margin: 0;
+  }*/
+  
+  /*#block-menu-menu-sport-links ul.menu {
+    background-color: #E0E0E0;
+    background-image: -moz-linear-gradient(-90deg, #E0E0E0, #EBEBEB);
+  }*/
+  
+  fieldset#edit-circle.openlayers-proximity-filter-exposed {
+   padding: 0;
+  }
+  
+  #block-menu-menu-sport-links {
+    border-left: none;
+    border-right: none;
+  }
+  
+  #block-menu-menu-sport-links ul.menu li {
+    /*width: 14.28%;*/
+  }
+  
+  
+ #block-views-exp-gozulla-directory-bike .block-inner,
+ #block-views-exp-gozulla-directory-boat .block-inner,
+ #block-views-exp-gozulla-directory-climb .block-inner,
+ #block-views-exp-gozulla-directory-golf .block-inner,
+ #block-views-exp-gozulla-directory-skate .block-inner,
+ #block-views-exp-gozulla-directory-snow .block-inner,
+ #block-views-exp-gozulla-directory-surf .block-inner,
+  #main-content .view-gozulla-directory {
+     margin: 0;
+     padding: 0;
+   }
+  
+   #block-views-exp-gozulla-directory-bike.block,
+   #block-views-exp-gozulla-directory-boat.block,
+   #block-views-exp-gozulla-directory-climb.block,
+   #block-views-exp-gozulla-directory-golf.block,
+   #block-views-exp-gozulla-directory-skate.block,
+   #block-views-exp-gozulla-directory-snow.block,
+   #block-views-exp-gozulla-directory-surf.block {
+     margin-top: 10px;
+     margin-bottom: 0;  
+   }
+   
+  #content div.block div.block-content form,
+  #content div.view div.view-filters form {
+    margin: 0 -10px;
+  }
+  
+  #content-column .at-panel {
+    margin: 0 -20px;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+  
+  /*#block-menu-menu-sport-links {
+    
+    margin: 0 -10px;
+    padding: 0;
+  }*/
+  
+  div.places-row {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
-   @media only screen and (min-width:481px) and (max-width:768px) {
+  
+
+}
+
+/* Tablet portrait */
+@media only screen and (min-width:481px) and (max-width:768px) {
   
   html {
    background-image: none;
@@ -225,75 +317,20 @@
       padding-left: 10px;
       padding-right: 10px;
     }
-
+ 
 }
 
-/* Tablet sizes and up */
-@media only screen and (min-width: 768px) {
-
-html {
-   background-image: none;
-  }
-  body.sport-surf #header-wrapper,
-  body.sport-bike #header-wrapper,
-  body.sport-skate #header-wrapper,
-  body.sport-snow #header-wrapper,
-  body.sport-boat #header-wrapper,
-  body.sport-golf #header-wrapper,
-  body.sport-disc #header-wrapper,
-  body.sport-climb #header-wrapper,
-  body.sport-help #header-wrapper,
-  #header-wrapper  {
-    background: -moz-linear-gradient(top,  rgba(124,11,13,1) 0%, rgba(196,16,22,1) 75%, rgba(236,28,36,0.9) 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(124,11,13,1)), color-stop(75%,rgba(196,16,22,1)), color-stop(100%,rgba(236,28,36,0.9)));
-    background: -webkit-linear-gradient(top,  rgba(124,11,13,1) 0%,rgba(196,16,22,1) 75%,rgba(236,28,36,0.9) 100%);
-    background: -o-linear-gradient(top,  rgba(124,11,13,1) 0%,rgba(196,16,22,1) 75%,rgba(236,28,36,0.9) 100%);
-    background: -ms-linear-gradient(top,  rgba(124,11,13,1) 0%,rgba(196,16,22,1) 75%,rgba(236,28,36,0.9) 100%);
-    background: linear-gradient(top,  rgba(124,11,13,1) 0%,rgba(196,16,22,1) 75%,rgba(236,28,36,0.9) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7c0b0d', endColorstr='#e6ec1c24',GradientType=0 );
-    border: none;
-    min-height: 60px;
-   }
-
-   #branding {
-     margin: 0;
-   }
-
-   #main-content {
-     padding: 0;
-   }
-
-   #content-wrapper {
-     border-bottom: none;
-     border-top: none;
-     padding-top: 0 !important;
-   }
-
-   header h1#page-title {
-     display: none;
-   }
-   
-   #block-superfish-1 {
-     display: none;
-   }
-   
-   #toggle {
-      display: none;
-    }
-    
-    div.places-row {
-      padding-left: 10px;
-      padding-right: 10px;
-    }
-
-    #block-menu-menu-sport-links {
+/* Tablet landscape */
+@media only screen and (min-width:769px) and (max-width:1024px) {
+  #block-menu-menu-sport-links {
     display: none;
   }
-
 }
 
-
-/* Desktops/laptops and up 
-@media only screen and (min-width: 1025px) {
+/* Standard layout */
+@media only screen and (min-width:1025px) {
+  #block-menu-menu-sport-links {
+    display: none;
+  }
+  
 }
-*/
