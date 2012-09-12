@@ -113,20 +113,7 @@
 
               <?php print render($page['highlighted']); ?>
 
-              <?php if (
-                $page['two_50_top'] ||
-                $page['two_50_first'] ||
-                $page['two_50_second'] ||
-                $page['two_50_bottom']
-                ): ?>
-                <!-- Two column 2x50 -->
-                <div class="at-panel gpanel panel-display two-50 clearfix">
-                  <?php print render($page['two_50_top']); ?>
-                  <?php print render($page['two_50_first']); ?>
-                  <?php print render($page['two_50_second']); ?>
-                  <?php print render($page['two_50_bottom']); ?>
-                </div>
-              <?php endif; ?>
+             
 
               <<?php print $tag; ?> id="main-content">
 
@@ -159,6 +146,24 @@
                 <?php if ($content = render($page['content'])): ?>
                   <div id="content">
                     <?php print $content; ?>
+
+                    <?php if (
+                      $page['two_50_top'] ||
+                      $page['two_50_first'] ||
+                      $page['two_50_second'] ||
+                      $page['two_50_bottom']
+                    ): ?>
+                      <!-- Two column 2x50 -->
+                      <div class="at-panel gpanel panel-display two-50 clearfix">
+                        <?php print render($page['two_50_top']); ?>
+                        <?php print render($page['two_50_first']); ?>
+                        <?php print render($page['two_50_second']); ?>
+                        <?php print render($page['two_50_bottom']); ?>
+                      </div>
+                    <?php endif; ?>
+
+
+
                   </div>
                 <?php endif; ?>
 
