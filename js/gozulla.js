@@ -82,10 +82,7 @@ $(document).ready(function() {
     $('#block-menu-menu-sport-links ul li.menu-item-1249 a').attr('href')+location.search);
   }
 
-  $('#findme-refresh').click(function() {
-    location.reload();
-  });
-
+  $(document.getElementById('findme-link').href = location.href.substring(0,location.href.indexOf('?')));
 
 });
  
