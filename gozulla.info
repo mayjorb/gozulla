@@ -15,6 +15,7 @@
 
   stylesheets[all][] = css/styles.custom.css
   stylesheets[all][] = css/responsive.custom.css
+  stylesheets[all][] = color/colors.css
 
   ; Internet Explorer Stylesheets
   ;

@@ -730,6 +730,7 @@ div.gozulla-directory div.view-header,
 div.gozulla-directory div.view-header { 
   margin-bottom: 20px;
 }
-#common-links-container .common-links {
+#common-links-container .common-links,
+#findme {
   font-weight: 600;
 }

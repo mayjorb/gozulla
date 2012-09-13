@@ -809,6 +809,12 @@ div.gozulla-directory div.view-header,
 div.gozulla-directory div.view-header { 
   margin-bottom: 20px;
 }
+
 #common-links-container .common-links {
   font-weight: 600;
 }
+
+html.js body.html div#page-wrapper div#page.page div#content-wrapper.no-secondary div.container div#columns div.columns-inner div#content-column div.content-inner section#main-content.contextual-links-region div#content div#block-views-exp-gozulla-directory-skate.block form#views-exposed-form-gozulla-directory-skate div div.views-exposed-form div.views-exposed-widgets div#edit-circle-wrapper.views-exposed-widget div.views-widget fieldset#edit-circle.openlayers-proximity-filter-exposed div.fieldset-wrapper div.form-item span.field-prefix span#findme {
+    font-weight: 600;
+}
+
