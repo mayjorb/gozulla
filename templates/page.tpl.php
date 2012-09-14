@@ -10,14 +10,16 @@
       </div>
     <?php endif; ?>
 
-    <div id="header-wrapper">
-      <?php if($page['draw']): ?>
+    <?php if($page['draw']): ?>
         <div id="toggle-wrapper">
           <div class="container clearfix">
              <div id="toggle"><?php print $draw_link; ?></div>
           </div>
         </div>
       <?php endif; ?>
+      
+    <div id="header-wrapper">
+      
 
       <div class="container clearfix">
         <header class="clearfix">
