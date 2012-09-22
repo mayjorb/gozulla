@@ -4,9 +4,12 @@
 
 <article id="article-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 
-  
+   <div id="deal-wrapper">
+  <div id="deal-contents">     
 
   <div class="at-panel gpanel panel-display two-50 clearfix">
+
+
         
     <div class="region region-two-50-top region-conditional-stack"> 
       <div class="region-inner clearfix"> 
@@ -38,9 +41,18 @@
       <div class="region-inner clearfix"> 
         <div class="deal-expire">Deal valid: <?php print render($content['field_deal_expiration_date'][0]['#markup']); ?></div>
       </div><!-- /region-inner -->
-    </div><!-- /region-two-50-bottom -->                    
-            
+    </div><!-- /region-two-50-bottom -->   
+
+       
   </div><!-- /two-50 -->
+
+   </div>
+                
+         <img src="/sites/all/themes/gozulla/images/deal_image_545x320.png" id="deal-background" alt="gozulla deal image" />
+
+<!-- <img src="/sites/all/themes/gozulla/images/deal_image_bottom.png" id="deal-background-top" alt="gozulla deal image" /> -->
+ </div>    
+
 
 </article>
 

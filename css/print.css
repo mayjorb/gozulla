@@ -1,0 +1,80 @@
+/* $Id: print.css */
+
+html {
+  background: none !important;
+}
+
+#url-path {
+  font-size: 10pt;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/* underline all links */
+a:link, a:visited {
+	text-decoration: underline !important;
+}
+
+/* Don't underline header */
+#site-name a:link,
+#site-name a:visited {
+	text-decoration: none !important;
+}
+
+
+/* Hide sidebars and nav elements */
+#draw-wrapper, #toggle-wrapper, 
+#toggle-wrapper, #header-wrapper, 
+#tasks, #tertiary-content-wrapper, 
+.sidebar, #quint-panels-wrapper, #page-footer {
+	visibility: hidden;
+	display: none;
+}
+
+/* Otherwise, Firefox clips the content after the first page. */
+#page {
+	overflow-y: visible;
+}
+
+@media screen {
+	body {
+		padding: 50px 0 100px 0;
+		background: #F8F8F8 !important;
+	}
+
+	#limiter, #columns {
+		border: 5pt solid #EEEEEE;
+	}
+	
+}
+
+#columns div.columns-inner {
+	border: none;
+}
+
+@media print {
+	#send-to-printer {
+		visibility: hidden;
+		display: none;
+	}
+}
+
+#limiter, #content-wrapper, #columns {
+	width: 7in !important;
+	padding: 0.5in !important;
+	margin: auto;
+	background: #FFFFFF !important;
+}
+body {
+	font-family: "Georgia","Times New Roman",serif;
+	font-size: 12pt;
+}
+.print-friendly-body .views-field-title {
+	font-size: 23px;
+	padding-top:25px;
+}
+.print-friendly-body h3 {
+	font-size: 15px;
+}

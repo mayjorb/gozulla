@@ -1,83 +1,118 @@
 
 /* Clean file for your awesome overrides, enable in the info file to use. */
 
+/* draw/toggle overrides */
+html.js #toggle-wrapper {
+  background: #555555;
+}
 
-#menu-bar {
-   background: transparent;
+#toggle-wrapper {
+  border-top: none;
+}
+
+#draw-wrapper .add-shop-block  {
+  margin-bottom: 1em;
+}
+
+#draw-wrapper .add-shop-block a,
+#draw-wrapper .add-shop-block a:link {
+  text-decoration: none;
+  background-color: #ccc;
+  color: #3B3B3B;
+  padding: 2px 10px 4px 10px;
+}
+
+#draw-wrapper .add-shop-block a:hover {
+ text-decoration: none;
+  background-color: #fff;
+  color: #3B3B3B;
+  padding: 2px 10px 4px 10px;
+}
+
+/* Toggle Draw */
+.region-draw {
+  padding: 25px 20px 0;
  }
+
+.region-draw a:hover,
+.region-draw a:focus {
+  text-decoration: underline;
+}
+
+.region-draw .block {
+  float: left;
+  display: inline-block;
+  min-width: 25%;
+  max-width: 50%;
+}
  
- html {
-  background: #fff;
+#toggle-wrapper a {
+  display: block;
+  padding: 5px 10px 5px 40px;
+  font-size: 0.875em;
+  outline: 0;
+  background: #555555 url('../images/gray_arrow.png') no-repeat;
+  background-position: 10px; 
+  color: #f5f5f5;
+}
 
- }
- 
+#toggle-wrapper a.active,
+#toggle-wrapper a:hover {
+  display: block;
+  padding: 5px 10px 5px 40px;
+  font-size: 0.875em;
+  outline: 0;
+  -moz-border-radius: 0 0 6px 6px;
+  border-radius: 0 0 6px 6px;
+  background: #555555 url('../images/gray_arrow.png') no-repeat top left;
+  background-position: 10px; 
+  text-decoration: underline;
+}
 
 
+/* Site Header */
 body.sport-bike #header-wrapper {
-  background: #fff url('../images/goz_smbg_bike.jpg') no-repeat scroll top center;
+  background: #ffffff url('../images/goz_smbg_bike.jpg') no-repeat scroll top center;
 }
   
 body.sport-boat #header-wrapper {
-    background: #fff url('../images/goz_smbg_boat.jpg') no-repeat scroll top center;
+    background: #ffffff url('../images/goz_smbg_boat.jpg') no-repeat scroll top center;
   }
 
 body.sport-climb #header-wrapper {
-  background: #fff url('../images/goz_smbg_climb.jpg') no-repeat scroll top center;
+  background: #ffffff url('../images/goz_smbg_climb.jpg') no-repeat scroll top center;
 } 
 
 body.sport-golf #header-wrapper {
-  background: #fff url('../images/goz_smbg_golf.jpg') no-repeat scroll top center;
+  background: #ffffff url('../images/goz_smbg_golf.jpg') no-repeat scroll top center;
 }
   
 body.sport-skate #header-wrapper {
-  background: #fff url('../images/goz_smbg_skate.jpg') no-repeat scroll top center;
+  background: #ffffff url('../images/goz_smbg_skate.jpg') no-repeat scroll top center;
 }
  
 body.sport-snow #header-wrapper {
-  background: #fff url('../images/goz_smbg_snow.jpg') no-repeat scroll top center;
+  background: #ffffff url('../images/goz_smbg_snow.jpg') no-repeat scroll top center;
 }
   
 body.sport-surf #header-wrapper {
-  background: #fff url('../images/goz_smbg_surf.jpg') no-repeat scroll top center;
+  background: #ffffff url('../images/goz_smbg_surf.jpg') no-repeat scroll top center;
 }
  
 body.sport-help #header-wrapper {
-  background: #fff url('../images/goz_smbg_help.jpg') no-repeat scroll top center;
+  background: #ffffff url('../images/goz_smbg_help.jpg') no-repeat scroll top center;
 }
   
 #header-wrapper {
-  background: #fff url('../images/goz_gray_bg.png') repeat-x;
+  background: #ffffff url('../images/goz_gray_bg.png') repeat-x;
   min-height: 130px;
-  border-bottom: 1px solid #ABABAB;
+  border-bottom: 1px solid #ababab;
   padding-bottom: 0;
-}
-
-#page {
-  background-color: transparent;  
-}
-  
-#columns {
-  background-color: #fff;
+  margin: 0;
 }
 
 #branding {
-  margin: 0 0 0 15px;
-}
- 
-#menu-wrapper {
   margin: 0;
-  padding: 0;
-  border-bottom: none;
-  border-top: none;
-}
- 
-.sf-menu.sf-style-space li, 
-.sf-menu.sf-style-space li li, 
-.sf-menu.sf-style-space li li li, 
-.sf-menu.sf-style-space.sf-navbar,
-#top-nav-wrapper,
-#menu-wrapper {
-	background: #fff;
 }
 
 #logo {
@@ -85,99 +120,119 @@ body.sport-help #header-wrapper {
   padding-top: 0;
 }
 
-nav#block-superfish-1.block {
-margin: 0;
-padding: 0;
+#branding.with-logo.site-name-hidden.with-site-slogan hgroup,
+#branding.with-logo.site-name-hidden.with-site-slogan hgroup #site-slogan {
+  float: none;
+  display: block;
+  clear: both;
+  padding: 0;
 }
- 
-.sf-menu.sf-style-space {
-  margin: 0;
-  font-size: 1.125em;
-  font-weight: 400;
-  border-bottom: none;
-}
- 
-  .sf-menu.sf-style-space a {
-    border: none;
-    /*color: #2079D2;*/
-    color: #3b3b3b;
-    /*color: #F1F1F1;*/
-    padding: 0.75em 1em;
-  background: #fff url('../images/main_menu_arrow.png') none;
- }
 
-.sf-menu.sf-style-space li:hover,
-.sf-menu.sf-style-space li.sfHover,
-.sf-menu.sf-style-space li.active a,
-.sf-menu.sf-style-space a:focus,
-.sf-menu.sf-style-space a:hover,
-.sf-menu.sf-style-space a:active  {
-  /*color: #2079D2;*/
-  color: #e83725;
-  background: #fff url('../images/main_menu_arrow.png') none;
+#branding.with-logo.site-name-hidden.with-site-slogan hgroup #site-slogan {
+  padding-top: 0;
+}
+
+#menu-wrapper {
+  top: 0;
+  min-height: 2.5em;
+  clear: both;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  margin: 0;
+  padding: 0;
+  border-bottom: none;
   border-top: none;
-  /*border-bottom: 4px solid #404040;*/
 }
 
 #menu-bar {
-	background: #ffffff;
+  background: transparent;
 }
- 
- /* Toggle Draw */
- .region-draw {
-   padding: 25px 20px 0;
- }
- .region-draw a:hover,
- .region-draw a:focus {
-   text-decoration: underline;
- }
- .region-draw .block {
-   float: left;
-   display: inline-block;
-   min-width: 25%;
-   max-width: 50%;
- }
- 
 
-html.js #toggle-wrapper {
-  background: #555555;
+#menu-bar.nav nav.block-main-menu ul li {
+  font-weight: 400;
 }
- 
- #toggle-wrapper a {
-   display: block;
-   padding: 5px 10px 5px 40px;
-   font-size: 0.875em;
-   outline: 0;
-   background: #555555 url('../images/gray_arrow.png') no-repeat;
-   background-position: 10px; 
-   color: #f5f5f5;
- }
 
-#toggle-wrapper a.active,
-#toggle-wrapper a:hover {
-   display: block;
-   padding: 5px 10px 5px 40px;
-   font-size: 0.875em;
-   outline: 0;
+#menu-bar.nav nav ul li a {
+  color: #3b3b3b;
+}
 
+#menu-bar.nav nav ul li a.active,
+#menu-bar.nav nav ul li a:hover {
+  color: #FF0018;
+}
 
-   -moz-border-radius: 0 0 6px 6px;
-   border-radius: 0 0 6px 6px;
-   background: #555555 url('../images/gray_arrow.png') no-repeat top left;
-   background-position: 10px; 
-   color: #212121;
- }
+/* Wrapper white space */
+#secondary-content-wrapper .texture-overlay {
+  padding-top: 4em;
+  padding-bottom: 30px;
+}
 
+#content-wrapper {
+  border-bottom: 1px solid #ababab;
+  border-top: none;
+  margin-top: 0;
+}
 
+/*#content-wrapper {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}*/
 
+#content-wrapper.no-secondary {
+  padding-top: 0;
+  margin-top: 0;
+}
 
+#main-content, 
+.block-inner, 
+.pane-inner, 
+/*.menu-wrapper, */
+/*.branding-elements,*/ 
+.breadcrumb-wrapper, 
+.attribution, 
+.at-panel 
+.rounded-corner, 
+.block-panels-mini > .block-title, 
+div.messages {
+  margin-left: 20px;
+  margin-right: 20px;
+}
 
+div#block-nodesinblock-0.block-nodesinblock div.block-inner {
+  margin-left: 10px;
+  margin-right: 10px;
+}
 
+#content .panel-display, #content .panel-flexible {
+  margin-left: -20px;
+  margin-right: -20px;
+}
 
- 
- #toggle-wrapper {
-    border-top: none;
-  }
+.sidebar .block-title {
+  padding-top: 10px;
+}
+#tertiary-content-wrapper {
+  padding: 20px 0 0;
+}
+
+#secondary-content-wrapper .region-secondary-content,
+#tertiary-content-wrapper .region-tertiary-content {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+#quint-panels-wrapper {
+  padding: 30px 0 20px;
+}
+
+#footer-panels-wrapper {
+  padding: 30px 0 15px;
+}
+
+#footer-wrapper {
+  padding: 20px 0 15px;
+}
 
 
 .section-home .block {
@@ -185,27 +240,14 @@ html.js #toggle-wrapper {
 }
 
 
-#article-2525.node,
-#article-2525.node div.node-content {
+#article-3241.node,
+#article-3241.node div.node-content {
   margin-bottom: 0;
   padding: 0;
 }
 
 
-#content-wrapper.no-secondary {
-	padding-top: 0;
-}
 
-
-
- /* white bg for front page sidebar second */
- .block-region-sidebar-second .block-inner {
-   /*background-color: #fff;*/
- }
-
- div#page {
-     background-color: transparent;
- }
 
  div.view-display-id-geofield_map {
    float: right;
@@ -216,10 +258,10 @@ html.js #toggle-wrapper {
      clear: none;  
  }
 
- div.article-content section.clearfix:after,
+ /*div.article-content section.clearfix:after,
  div.views-field-nothing span.clearfix:after {
    clear: left;
- }
+ }*/
 
  div.article-content div.field.field-name-field-location-logo {
    margin-top: -75px;
@@ -238,41 +280,6 @@ html.js #toggle-wrapper {
    padding: 0;
  }
 
- #content-wrapper {
-   border-bottom: none;
-   border-top: none;
- }
-
- #nav-wrapper,
- #menu-wrapper {
-  box-shadow: none;
-  top: 0;
- }
-
- .hl-l .region-header {
-   float: left;
-   margin-top: 30px;
- }
-
- .region-sidebar-second sidebar {
-   margin-top: 10px;
- }
-
- #block-superfish-1.block div.block-inner {
-   /*background: transparent;*/
- }
-
- .nav ul li,
- .nav ul li a {
-   line-height: 1em;
- }
- 
- /* padding around content */
- #main-content {
-   padding: 20px;
-   margin: 0;
- }
- 
  /* adds border to map */
 
  div .geofieldMap {
@@ -291,6 +298,10 @@ html.js #toggle-wrapper {
  	border-right: 1px solid #ababab;
  	border-bottom: 1px solid #ababab;
   border-left: 1px solid #ababab;
+ }
+
+ header.node-header h1.node-title {
+  padding-top: 10px;
  }
  
 /* .section-home div.at-panel,
@@ -338,11 +349,11 @@ div.at-panel div.region-two-50-first div.region-inner {
 .form-item input#edit-circle-location.form-text {
   padding: 4px 2px;
 }
-
+/*
 .itrc-4 input.form-text, .isrc-4 input.form-submit {
   border: none;
   background-color: #F2F2F2;
-}
+}*/
 
 
 div.view-gozulla-directory .addressfield-container-inline:after {
@@ -355,16 +366,13 @@ section#block-block-6.block,
 section#block-views-feed-display-block-1 {
   /* background-color: rgba(255,255,255, .8);*/
    /*background: transparent url('../images/bg_header_333.png') repeat-x top left;*/
-   background-color: #fff;
+   /*background-color: #fff;*/
    margin-top: 0;
    margin-bottom: 20px;
    padding: 0;
  }
  
- #content-column .at-panel {
-   /*padding: 0 20px;*/
- }
- 
+/*
 section#block-views-feed-display-block-1 .view view-feed-display {
   font-size: 0.833em;
 }
@@ -387,9 +395,9 @@ section#block-views-feed-display-block-1.block div.views-row  {
 section#block-views-feed-display-block-1.block  a img {
   float: left;
   margin: 5px 10px 20px 0;
-}
+}*/
  
-div.two-50 h2.block-title,
+/*div.two-50 h2.block-title,
 section#block-block-6.block div.block-inner h2.block-title,
 section#block-views-feed-display-block-1  h2.block-title {
   color: #2C2C2C;
@@ -400,14 +408,14 @@ section#block-views-feed-display-block-1  h2.block-title {
 section#block-block-6.block div.block-inner,
 section#block-views-feed-display-block-1 div.block-inner {
   padding: 0;
-}
+}*/
 
 section#block-views-active-deals-global-deal-block .view-display-id-global_deal_block,
 section#block-views-gozulla-directory-featured-shop .view-display-id-featured_shop {
   margin-bottom: 2.5em;
 }
 
-#page-footer {
+/*#page-footer {
   padding: 0;
   margin: 0;
   background: #7F7F7F;
@@ -422,7 +430,7 @@ section#block-views-gozulla-directory-featured-shop .view-display-id-featured_sh
 nav#block-menu-menu-footer-menu.block {
   margin-bottom: 0;
   padding: 3px 0 6px 0;
-}
+}*/
 
 div.field-content span.country {
   display: none;
@@ -440,27 +448,18 @@ fieldset#edit-circle {
   box-shadow: none;
 }
 
-  #block-menu-menu-sport-links.block {
-    margin: 0 -10px 10px -10px;
-    font-size: 1em;
-  }
+#block-menu-menu-sport-links.block {
+  margin: 0 -10px 10px -10px;
+  font-size: 1em;
+}
   
-  #block-menu-menu-sport-links.block div.block-inner {
-    margin: 0;
-  }
+#block-menu-menu-sport-links.block div.block-inner {
+  margin: 0;
+}
   
 
 
- 
 #block-menu-menu-sport-links {
-  background: rgb(237,234,234); /* Old browsers */
-  background: -moz-linear-gradient(top,  rgba(237,234,234,1) 0%, rgba(201,194,193,1) 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(237,234,234,1)), color-stop(100%,rgba(201,194,193,1))); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top,  rgba(237,234,234,1) 0%,rgba(201,194,193,1) 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top,  rgba(237,234,234,1) 0%,rgba(201,194,193,1) 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top,  rgba(237,234,234,1) 0%,rgba(201,194,193,1) 100%); /* IE10+ */
-  background: linear-gradient(to bottom,  rgba(237,234,234,1) 0%,rgba(201,194,193,1) 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#edeaea', endColorstr='#c9c2c1',GradientType=0 ); /* IE6-9 */
   border-left: 1px solid #CCC;
   border-right: 1px solid #CCC;
   border-top: 1px solid #CCC;
@@ -469,58 +468,39 @@ fieldset#edit-circle {
 
 
 
- /* add tabs to the mobile sports menu */
-  #block-menu-menu-sport-links ul.menu li a {
-    float: left;
-    font-size: 0.75em;
-    color: #3b3b3b;
-    background: rgb(237,234,234); /* Old browsers */
-    background: -moz-linear-gradient(top,  rgba(237,234,234,1) 0%, rgba(201,194,193,1) 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(237,234,234,1)), color-stop(100%,rgba(201,194,193,1))); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top,  rgba(237,234,234,1) 0%,rgba(201,194,193,1) 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top,  rgba(237,234,234,1) 0%,rgba(201,194,193,1) 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top,  rgba(237,234,234,1) 0%,rgba(201,194,193,1) 100%); /* IE10+ */
-    background: linear-gradient(to bottom,  rgba(237,234,234,1) 0%,rgba(201,194,193,1) 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#edeaea', endColorstr='#c9c2c1',GradientType=0 ); /* IE6-9 */
-    border-right: 1px solid #CCC;
-    /*border-bottom: 1px solid #CCC;*/
-    padding: 8px;
-    list-style-image: none;
-    list-style-type: none;
-  }
-  
-  ul#superfish-1.sf-menu li a.active,
-  ul#superfish-1.sf-menu li a:hover,
-  #block-menu-menu-sport-links ul.menu li a.active,
-  #block-menu-menu-sport-links ul.menu li a:hover {
-    color: #ff0018;
-    background: #fff;
-    border-top: none;
-    border-bottom: none;
-    /*border-top: none; */
-  }
+/* add tabs to the mobile sports menu */
+#block-menu-menu-sport-links ul.menu li a {
+  float: left;
+  font-size: 0.75em;
+  color: #3b3b3b;
+  border-right: 1px solid #ababab;
+  /*border-bottom: 1px solid #ababab;*/
+  padding: 8px;
+  list-style-image: none;
+  list-style-type: none;
+}
 
-  body.page-deals-surf #block-menu-menu-sport-links.block ul.menu li.menu-item-1249 a,
-  body.page-deals-skate #block-menu-menu-sport-links.block ul.menu li.menu-item-1250 a,
-  body.page-deals-snow #block-menu-menu-sport-links.block ul.menu li.menu-item-1251 a,
-  body.page-deals-bike #block-menu-menu-sport-links.block ul.menu li.menu-item-1252 a,
-  body.page-deals-climb #block-menu-menu-sport-links.block ul.menu li.menu-item-1253 a,
-  body.page-deals-boat #block-menu-menu-sport-links.block ul.menu li.menu-item-1254 a,
-  body.page-deals-golf #block-menu-menu-sport-links.block ul.menu li.menu-item-1255 a,
-  body.page-deals-bike  ul#superfish-1.sf-menu li#menu-896-1 a,
-  body.page-deals-boat  ul#superfish-1.sf-menu li#menu-897-1 a,
-  body.page-deals-climb  ul#superfish-1.sf-menu li#menu-895-1 a,
-  body.page-deals-golf  ul#superfish-1.sf-menu li#menu-898-1 a,
-  body.page-deals-skate  ul#superfish-1.sf-menu li#menu-892-1 a,
-  body.page-deals-snow  ul#superfish-1.sf-menu li#menu-893-1 a,
-  body.page-deals-surf  ul#superfish-1.sf-menu li#menu-891-1 a,
-  body.page-node-2516  ul#superfish-1.sf-menu li#menu-845-1 a   {
-    border-top: 1px solid #CCC;
-    background: #fff;
-    border-top: none;
-    border-bottom: none;
-  }
-
+/* makes categories highlighted when on specific pages */
+body.page-deals-surf #block-menu-menu-sport-links.block ul.menu li.menu-item-1249 a,
+body.page-deals-skate #block-menu-menu-sport-links.block ul.menu li.menu-item-1250 a,
+body.page-deals-snow #block-menu-menu-sport-links.block ul.menu li.menu-item-1251 a,
+body.page-deals-bike #block-menu-menu-sport-links.block ul.menu li.menu-item-1252 a,
+body.page-deals-climb #block-menu-menu-sport-links.block ul.menu li.menu-item-1253 a,
+body.page-deals-boat #block-menu-menu-sport-links.block ul.menu li.menu-item-1254 a,
+body.page-deals-golf #block-menu-menu-sport-links.block ul.menu li.menu-item-1255 a,
+body.page-deals-bike #block-system-main-menu ul li.menu-item-896 a,
+body.page-deals-boat #block-system-main-menu ul li.menu-item-897 a,
+body.page-deals-climb #block-system-main-menu ul li.menu-item-895 a,
+body.page-deals-golf #block-system-main-menu ul li.menu-item-898 a,
+body.page-deals-skate #block-system-main-menu ul li.menu-item-892 a,
+body.page-deals-snow #block-system-main-menu ul li.menu-item-893 a,
+body.page-deals-surf #block-system-main-menu ul li.menu-item-891 a,
+body.page-node-2516 #block-system-main-menu ul li.menu-item-845 a   {
+  color: #ff0018;
+  background: #ffffff;
+  border-top: none;
+  border-bottom: none;
+}
 
 section#block-views-active-deals-global-deal-block img, 
 section#block-views-gozulla-directory-featured-shop img,
@@ -538,13 +518,11 @@ section#block-views-active-deals-block-1 img {
 
 div.views-field h3.field-content {
   font-size: 1.2em;
-  /*font-family: 'Maven Pro';*/
-  /*font-weight: 500;*/
   max-width: 75%;
 }
 
 div.views-field-field-address {
-    font-size: 0.8em;
+  font-size: 0.8em;
 }
 
 div.views-field-distance {
@@ -553,14 +531,12 @@ div.views-field-distance {
   margin-top: -1.5em;
 }
 
-
-
 h3.places-shop {
   margin-top: 0.5em;
-  /*font-family: 'Maven Pro';*/
   color: #262626;
   font-size: 1.2em;
 }
+
 div.places-detail {
   color: #8C8C8C;
   font-size: 0.75em;
@@ -570,18 +546,20 @@ div.places-distance {
   font-size: 0.75em;
   text-align: right;
   margin-top: -1.5em;
-  color: #8C8C8C;
 }
 
-.shops  div.views-row-first {
-  border-top: 1px solid #262626;
+
+.block .gozulla-directory  div.views-row-first {
+  border-top: 1px solid #ababab;
+  margin-top: 10px;
+  padding-top: 10px;
 }
 
 .gozulla-directory  div.views-row {
   background: #fcfdd3;
-  padding: 10px;
-  margin: 0 -10px;
-  border-bottom: 1px solid #262626;
+  padding: 10px 20px;
+  margin: 0 -20px;
+  border-bottom: 1px solid #ababab;
 }
 
 .view-display-id-deals_by_sport div.views-row {
@@ -591,18 +569,16 @@ div.places-distance {
   border-bottom: 0;
 }
 
-div.places-row {
-  margin: 0 -10px;
-  border-bottom: 1px solid #262626;
-}
 
-/*section#main-content {
-  padding-bottom: 0;
-}*/
+div.places-row {
+  padding: 0 20px 10px;
+  margin: -10px -20px 0;
+  border-bottom: 1px solid #ababab;
+}
 
 div.deal-link {
   background-color: transparent;
-  border: 1px solid #262626;
+  border: 1px solid #ababab;
   border-radius: 4px 4px 4px 4px;
   margin-top: -1.5em;
   padding: 2px 6px;
@@ -619,7 +595,7 @@ div.block--exp-gozulla-directory-skate div.views-exposed-widgets,
 div.block--exp-gozulla-directory-snow div.views-exposed-widgets,
 div.block--exp-gozulla-directory-surf div.views-exposed-widgets,
 div.view-gozulla-directory div.views-exposed-widgets {
-    white-space: nowrap;
+  white-space: nowrap;
 }
 
 div.view-gozulla-directory .views-submit-button {
@@ -628,7 +604,7 @@ div.view-gozulla-directory .views-submit-button {
 
 
 div.region-sidebar-second .region-inner {
-  border-left: 1px solid #ABABAB;
+  border-left: 1px solid #ababab;
 }
 
 div.copyright {
@@ -636,8 +612,6 @@ div.copyright {
   margin-left: 20px;
   font-size: .75em;
 }
-
-
 
 div.views-field-field-ad-image {
   text-align: center;
@@ -650,8 +624,6 @@ div.gozulla-ad  div.views-row {
 div.gozulla-ad  div.views-row.views-row-first {
   padding-top: 20px;
 }
-
-
 
 #quint-panels-wrapper  {
   margin-bottom: -10px !important;
@@ -677,31 +649,38 @@ div.at-panel.five-5x20 {
   float: right;
 }
 
-/* deal node css */
-/*#deal-container {
+/* nifty code from Aaron */
+#deal-wrapper {
+  width: 545px; /* Arbitrary width of the coupon */
+  height: 320px; /* Arbitrary height of the coupon */
+  border: 3px dashed #e6e6e6;
+  position: relative;
+}
+
+#deal-background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
   width: 100%;
-}*/
+  /* height: 100%; If you can't predict the height of your coupon, don't define this property to avoid skewing image */
+  z-index: 1;
 
-/*#deal-column-1,
-#deal-column-2 {
-  width: 50%;
-  display: inline;
-}*/
+}
+  
+#deal-contents {
+  position: relative;
+  padding-top: 125px ;
+  z-index: 2;
+  font-size: 85%;
+}
 
-/*.node-deal {
-  background: #e6e6e6 url('../images/bg_deal_525x270.png') no-repeat top left;
-  border: 2px dashed #ccc;
-  width: 525px;
-  min-height: 300px;
-  padding: 125px 10px 10px 10px;
-}*/
-
-article.node-deal {
+/*article.node-deal {
   background: #e6e6e6 url('../images/bg_deal_525x270.png') no-repeat top center;
   width: 525px;
   padding: 125px 0 0 0;
-  border: 2px dashed #ccc;
-}
+  border: 2px dashed #ababab;
+}*/
 
 #block-system-main.block .node-deal {
   margin: 20px 0 0;
@@ -711,9 +690,8 @@ form#send-to-printer {
   text-align: right;
 }
 
-
 article.node-deal div.at-panel {
-  padding: 10px 20px;
+  padding: 0 40px;
 }
 
 article.node-deal div.at-panel div.region-two-50-first div.region-inner {
@@ -722,14 +700,15 @@ article.node-deal div.at-panel div.region-two-50-first div.region-inner {
 
 article.node-deal div.deal-expire {
   text-align: center;
-  padding-top: 1em;
+  padding-top: 20px;
   font-style: italic;
-  font-size: .75em;
+  font-size: 70%;
 }
 
-.shop-detail .shop-name {
-  font-size: 1.25em;
+.shop-detail .shop-name,
+.deal-title {
   font-weight: bold;
+  font-size: 125%
 }
 
 .shop-detail .views-field-field-phone {
@@ -740,54 +719,44 @@ article.node-deal div.deal-expire {
   color: #111111;
 }
 
-.deal-title {
-  font-size: 1.25em;
-  font-weight: bold;
-}
-
-.deal-description {
-  font-size: 1em;
-}
-
-
-.deal-expire {
-
-}
-
-#draw-wrapper .add-shop-block  {
-  margin-bottom: 1em;
-}
-
-#draw-wrapper .add-shop-block a,
-#draw-wrapper .add-shop-block a:link {
-  text-decoration: none;
-  background-color: #ccc;
-  color: #3B3B3B;
-  padding: 2px 10px 4px 10px;
-}
-
-#draw-wrapper .add-shop-block a:hover {
- text-decoration: none;
-  background-color: #fff;
-  color: #3B3B3B;
-  padding: 2px 10px 4px 10px;
-}
-
 div.gozulla-directory div.view-header,
 #common-links-container {
   display: inline;
 }
+
 div.gozulla-directory div.view-header { 
   margin-bottom: 20px;
 }
+
 #common-links-container .common-links,
 #findme {
   font-weight: 600;
 }
 
-#content-column, .content-column  {
-  margin-top: -10px;  
+section#block-views-feed-display-block-1 .view view-feed-display {
+  font-size: 0.833em;
 }
+
+ 
+section#block-views-feed-display-block-1 a {
+  font-size: 0.833em;
+  font-weight: bold;
+}
+
+section#block-views-feed-display-block-1 .views-field-field-sport-feed-description {
+  font-size: 0.833em;
+}
+
+section#block-views-feed-display-block-1.block div.views-row  {
+  clear: both;
+  margin-bottom: 0.5em;
+}
+
+section#block-views-feed-display-block-1.block  a img {
+  float: left;
+  margin: 5px 10px 20px 0;
+}
+
 
 
 
