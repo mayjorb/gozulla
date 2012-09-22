@@ -1,37 +1,48 @@
-<?php dpm($variables); ?>
+
+
+
+
 <article id="article-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
-  <div class="article-inner clearfix">
 
-    <?php print $unpublished; ?>
+  
 
-    
-    <?php
-      hide($content['comments']);
-      hide($content['links']);
+  <div class="at-panel gpanel panel-display two-50 clearfix">
+        
+    <div class="region region-two-50-top region-conditional-stack"> 
+      <div class="region-inner clearfix"> 
+        <form id="send-to-printer">
+          <?php if ($page): ?>
+            <input type="button" value="print deal" onClick="self.print()" />
+          <?php elseif (!$page): ?>
+            <input type="button" value="printer-friendly version" onClick='location.href="/node/<?php print $node->nid; ?>"' />
+          <?php endif; ?>
+        </form>
+        
+      </div><!-- /region-inner -->
+    </div><!-- /region-two-50-top -->  
+                           
+    <div class="region region-two-50-first">
+      <div class="region-inner clearfix">
+        <div class="shop-detail"><?php print render($content['deal_location_data_eva_location_deal']['#markup']); ?></div>
+      </div><!-- /region-inner -->
+    </div><!-- region-two-50-first -->  
+                            
+    <div class="region region-two-50-second">
+      <div class="region-inner clearfix"> 
+        <div class="deal-title"><?php print render($node->title); ?></div>
+      <div class="deal-description"><?php print render($node->field_description['und'][0]['safe_value']); ?></div>
+      </div><!-- /region-inner -->
+    </div><!-- region-two-50-second -->  
+        
+    <div class="region region-two-50-bottom region-conditional-stack"> 
+      <div class="region-inner clearfix"> 
+        <div class="deal-expire">Deal valid: <?php print render($content['field_deal_expiration_date'][0]['#markup']); ?></div>
+      </div><!-- /region-inner -->
+    </div><!-- /region-two-50-bottom -->                    
+            
+  </div><!-- /two-50 -->
 
-
-
-      //print render($content);
-    ?>
-    </div>
-
-    <div id="deal-col-1">
-      <div class="shop-name">[title_1]</div>
-      <div class="shop-address">[field_address]</div>
-      <div class="shop-phone">[field_phone]</div>
-      <div class="shop-url">[field_website]</div>
-    </div>
-
-    <div id="deal-column-2">
-      <div class="deal-title">[title]</div>
-      <div class="deal-description">[field_deal_description]</div>
-    </div>
-
-    <?php if ($links = render($content['links'])): ?>
-      <nav<?php print $links_attributes; ?>><?php print $links; ?></nav>
-    <?php endif; ?>
-
-    <?php print render($content['comments']); ?>
-
-  </div>
 </article>
+
+
+

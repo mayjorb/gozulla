@@ -94,12 +94,7 @@
         </div>
       <?php endif; ?>
 
-      <?php if ($messages || $page['help']): ?>
-        <div id="messages-help-wrapper" class="clearfix">
-          <?php print $messages; ?>
-          <?php print render($page['help']); ?>
-        </div>
-      <?php endif; ?>
+      
 
       <?php if ($breadcrumb): ?>
         <section id="breadcrumb" class="clearfix">
@@ -112,6 +107,13 @@
 
           <div id="content-column">
             <div class="content-inner">
+              
+              <?php if ($messages || $page['help']): ?>
+                <div id="messages-help-wrapper" class="clearfix">
+                  <?php print $messages; ?>
+                  <?php print render($page['help']); ?>
+                </div>
+              <?php endif; ?>
 
               <?php print render($page['highlighted']); ?>
 
