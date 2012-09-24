@@ -151,10 +151,18 @@ body.sport-help #header-wrapper {
 
 #menu-bar.nav nav.block-main-menu ul li {
   font-weight: 400;
+  padding: 10px;
+}
+
+.nav .block-menu ul a {
+    display: block;
+    padding: 0.75em 1em;
+    text-decoration: none;
 }
 
 #menu-bar.nav nav ul li a {
   color: #3b3b3b;
+  padding: 0;
 }
 
 #menu-bar.nav nav ul li a.active,
@@ -336,8 +344,8 @@ div.at-panel div.region-two-50-first div.region-inner {
  }
  
  .views-exposed-form .views-exposed-widget .form-submit {
-   padding: 1em 0 0 0;
-   margin: 0;
+   padding: 0;
+   margin: 16px 0 0 0;
  }
  
 .form-item-circle-value input#edit-circle-value.form-text {
