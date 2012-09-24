@@ -46,7 +46,8 @@
 
 #header-wrapper {
   background: #ffffff url('../images/goz_gray_bg.png') repeat-x;
-  min-height: 93px;
+  min-height: 75px;
+  max-height: 103px;
   border-bottom: 1px solid #ababab;
   padding-bottom: 0;
   margin: 0;
@@ -71,6 +72,8 @@
     background: #ffffff;
     min-height: 10px;
     max-height: 28px;
+    padding: 0 10px;
+    margin: 0 -10px;
   }
 
   h1#page-title {
