@@ -149,6 +149,10 @@ body.sport-help #header-wrapper {
   background: transparent;
 }
 
+.nav .block-menu ul a {
+  padding: 15px;
+}
+
 #menu-bar.nav nav.block-main-menu ul li {
   font-weight: 400;
 }

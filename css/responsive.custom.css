@@ -53,7 +53,7 @@
   }
 
   #logo a img.site-logo {
-    width: 75%;
+    width: 60%;
   }
 
   #menu-wrapper {
@@ -66,13 +66,13 @@
   }
 
   input.form-text {
-    font-size: 87.5%;
+    font-size: 93.8%;
   }
 
   #main-content, .block-inner, .pane-inner, .breadcrumb-wrapper, .attribution {
     margin-left: 10px;
     margin-right: 10px;
-    font-size: 87.5%;
+    font-size: 93.8%;
   }
 
   #content .panel-display, #content .panel-flexible {
@@ -93,6 +93,11 @@
     padding-left: 0;
   }
 
+  h1#page-title {
+    display: none;
+    visibility: hidden;
+  }
+
 }
 
 /* Tablet sizes and up */
@@ -104,10 +109,7 @@
   }*/
 
 
-  h1#page-title {
-    display: none;
-    visibility: hidden;
-  }
+
 }
 
 
