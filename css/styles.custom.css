@@ -217,7 +217,7 @@ div#block-nodesinblock-0.block-nodesinblock div.block-inner {
 }
 
 .sidebar .block-title {
-  padding-top: 10px;
+  /*padding-top: 10px;*/
 }
 #tertiary-content-wrapper {
   padding: 20px 0 0;
@@ -323,9 +323,7 @@ div#block-nodesinblock-0.block-nodesinblock div.block-inner {
   }*/
  
 
-div.at-panel div.region-two-50-first div.region-inner {
-  border-right: 1px solid #ababab;
-}
+
 
  fieldset#edit-circle.openlayers-proximity-filter-exposed {
   padding: 10px 0 0 0;
@@ -610,9 +608,9 @@ div.view-gozulla-directory .views-submit-button {
 }
 
 
-div.region-sidebar-second .region-inner {
+/*div.region-sidebar-second .region-inner {
   border-left: 1px solid #ababab;
-}
+}*/
 
 div.copyright {
   display: inline;
@@ -806,4 +804,56 @@ body.page-deals a#deals-link,
 body.page-lodging a#lodging-link {
   color: #ff0018;
 }
+
+/*#block-views-active-deals-global-deal-block,
+#block-views-gozulla-directory-featured-shop,
+section#block-block-6.block,
+section#block-views-feed-display-block-1,
+section#block-views-gozulla-ads-help-climb.block {
+   background: transparent url('../images/bg_header_f1f1f1_32x35.png') repeat-x top left;
+   margin-top: 0;
+   margin-bottom: 20px;
+   padding: 0 20px;
+   min-height: 400px;
+ }*/
+
+/*.region-sidebar-second .clearfix {
+  margin-left: 0;
+  margin-right: 0;
+}*/
+
+body.section-home .two-50 {
+  border-top: 1px solid #ababab;
+}
+
+body.section-home .at-panel .region-two-50-second {
+    background-image: url('../images/bg_vertical_border.png');
+    background-attachment: inherit;
+    background-repeat: repeat-y;
+    background-position: 0 0;
+  }
+
+.block-inner h2.block-title {
+  background: #f1f1f1;
+  margin-left: -20px;
+  margin-right: -20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.region-two-50-second .block-inner h2.block-title {
+  background: #f1f1f1;
+  margin-left: -19px;
+  margin-right: -19px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/*.at-panel .region-two-50-second {
+  background-image: url('../images/bg_vertical_border.png');
+  background-attachment: inherit;
+  background-repeat: repeat-y;
+  background-position: 0 0;
+  border-left: 1px solid #f1f1f1;
+}*/
 
