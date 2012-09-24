@@ -66,13 +66,13 @@
   }
 
   input.form-text {
-    font-size: 75%;
+    font-size: 87.5%;
   }
 
   #main-content, .block-inner, .pane-inner, .breadcrumb-wrapper, .attribution {
     margin-left: 10px;
     margin-right: 10px;
-    font-size: 75%;
+    font-size: 87.5%;
   }
 
   #content .panel-display, #content .panel-flexible {
@@ -81,8 +81,8 @@
 }
 
   .nav .block-menu ul a {
-    font-size: 68.8%;
-    padding: 10px 5px;
+    font-size: 81.3%;
+    padding: 10px 4px;
   }
 
   .nav .block-menu ul li.first a {
