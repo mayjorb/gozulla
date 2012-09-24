@@ -105,7 +105,7 @@ body.sport-help #header-wrapper {
   
 #header-wrapper {
   background: #ffffff url('../images/goz_gray_bg.png') repeat-x;
-  min-height: 130px;
+  /*min-height: 130px;*/
   border-bottom: 1px solid #ababab;
   padding-bottom: 0;
   margin: 0;

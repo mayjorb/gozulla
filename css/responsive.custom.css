@@ -45,21 +45,44 @@
   }
 
 
+  body.html div#page-wrapper div#page.page div#header-wrapper {
+    background: #f1f1f1;
+    border-bottom: 1px solid #ababab;
+    padding-bottom: 0;
+    margin: 0;
+  }
 
+  #logo a img.site-logo {
+    width: 75%;
+  }
+
+  #menu-wrapper {
+    background: #ffffff;
+  }
 
   h1#page-title {
     display: none;
     visibility: hidden;
   }
 
+  input.form-text {
+    font-size: 75%;
+  }
+
   #main-content, .block-inner, .pane-inner, .breadcrumb-wrapper, .attribution {
     margin-left: 10px;
     margin-right: 10px;
+    font-size: 75%;
   }
 
+  #content .panel-display, #content .panel-flexible {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
   .nav .block-menu ul a {
-    font-size: 75%;
-    padding: 5px;
+    font-size: 68.8%;
+    padding: 10px 5px;
   }
 
   .nav .block-menu ul li.first a {
