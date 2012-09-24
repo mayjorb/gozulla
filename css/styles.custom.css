@@ -857,7 +857,7 @@ body.section-home .at-panel .region-two-50-second {
   border-left: 1px solid #f1f1f1;
 }*/
 
-ul li.view-social-network {
+.view-social-network ul li {
   list-style: none;
   display: inline-block;
 }
