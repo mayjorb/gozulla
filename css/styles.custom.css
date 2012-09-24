@@ -740,7 +740,7 @@ div.gozulla-directory div.view-header {
   font-weight: 600;
 }
 
-section#block-views-feed-display-block-1 .view view-feed-display {
+section#block-views-feed-display-block-1 .view-feed-display {
   font-size: 0.833em;
 }
 
@@ -764,6 +764,46 @@ section#block-views-feed-display-block-1.block  a img {
   margin: 5px 10px 20px 0;
 }
 
+#block-views-exp-gozulla-directory-bike.block,
+#block-views-exp-gozulla-directory-boat.block,
+#block-views-exp-gozulla-directory-climb.block,
+#block-views-exp-gozulla-directory-golf.block,
+#block-views-exp-gozulla-directory-skate.block,
+#block-views-exp-gozulla-directory-snow.block,
+#block-views-exp-gozulla-directory-surf.block,
+#block-views-exp-gozulla-directory-lodging.block,
+.block .gozulla-directory .view-header {
+  margin-bottom: 0;
+}
 
+#common-links-container a,
+#block-menu-menu-footer-menu a {
+  color: #3b3b3b;
+}
 
+#common-links-container a:hover,
+#common-links-container a:active,
+#block-menu-menu-footer-menu a:hover,
+#block-menu-menu-footer-menu a:active
+ {
+  color: #ff0018;
+}
+
+body.sport-bike a#shops-link,
+body.sport-boat a#shops-link,
+body.sport-climb a#shops-link,
+body.sport-golf a#shops-link,
+body.sport-skate a#shops-link,
+body.sport-snow a#shops-link,
+body.sport-surf a#shops-link,
+body.page-deals a#deals-link,
+body.page-deals a#deals-link,
+body.page-deals a#deals-link,
+body.page-deals a#deals-link,
+body.page-deals a#deals-link,
+body.page-deals a#deals-link,
+body.page-deals a#deals-link,
+body.page-lodging a#lodging-link {
+  color: #ff0018;
+}
 
