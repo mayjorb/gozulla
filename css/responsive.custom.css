@@ -44,12 +44,49 @@
     width: 100%;
   }
 
+
+
+
+  h1#page-title {
+    display: none;
+    visibility: hidden;
+  }
+
+  #main-content, .block-inner, .pane-inner, .breadcrumb-wrapper, .attribution {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .nav .block-menu ul a {
+    font-size: 75%;
+    padding: 5px;
+  }
+
+  .nav .block-menu ul li.first a {
+    padding-left: 0;
+  }
+
+  .nav .block-menu ul li.last a {
+    padding-left: 0;
+  }
+
 }
 
-/* Tablet sizes and up 
+/* Tablet sizes and up */
 @media only screen and (min-width: 768px) {
+  /*.nav .block-menu ul a {
+    display: block;
+    padding: 0.75em 1em;
+    text-decoration: none;
+  }*/
+
+
+  h1#page-title {
+    display: none;
+    visibility: hidden;
+  }
 }
-*/
+
 
 /* Desktops/laptops and up 
 @media only screen and (min-width: 1025px) {
