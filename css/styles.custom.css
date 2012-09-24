@@ -149,9 +149,7 @@ body.sport-help #header-wrapper {
   background: transparent;
 }
 
-.nav .block-menu ul a {
-  padding: 15px;
-}
+
 
 #menu-bar.nav nav.block-main-menu ul li {
   font-weight: 400;
@@ -159,6 +157,7 @@ body.sport-help #header-wrapper {
 
 #menu-bar.nav nav ul li a {
   color: #3b3b3b;
+  padding: 15px;
 }
 
 #menu-bar.nav nav ul li a.active,
