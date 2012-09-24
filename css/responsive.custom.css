@@ -93,11 +93,6 @@
     padding-left: 0;
   }
 
-  h1#page-title {
-    display: none;
-    visibility: hidden;
-  }
-
 }
 
 /* Tablet sizes and up */
@@ -109,7 +104,23 @@
   }*/
 
 
+  h1#page-title {
+    display: none;
+    visibility: hidden;
+  }
 
+    .nav .block-menu ul a {
+    font-size: 81.3%;
+    padding: 10px 4px;
+  }
+
+  .nav .block-menu ul li.first a {
+    padding-left: 0;
+  }
+
+  .nav .block-menu ul li.last a {
+    padding-left: 0;
+  }
 }
 
 
