@@ -107,7 +107,7 @@
     padding-left: 0;
   }
 
-  nav#block-system-main-menu.block ul.menu li.first a {
+  nav#block-system-main-menu.block ul.menu li.last a {
     padding-right: 0;
   }
 
@@ -146,6 +146,11 @@
     background-position: 75% 0;
   }
 
-  
+  .at-panel .region-two-50-second {
+    background-image: url('../images/bg_vertical_border.png');
+    background-attachment: inherit;
+    background-repeat: repeat-y;
+    background-position: 0 0;
+  }
 
 }
