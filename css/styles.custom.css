@@ -149,20 +149,19 @@ body.sport-help #header-wrapper {
   background: transparent;
 }
 
-#menu-bar.nav nav.block-main-menu ul li {
+/*#menu-bar nav ul li a {
   font-weight: 400;
   padding: 10px;
-}
+}*/
 
-.nav .block-menu ul a {
+/*.nav .block-menu ul a {
     display: block;
-    padding: 0.75em 1em;
+    padding: 10px;
     text-decoration: none;
-}
+}*/
 
 #menu-bar.nav nav ul li a {
   color: #3b3b3b;
-  padding: 0;
 }
 
 #menu-bar.nav nav ul li a.active,

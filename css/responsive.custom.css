@@ -44,6 +44,14 @@
     width: 100%;
   }
 
+#header-wrapper {
+  background: #ffffff url('../images/goz_gray_bg.png') repeat-x;
+  min-height: 93px;
+  border-bottom: 1px solid #ababab;
+  padding-bottom: 0;
+  margin: 0;
+}
+
 
   body.html div#page-wrapper div#page.page div#header-wrapper {
     background: #f1f1f1;
@@ -52,12 +60,17 @@
     margin: 0;
   }
 
+  #logo {
+    max-height: 75px;
+  }
   #logo a img.site-logo {
-    width: 150%;
+    width: 150px;
   }
 
   #menu-wrapper {
     background: #ffffff;
+    min-height: 10px;
+    max-height: 28px;
   }
 
   h1#page-title {
@@ -80,19 +93,30 @@
     margin-right: -10px;
 }
 
-  .nav .block-menu ul a {
+  /*#menu-bar ul li {
     font-size: 75%;
-    padding: 10px 3px;
+    padding: 0;
+  }*/
+
+/*  #menu-bar ul li.first  {
+    padding-left: 0;
+  }*/
+
+  nav#block-system-main-menu {
+    font-size: 75%;
   }
 
-  .nav .block-menu ul li.first a {
+  nav#block-system-main-menu.block ul.menu li a {
+    padding: 5px;
+   }
+
+  nav#block-system-main-menu.block ul.menu li.first a {
     padding-left: 0;
   }
 
-  .nav .block-menu ul li.last a {
-    padding-left: 0;
+  nav#block-system-main-menu.block ul.menu li.first a {
+    padding-right: 0;
   }
-
 
 
 
@@ -112,7 +136,7 @@
     visibility: hidden;
   }
 
-
+/*
 
   .nav .block-menu ul li.first a {
     padding-left: 0;
@@ -127,7 +151,7 @@
     padding: 10px 4px;
   }
 
-
+*/
 }
 
 
@@ -135,8 +159,8 @@
     padding: 10px 4px;
   }*/
 @media only screen and (min-width: 1025px) {
-  #menu-bar.nav nav ul li a {
+  /*#menu-bar.nav nav ul li a {
     padding: 0.75em 1em;
-  }
+  }*/
 
 }
