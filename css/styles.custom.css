@@ -561,9 +561,9 @@ div.places-distance {
 }
 
 .gozulla-directory  div.views-row {
-  background: #fcfdd3;
+  background: #f1f1f1;
   padding: 10px 20px;
-  margin: 0 -20px;
+  margin: 0 -19px 0 -20px;
   border-bottom: 1px solid #ababab;
 }
 
@@ -860,5 +860,15 @@ body.section-home .at-panel .region-two-50-second {
 .view-social-network ul li {
   list-style: none;
   display: inline-block;
+}
+
+img.image-style-detail-thumbnail {
+  float: right;   
+}
+
+.views-field-field-location-logo {
+  position:relative;
+  right: 65px;
+  top: -100px;
 }
 
