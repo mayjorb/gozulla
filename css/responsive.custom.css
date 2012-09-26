@@ -126,7 +126,7 @@
 
 @media only screen and (min-width:769px) and (max-width:1024px) {
 
-  #content-column {
+  #columns {
     background-image: url('../images/bg_vertical_border.png');
     background-attachment: inherit;
     background-repeat: repeat-y;
@@ -139,7 +139,7 @@
 
 @media only screen and (min-width: 1025px) {
   
-  #content-column {
+  #columns {
     background-image: url('../images/bg_vertical_border.png');
     background-attachment: inherit;
     background-repeat: repeat-y;

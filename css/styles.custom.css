@@ -567,12 +567,12 @@ div.places-distance {
   border-bottom: 1px solid #ababab;
 }
 
-.view-display-id-deals_by_sport div.views-row {
+/*.view-display-id-deals_by_sport div.views-row {
   background: transparent;
   padding: 0;
   margin: 0;
   border-bottom: 0;
-}
+}*/
 
 
 div.places-row {
@@ -841,6 +841,14 @@ body.section-home .at-panel .region-two-50-second {
   padding-right: 20px;
 }
 
+.block-region-sidebar-second .block-inner h2.block-title {
+  background: #f1f1f1;
+  margin-left: -19px;
+  margin-right: -20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .region-two-50-second .block-inner h2.block-title {
   background: #f1f1f1;
   margin-left: -19px;
@@ -866,9 +874,4 @@ img.image-style-detail-thumbnail {
   float: right;   
 }
 
-.views-field-field-location-logo {
-  position:relative;
-  right: 65px;
-  top: -100px;
-}
 
