@@ -376,11 +376,15 @@ section#block-views-feed-display-block-1 {
    margin-bottom: 20px;
    padding: 0;
  }
- 
-/*
-section#block-views-feed-display-block-1 .view view-feed-display {
-  font-size: 0.833em;
+
+body.section-home #block-views-active-deals-global-deal-block,
+body.section-home #block-views-gozulla-directory-featured-shop {
+  min-height: 300px;
 }
+
+/*section#block-views-feed-display-block-1 .view view-feed-display {
+  font-size: 0.833em;
+}*/
 
  
 section#block-views-feed-display-block-1 a {
