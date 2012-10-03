@@ -415,6 +415,11 @@ section#block-views-feed-display-block-1 div.block-inner {
   padding: 0;
 }*/
 
+section#block-views-feed-display-block-1.block  a img {
+  float: right;
+  margin: 0 0 20px 10px;
+}
+
 section#block-views-active-deals-global-deal-block .view-display-id-global_deal_block,
 section#block-views-gozulla-directory-featured-shop .view-display-id-featured_shop {
   margin-bottom: 2.5em;
@@ -738,7 +743,7 @@ div.gozulla-directory div.view-header {
   font-weight: 600;
 }
 
-section#block-views-feed-display-block-1 .view-feed-display {
+/*section#block-views-feed-display-block-1 .view-feed-display {
   font-size: 0.833em;
 }
 
@@ -760,7 +765,7 @@ section#block-views-feed-display-block-1.block div.views-row  {
 section#block-views-feed-display-block-1.block  a img {
   float: left;
   margin: 5px 10px 20px 0;
-}
+}*/
 
 #block-views-exp-gozulla-directory-bike.block,
 #block-views-exp-gozulla-directory-boat.block,
@@ -873,5 +878,45 @@ body.section-home .at-panel .region-two-50-second {
 img.image-style-detail-thumbnail {
   float: right;   
 }
+
+.view-business-content-links table caption {
+  text-align: left;
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+
+/*section#block-views-feed-display-combined-feed.block div.views-field div.field-content a img {
+  float: right;
+  margin: 0 0 15px 15px;
+}*/
+
+#views-exposed-form-feed-display-combined-feed div.form-item select#edit-tid.form-select {
+  width: 200px;
+  margin-top: 10px
+}
+
+#block-views-feed-display-combined-feed {
+  font-size: 85%;
+}
+
+#block-views-feed-display-combined-feed div.item-list ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+#block-views-feed-display-combined-feed div.item-list ul li {
+  padding: 5px 0;
+}
+
+#block-views-feed-display-combined-feed div.item-list ul li a {
+  color: #3b3b3b;
+}
+
+#block-views-feed-display-combined-feed div.item-list ul li a:hover,
+#block-views-feed-display-combined-feed div.item-list ul li a:focus {
+  color: #ff0018;
+}
+
 
 
