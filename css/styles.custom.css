@@ -379,7 +379,7 @@ section#block-views-feed-display-block-1 {
 
 body.section-home #block-views-active-deals-global-deal-block,
 body.section-home #block-views-gozulla-directory-featured-shop {
-  min-height: 300px;
+  /*min-height: 200px;*/
 }
 
 /*section#block-views-feed-display-block-1 .view view-feed-display {
@@ -894,10 +894,7 @@ img.image-style-detail-thumbnail {
   margin: 0 0 15px 15px;
 }*/
 
-#views-exposed-form-feed-display-combined-feed div.form-item select#edit-tid.form-select {
-  width: 200px;
-  margin-top: 10px
-}
+
 
 #block-views-feed-display-combined-feed {
   font-size: 85%;

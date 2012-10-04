@@ -152,5 +152,10 @@
     background-repeat: repeat-y;
     background-position: 0 0;
   }
+  
+  #views-exposed-form-feed-display-combined-feed div.form-item select#edit-tid.form-select {
+    width: 200px;
+    margin-top: 10px
+  }
 
 }
