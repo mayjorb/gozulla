@@ -631,12 +631,13 @@ div.views-field-field-ad-image {
   text-align: center;
 }
 
-div.gozulla-ad  div.views-row {
+div.client-ad  div.views-row {
   margin-bottom: 10px;
 }
 
 div.gozulla-ad  div.views-row.views-row-first {
   padding-top: 20px;
+  margin-bottom: -10px;
 }
 
 #quint-panels-wrapper  {
@@ -921,6 +922,10 @@ img.image-style-detail-thumbnail {
 
 #block-views-social-network-block.block {
   margin-top: 20px;
+}
+
+div.view-display-id-client_ad div.views-row.views-row-first {
+  padding-top: 0;
 }
 
 
