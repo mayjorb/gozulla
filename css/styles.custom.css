@@ -71,40 +71,59 @@ html.js #toggle-wrapper {
 
 
 /* Site Header */
-body.sport-bike #header-wrapper {
+body.sport-bike #header-wrapper,
+body.page-deals-bike #header-wrapper {
   background: #ffffff url('../images/goz_smbg_bike.jpg') no-repeat scroll top center;
 }
   
-body.sport-boat #header-wrapper {
+body.sport-boat #header-wrapper,
+body.page-deals-boat #header-wrapper {
     background: #ffffff url('../images/goz_smbg_boat.jpg') no-repeat scroll top center;
   }
 
-body.sport-climb #header-wrapper {
+body.sport-climb #header-wrapper,
+body.page-deals-climb #header-wrapper {
   background: #ffffff url('../images/goz_smbg_climb.jpg') no-repeat scroll top center;
 } 
 
-body.sport-golf #header-wrapper {
+body.sport-golf #header-wrapper,
+body.page-deals-golf #header-wrapper {
   background: #ffffff url('../images/goz_smbg_golf.jpg') no-repeat scroll top center;
 }
   
-body.sport-skate #header-wrapper {
+body.sport-skate #header-wrapper,
+body.page-deals-skate #header-wrapper {
   background: #ffffff url('../images/goz_smbg_skate.jpg') no-repeat scroll top center;
 }
  
-body.sport-snow #header-wrapper {
+body.sport-snow #header-wrapper,
+body.page-deals-snow #header-wrapper {
   background: #ffffff url('../images/goz_smbg_snow.jpg') no-repeat scroll top center;
 }
   
-body.sport-surf #header-wrapper {
+body.sport-surf #header-wrapper,
+body.page-deals-surf #header-wrapper {
   background: #ffffff url('../images/goz_smbg_surf.jpg') no-repeat scroll top center;
 }
  
 body.sport-help #header-wrapper {
   background: #ffffff url('../images/goz_smbg_help.jpg') no-repeat scroll top center;
 }
+
+body.page-lodging #header-wrapper {
+  background: #ffffff url('../images/goz_smbg_home5.jpg') no-repeat scroll top center;
+}
   
-#header-wrapper {
+body.section-home #header-wrapper {
   background: #ffffff url('../images/goz_gray_bg.png') repeat-x;
+  min-height: 130px;
+  border-bottom: 1px solid #ababab;
+  padding-bottom: 0;
+  margin: 0;
+}
+
+#header-wrapper {
+  background: #ffffff url('../images/goz_smbg_home5.jpg') repeat-x;
   min-height: 130px;
   border-bottom: 1px solid #ababab;
   padding-bottom: 0;
@@ -909,6 +928,7 @@ img.image-style-detail-thumbnail {
 
 #block-views-feed-display-combined-feed div.item-list ul li {
   padding: 5px 0;
+  border-bottom: 1px dotted #555555;
 }
 
 #block-views-feed-display-combined-feed div.item-list ul li a {
