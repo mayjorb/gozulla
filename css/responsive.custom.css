@@ -155,7 +155,7 @@
     background-position: 75% 0;
   }
 
-  .at-panel .region-two-50-second {
+  body.section-home .at-panel .region-two-50-second {
     background-image: url('../images/bg_vertical_border.png');
     background-attachment: inherit;
     background-repeat: repeat-y;
