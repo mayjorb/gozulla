@@ -953,12 +953,11 @@ div.view-display-id-client_ad div.views-row.views-row-first {
 }
 
 
-
 /*flexslider overrides*/
 .flexslider {
   background: transparent;
   border: none;
-  border-radius: none;
+  border-radius: 0;
   box-shadow: none;
   margin: 0;
 }
@@ -966,6 +965,3 @@ div.view-display-id-client_ad div.views-row.views-row-first {
 #block-views-focus-slide-block-1.block div.block-inner {
   margin: 0;
 }
-
-
-
