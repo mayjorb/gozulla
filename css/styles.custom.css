@@ -965,3 +965,13 @@ div.view-display-id-client_ad div.views-row.views-row-first {
 #block-views-focus-slide-block-1.block div.block-inner {
   margin: 0;
 }
+
+.flex-direction-nav li .next {
+  right: -17px;
+}
+.flex-direction-nav li .prev {
+  left: -16px;
+}
+
+.flex-direction-nav li a {top: 80%; 
+}
