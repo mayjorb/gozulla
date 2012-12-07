@@ -962,16 +962,54 @@ div.view-display-id-client_ad div.views-row.views-row-first {
   margin: 0;
 }
 
+.flex-direction-nav li a {
+    background: url("../images/bg_direction_nav.png") no-repeat scroll 0 0 transparent;
+    height: 26px;
+    margin: -8px 0 0;
+    width: 26px;
+}
+
+.flex-direction-nav li .next {
+  background-position: -26px 0;
+  right: -8px;
+}
+
+.flex-direction-nav li .prev {
+    left: -8px;
+}
+
+
 #block-views-focus-slide-block-1.block div.block-inner {
   margin: 0;
 }
 
-.flex-direction-nav li .next {
+/*.flex-direction-nav li .next {
   right: -17px;
 }
 .flex-direction-nav li .prev {
   left: -16px;
-}
+}*/
 
 .flex-direction-nav li a {top: 80%; 
 }
+
+
+div.ds-2col-fluid div.group-left div.field div.field-items figure {
+  background-color: #F1F1F1;
+  border: 1px solid #C8C8C8;
+  float: left;
+  padding: 5px;
+  margin-right: 20px;
+}
+
+section.field-name-field-brands-carried,
+div.field-name-field-location-hours {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+span.country {
+  display: none;
+}
+
+
