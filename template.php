@@ -41,13 +41,25 @@ function gozulla_preprocess_html(&$vars) {
    }
 
    $vars['classes_array'][] = drupal_html_class('sport-' . $sport);
-  
-  
-}
-/* function gozulla_process_html(&$vars) {
-}
-// */
 
+
+   // add google site verication to header
+  $tags = array(
+    'google-site-verification' => array(
+    '#tag' => 'meta',
+    '#attributes' => array(
+      'name' => 'google-site-verification',
+      'content' => 'jCH4PEEVueu0pRT4QQ6pjUn-3PAeLzR2rz89th9nEM8'
+      )
+    )
+  );
+
+  foreach ($tags as $key => $val) {
+    drupal_add_html_head($val, $key);
+  }
+  
+  
+}
 
 /**
  * Override or insert variables for the page templates.
