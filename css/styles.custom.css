@@ -644,20 +644,28 @@ div.copyright {
   display: inline;
   margin-left: 20px;
   font-size: .75em;
+  margin-bottom: 10px;
 }
 
+div.adslist,
+div.views-field-field-focusad-image,
 div.views-field-field-ad-image {
   text-align: center;
 }
 
-div.client-ad  div.views-row {
-  margin-bottom: 10px;
+/*div.view-display-id-client_ad {
+  margin-bottom: 20px;
+}*/
+
+#block-views-gozulla-ads-client-ad.block .views-row-first {
+  margin-top: 20px;
 }
 
-div.gozulla-ad  div.views-row.views-row-first {
-  padding-top: 20px;
-  margin-bottom: -10px;
+#block-views-gozulla-ads-client-ad.block div.views-field-field-focusad-image {
+    padding-bottom: 20px;
 }
+
+
 
 #quint-panels-wrapper  {
   margin-bottom: -10px !important;
@@ -876,7 +884,14 @@ body.section-home .at-panel .region-two-50-second {
   margin-right: -20px;
   padding-left: 20px;
   padding-right: 20px;
+  margin-bottom: 20px;
 }
+
+#block-views-feed-display-combined-feed.block div.block-inner h2.block-title {
+  margin-bottom: 0px;
+}
+
+
 
 .region-two-50-second .block-inner h2.block-title {
   background: #f1f1f1;
