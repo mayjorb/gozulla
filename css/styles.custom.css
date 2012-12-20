@@ -649,7 +649,8 @@ div.copyright {
 
 div.adslist,
 div.views-field-field-focusad-image,
-div.views-field-field-ad-image {
+div.views-field-field-ad-image,
+div.image-ad {
   text-align: center;
 }
 
