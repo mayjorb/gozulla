@@ -1037,27 +1037,16 @@ span.country {
 }
 
 div.help-logo {
-  vertical-align: middle;
-}
-
-#block-block-16.block .help-logo {
-  padding-bottom: 40px;
+  text-align: center;
 }
 
 #block-block-16.block .help-logo img {
   padding-bottom: 40px;
-  padding-top: 10px;
-  text-align: center;
-}
-
-#block-block-17.block .help-logo {
-  text-align: center;
+  padding-top: 50px;
 }
 
 #block-block-17.block .help-logo img {
-  padding-bottom: 10px;
-  padding-top: 10px;
-  text-align: center;
+  padding-bottom: 14px;
 }
 
 div.help-text {
