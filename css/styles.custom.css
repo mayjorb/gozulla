@@ -1040,14 +1040,13 @@ div.help-logo {
   vertical-align: middle;
 }
 
-#block-block-18.block .help-logo {
-  float: left;
-  clear: both;
+#block-block-16.block .help-logo {
+  padding-bottom: 40px;
+  text-align: center;
 }
 
-#block-block-19.block .help-logo {
-  float: right;
-  clear: both;
+#block-block-17.block .help-logo {
+  text-align: center;
 }
 
 div.help-text {
