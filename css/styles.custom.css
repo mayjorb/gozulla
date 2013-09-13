@@ -1042,10 +1042,21 @@ div.help-logo {
 
 #block-block-16.block .help-logo {
   padding-bottom: 40px;
+}
+
+#block-block-16.block .help-logo img {
+  padding-bottom: 40px;
+  padding-top: 10px;
   text-align: center;
 }
 
 #block-block-17.block .help-logo {
+  text-align: center;
+}
+
+#block-block-17.block .help-logo img {
+  padding-bottom: 10px;
+  padding-top: 10px;
   text-align: center;
 }
 
