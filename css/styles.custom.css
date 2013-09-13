@@ -1040,6 +1040,16 @@ div.help-logo {
   vertical-align: middle;
 }
 
+#block-block-18.block .help-logo {
+  float: left;
+  clear: both;
+}
+
+#block-block-19.block .help-logo {
+  float: right;
+  clear: both;
+}
+
 div.help-text {
   font-size: 85%;
 }
