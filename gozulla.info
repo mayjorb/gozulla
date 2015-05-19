@@ -8,6 +8,7 @@
   engine      = phptemplate
   base theme  = at_commerce
   screenshot  = screenshot.png
+  version     = 7.x-1.1
 
 
 
@@ -104,29 +105,29 @@
   regions[two_50_first]  = AT Two column 50/50 - left
   regions[two_50_second] = AT Two column 50/50 - right
   regions[two_50_bottom] = AT Two column 50/50 - bottom
-  
+
   ; 3 col 3x33
   regions[three_33_top]    = AT Three column 3x33 - top
   regions[three_33_first]  = AT Three column 3x33 - left
   regions[three_33_second] = AT Three column 3x33 - center
   regions[three_33_third]  = AT Three column 3x33 - right
   regions[three_33_bottom] = AT Three column 3x33 - bottom
-  
+
   ; 4 col
   regions[four_first]  = AT Four column 4x25 - 1
   regions[four_second] = AT Four column 4x25 - 2
   regions[four_third]  = AT Four column 4x25 - 3
   regions[four_fourth] = AT Four column 4x25 - 4
-    
+
   ; 5 col
   regions[five_first]  = AT Five column 5x20 - 1
   regions[five_second] = AT Five column 5x20 - 2
   regions[five_third]  = AT Five column 5x20 - 3
   regions[five_fourth] = AT Five column 5x20 - 4
   regions[five_fifth]  = AT Five column 5x20 - 5
-  
 
-  
+
+
 ;----------// Features
 
   ; AT Commerce does not support Main or Secondary menus, instead use the block
